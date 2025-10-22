@@ -1,0 +1,27 @@
+baseURL = "http://hyennnlog.kr/"
+languageCode = "ko-kr"
+title = "hyennnlog"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[params.author]
+  name = "혜진"
+  homepage = "http://localhost:1313/"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+[params]
+  ShowReadingTime = true
+  HighlightCode = true
+  mainSections = ["posts"]
+  ShowShareButtons = true
+  ShowHomePageSummary = true
