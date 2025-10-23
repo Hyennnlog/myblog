@@ -32,7 +32,7 @@ contentDir = "content"
   avatarURL = "images/profile.png"   # 아래 2단계에서 이 파일을 넣을 거예요
   since = "2025"
 
-  customCSS = ["css/custom.css"]
+  customCSS = ["css/custom.css", "css/fixes.css"]
 
 # 다크모드/코드블록/기타 테마 옵션이 더 있지만 최소값만
 # 메뉴: main (상단 내비게이션)
