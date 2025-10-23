@@ -1,6 +1,5 @@
 [build]
-# ▶ 진단용: 현재 디렉터리/파일 구조/설정 파일/테마 폴더를 먼저 찍고, 그 다음 Hugo 실행
-command = "pwd && ls -la && echo '--- CONFIGS FOUND ---' && find . -maxdepth 3 -type f -name 'config.*' -print && echo '--- THEME DIR ---' && ls -la themes || true && echo '--- HUGO VERSION ---' && hugo version && echo '--- HUGO BUILD START ---' && hugo --gc --minify --verbose --log --logFile=netlify-hugo.log"
+command = "hugo --gc --minify --verbose"
 publish = "public"
 
 [build.environment]
