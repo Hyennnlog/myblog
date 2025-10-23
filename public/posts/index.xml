@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on HYENNNLOG.KR</title>
+    <link>http://localhost:54060/posts/</link>
+    <description>Recent content in Posts on HYENNNLOG.KR</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:54060/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:54060/posts/hello/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:54060/posts/hello/</guid>
+      <description>&lt;p&gt;��-�-�-�&#xA;�t�i�t�l�e�:� �&amp;quot;�H�e�l�l�o� �H�u�g�o�&amp;quot;�&#xA;�d�a�t�e�:� �2�0�2�5�-�0�1�-�0�1�&#xA;�d�r�a�f�t�:� �f�a�l�s�e�&#xA;�-�-�-�&#xA;��� ��Ӥ¸҅�Ȳ��.�&#xA;�&#xD;�&#xA;�&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

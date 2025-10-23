@@ -1,8 +1,10 @@
 # hugo.toml (레포 최상단)
 baseURL = "https://hyennnlog.netlify.app/"
-title = "My Hugo Site"
+title = "HYENNNLOG.KR"
 theme = "hugo-coder"
 
+[markup.goldmark.renderer]
+unsafe = true
 
 [pagination]
   pagerSize = 20

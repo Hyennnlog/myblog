@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cinemas on My Hugo Site</title>
-    <link>http://localhost:1313/cinema/</link>
-    <description>Recent content in Cinemas on My Hugo Site</description>
+    <title>Cinemas on My New Hugo Site</title>
+    <link>http://localhost:53736/cinema/</link>
+    <description>Recent content in Cinemas on My New Hugo Site</description>
     <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/cinema/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:53736/cinema/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>퍼펙트 블루 (Perfect Blue)</title>
-      <link>http://localhost:1313/cinema/perfect-blue/</link>
-      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cinema/perfect-blue/</guid>
-      <description>&lt;p&gt;첫 영화 감상문.&lt;/p&gt;</description>
+      <title>원 배틀 애프터 어나더(One Battle After Another,2025)</title>
+      <link>http://localhost:53736/cinema/obaa/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:53736/cinema/obaa/</guid>
+      <description>&lt;p&gt;#원 배틀 애프터 어나더&lt;/p&gt;&#xA;&lt;p&gt;오늘의 기록&#xA;재미있게 본 영화를 한 번 적어보려고 해&lt;/p&gt;&#xA;&lt;p&gt;##줄거리&lt;/p&gt;&#xA;&lt;p&gt;우리는 어떻게 이 싸움에서 승리할 수 있을 지를 고민하게 만들었어.&#xA;&lt;strong&gt;레오나르도 디카프리오&lt;/strong&gt;는 정말 잘생겼더라&#xA;_베네치오 델토로_와 참 잘 어울리기도 하고&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:53736/images/0825-1jpg&#34; alt=&#34;좋아하는 장면&#34;&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on My Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Home on My Hugo Site</description>
+    <title>Home on HYENNNLOG.KR</title>
+    <link>http://localhost:54060/</link>
+    <description>Recent content in Home on HYENNNLOG.KR</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54060/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>01.fujifilm c200</title>
-      <link>http://localhost:1313/film/01/</link>
+      <link>http://localhost:54060/film/01/</link>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/film/01/</guid>
+      <guid>http://localhost:54060/film/01/</guid>
       <description></description>
     </item>
     <item>
-      <title>퍼펙트 블루 (Perfect Blue)</title>
-      <link>http://localhost:1313/cinema/perfect-blue/</link>
-      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cinema/perfect-blue/</guid>
-      <description>&lt;p&gt;첫 영화 감상문.&lt;/p&gt;</description>
+      <title>Busan</title>
+      <link>http://localhost:54060/etc/busan/</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:54060/etc/busan/</guid>
+      <description>&lt;p&gt;부산 여행 기록 한두 줄…&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Busan</title>
-      <link>http://localhost:1313/etc/busan/</link>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/etc/busan/</guid>
-      <description>&lt;p&gt;부산 여행 기록 한두 줄…&lt;/p&gt;</description>
+      <title></title>
+      <link>http://localhost:54060/posts/hello/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:54060/posts/hello/</guid>
+      <description>&lt;p&gt;��-�-�-�&#xA;�t�i�t�l�e�:� �&amp;quot;�H�e�l�l�o� �H�u�g�o�&amp;quot;�&#xA;�d�a�t�e�:� �2�0�2�5�-�0�1�-�0�1�&#xA;�d�r�a�f�t�:� �f�a�l�s�e�&#xA;�-�-�-�&#xA;��� ��Ӥ¸҅�Ȳ��.�&#xA;�&#xD;�&#xA;�&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
