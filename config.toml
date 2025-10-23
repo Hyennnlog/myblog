@@ -1,27 +1,70 @@
-baseURL = "http://hyennnlog.kr/"
-languageCode = "ko-kr"
-title = "hyennnlog"
-theme = "PaperMod"
-enableRobotsTXT = true
+# hugo.toml (레포 최상단)
+baseURL = "https://hyennnlog.netlify.app/"
+title = "My Hugo Site"
+theme = "hugo-coder"
 
-[params.author]
-  name = "혜진"
-  homepage = "http://localhost:1313/"
 
+[pagination]
+  pagerSize = 20
+
+contentDir = "content"
+
+
+[params]
+
+  avatarURL = "images/profile.png"
+  since = "2025"
+
+[[params.social]]
+  name = "Instagram"
+  icon = "fa fa-instagram"
+  weight = 1
+  url = "https://www.instagram.com/hy_ennn/"
+
+  author = "김혜진"
+  # 한 줄 소개를 여러 줄로도 쓸 수 있어요. (배열 형태 지원)
+  info = [
+    "Have more than thou showest, speak less than thou knowest.",
+    "기록과 사진을 좋아합니다."
+  ]
+  description = "hyennn.log"
+  keywords = "blog, personal"
+  avatarURL = "images/profile.png"   # 아래 2단계에서 이 파일을 넣을 거예요
+  since = "2025"
+
+  customCSS = ["css/custom.css"]
+
+# 다크모드/코드블록/기타 테마 옵션이 더 있지만 최소값만
+# 메뉴: main (상단 내비게이션)
 [menu]
+
   [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Cinema"
+    pageRef = "/cinema"
     weight = 1
 
   [[menu.main]]
-    name = "Blog"
-    url = "/posts/"
+    name = "Book"
+    pageRef = "/book"
     weight = 2
 
-[params]
-  ShowReadingTime = true
-  HighlightCode = true
-  mainSections = ["posts"]
-  ShowShareButtons = true
-  ShowHomePageSummary = true
+  [[menu.main]]
+    name = "Film"
+    pageRef = "/film"
+    weight = 3
+
+  [[menu.main]]
+    name = "Archive"
+    pageRef = "/archive"
+    weight = 4
+
+ [[menu.main]]
+    name = "Note"
+    pageRef = "/Note"
+    weight = 5
+
+  [[menu.main]]
+    name = "e.t.c"
+    pageRef = "etc"
+    weight = 6
+
