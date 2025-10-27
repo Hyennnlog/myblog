@@ -43,7 +43,7 @@ contentDir = "content"
     weight = 2
 
   [[menu.main]]
-  name = "Film"     # 표시 이름만 Film
+  name = "Photos"     
   pageRef = "/photos"
     weight = 3
 

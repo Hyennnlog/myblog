@@ -1,12 +1,24 @@
-{{ define "main" }}
+{{ define "photo_single_body" }}
 <main style="max-width:900px;margin:0 auto;padding:24px">
   <h1>{{ .Title }}</h1>
-  {{ $img := (.Resources.ByType "image") | first }}
-  {{ if $img }}<img src="{{ $img.RelPermalink }}" alt="{{ .Title }}" style="width:100%;height:auto;border-radius:12px;margin:16px 0">{{ end }}
-  <div>{{ .Content }}</div>
-  <p style="margin-top:24px">
+
+  {{ $imgs := .Resources.ByType "image" }}
+  {{ with (index $imgs 0) }}
+    <figure style="margin:16px 0">
+      <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" style="width:100%;height:auto;border-radius:12px;display:block">
+    </figure>
+  {{ end }}
+
+  <div class="content">
+    {{ .Content }}
+  </div>
+
+  <nav style="margin-top:24px;display:flex;justify-content:space-between">
     {{ with .PrevInSection }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}
-    {{ with .NextInSection }}<span style="float:right"><a href="{{ .RelPermalink }}">{{ .Title }} →</a></span>{{ end }}
-  </p>
+    {{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}
+  </nav>
 </main>
 {{ end }}
+
+{{ define "main" }}{{ template "photo_single_body" . }}{{ end }}
+{{ define "content" }}{{ template "photo_single_body" . }}{{ end }}

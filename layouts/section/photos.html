@@ -1,13 +1,29 @@
-{{ define "main" }}
-<main style="padding:16px">
-  <h1>PHOTOS SECTION TEMPLATE 🔎</h1>
-  <p>DEBUG: kind={{ .Kind }}, section={{ .Section }}, pages={{ len .Pages }}</p>
+{{ define "photos_list_body" }}
+<main style="max-width:1100px;margin:0 auto;padding:24px">
+  <h1>{{ .Title }}</h1>
 
-  <ul>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin-top:16px">
     {{ range .Pages.ByDate.Reverse }}
-      {{ $cover := .Resources.GetMatch "cover*" }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> — cover: {{ if $cover }}✅{{ else }}❌{{ end }}</li>
+      {{ $p := . }}
+      {{ $imgs := $p.Resources.ByType "image" }}
+      {{ $first := (cond (gt (len $imgs) 0) (index $imgs 0) nil) }}
+
+      <a href="{{ $p.RelPermalink }}" title="{{ $p.Title }}"
+         style="display:block;overflow:hidden;border-radius:14px;box-shadow:0 2px 8px rgba(0,0,0,.08);text-decoration:none">
+        {{ if $first }}
+          <img src="{{ $first.RelPermalink }}" alt="{{ $p.Title }}"
+               style="width:100%;height:220px;object-fit:cover;display:block;transition:transform .25s ease" />
+        {{ else }}
+          <div style="height:220px;display:flex;align-items:center;justify-content:center;background:#fafafa;color:#4a6cf7;
+                      font-weight:600;border:1px solid #eee;">
+            {{ $p.Title }}
+          </div>
+        {{ end }}
+      </a>
     {{ end }}
-  </ul>
+  </div>
 </main>
 {{ end }}
+
+{{ define "main" }}{{ template "photos_list_body" . }}{{ end }}
+{{ define "content" }}{{ template "photos_list_body" . }}{{ end }}
