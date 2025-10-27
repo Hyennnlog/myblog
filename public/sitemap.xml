@@ -2,27 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:54060/film/01/</loc>
-    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/archive/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54060/film/</loc>
-    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/book/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54060/</loc>
-    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/cinema/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54060/etc/busan/</loc>
+    <loc>http://localhost:1313/gyul/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/note/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/siwa/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archive/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/book/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/gyul/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/note/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/siwa/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/cinema/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94%EC%9D%98%EC%99%B8%EB%A1%9C/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/photos/autumn-leaves/</loc>
+    <lastmod>2025-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/photos/cafe-morning/</loc>
+    <lastmod>2025-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/photos/</loc>
+    <lastmod>2025-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/siwa/busan/</loc>
     <lastmod>2025-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54060/etc/</loc>
-    <lastmod>2025-10-06T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/gyul/hello/</loc>
   </url><url>
-    <loc>http://localhost:54060/posts/hello/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:54060/categories/</loc>
-  </url><url>
-    <loc>http://localhost:54060/posts/</loc>
-  </url><url>
-    <loc>http://localhost:54060/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

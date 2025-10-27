@@ -1,0 +1,13 @@
+{{ define "main" }}
+<main style="padding:16px">
+  <h1>PHOTOS SECTION TEMPLATE 🔎</h1>
+  <p>DEBUG: kind={{ .Kind }}, section={{ .Section }}, pages={{ len .Pages }}</p>
+
+  <ul>
+    {{ range .Pages.ByDate.Reverse }}
+      {{ $cover := .Resources.GetMatch "cover*" }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> — cover: {{ if $cover }}✅{{ else }}❌{{ end }}</li>
+    {{ end }}
+  </ul>
+</main>
+{{ end }}

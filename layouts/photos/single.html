@@ -1,0 +1,12 @@
+{{ define "main" }}
+<main style="max-width:900px;margin:0 auto;padding:24px">
+  <h1>{{ .Title }}</h1>
+  {{ $img := (.Resources.ByType "image") | first }}
+  {{ if $img }}<img src="{{ $img.RelPermalink }}" alt="{{ .Title }}" style="width:100%;height:auto;border-radius:12px;margin:16px 0">{{ end }}
+  <div>{{ .Content }}</div>
+  <p style="margin-top:24px">
+    {{ with .PrevInSection }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}
+    {{ with .NextInSection }}<span style="float:right"><a href="{{ .RelPermalink }}">{{ .Title }} →</a></span>{{ end }}
+  </p>
+</main>
+{{ end }}

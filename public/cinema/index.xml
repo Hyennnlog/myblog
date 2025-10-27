@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cinemas on My New Hugo Site</title>
-    <link>http://localhost:53736/cinema/</link>
-    <description>Recent content in Cinemas on My New Hugo Site</description>
+    <title>Cinemas on HYENNNLOG.KR</title>
+    <link>http://localhost:1313/cinema/</link>
+    <description>Recent content in Cinemas on HYENNNLOG.KR</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:53736/cinema/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/cinema/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>원 배틀 애프터 어나더(One Battle After Another,2025)</title>
-      <link>http://localhost:53736/cinema/obaa/</link>
+      <title>제목 말고 주제</title>
+      <link>http://localhost:1313/cinema/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94%EC%9D%98%EC%99%B8%EB%A1%9C/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53736/cinema/obaa/</guid>
-      <description>&lt;p&gt;#원 배틀 애프터 어나더&lt;/p&gt;&#xA;&lt;p&gt;오늘의 기록&#xA;재미있게 본 영화를 한 번 적어보려고 해&lt;/p&gt;&#xA;&lt;p&gt;##줄거리&lt;/p&gt;&#xA;&lt;p&gt;우리는 어떻게 이 싸움에서 승리할 수 있을 지를 고민하게 만들었어.&#xA;&lt;strong&gt;레오나르도 디카프리오&lt;/strong&gt;는 정말 잘생겼더라&#xA;_베네치오 델토로_와 참 잘 어울리기도 하고&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:53736/images/0825-1jpg&#34; alt=&#34;좋아하는 장면&#34;&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>http://localhost:1313/cinema/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94%EC%9D%98%EC%99%B8%EB%A1%9C/</guid>
+      <description>&lt;h2 id=&#34;여기영화명을쓰고&#34;&gt;&#xD;&#xA;  여기영화명을쓰고&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%ec%97%ac%ea%b8%b0%ec%98%81%ed%99%94%eb%aa%85%ec%9d%84%ec%93%b0%ea%b3%a0&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;&lt;em&gt;여기한줄평을 써야할까봐&lt;/em&gt;&#xA;&lt;br&gt;&lt;br&gt;&#xA;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&lt;/br&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&lt;/br&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;cinema01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
