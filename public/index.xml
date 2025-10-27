@@ -1,81 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on HYENNNLOG.KR</title>
-    <link>http://localhost:50925/</link>
-    <description>Recent content in Home on HYENNNLOG.KR</description>
+    <title>Home on KIMHYEJIN</title>
+    <link>http://localhost:56112/</link>
+    <description>Recent content in Home on KIMHYEJIN</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 27 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50925/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56112/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cow cat</title>
-      <link>http://localhost:50925/photos/01/</link>
+      <link>http://localhost:56112/photos/cow-cat/</link>
       <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50925/photos/01/</guid>
+      <guid>http://localhost:56112/photos/cow-cat/</guid>
       <description>&lt;p&gt;여기에 본문 테스트 한 줄!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;cow cat&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>거북이는 의외로 빨리 헤엄친다</title>
-      <link>http://localhost:50925/archive/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
+      <link>http://localhost:56112/archive/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50925/archive/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
-      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:50925/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:56112/archive/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
+      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:56112/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>거북이는 의외로 빨리 헤엄친다</title>
-      <link>http://localhost:50925/book/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
+      <link>http://localhost:56112/book/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50925/book/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
-      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:50925/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:56112/book/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
+      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:56112/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>거북이는 의외로 빨리 헤엄친다</title>
-      <link>http://localhost:50925/gyul/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
+      <link>http://localhost:56112/gyul/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50925/gyul/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
-      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:50925/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:56112/gyul/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
+      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:56112/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>거북이는 의외로 빨리 헤엄친다</title>
-      <link>http://localhost:50925/note/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
+      <link>http://localhost:56112/note/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50925/note/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
-      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:50925/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:56112/note/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
+      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:56112/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>거북이는 의외로 빨리 헤엄친다</title>
-      <link>http://localhost:50925/siwa/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
+      <link>http://localhost:56112/siwa/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50925/siwa/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
-      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:50925/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:56112/siwa/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
+      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:56112/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>제목 말고 주제</title>
-      <link>http://localhost:50925/cinema/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94%EC%9D%98%EC%99%B8%EB%A1%9C/</link>
+      <link>http://localhost:56112/cinema/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94%EC%9D%98%EC%99%B8%EB%A1%9C/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50925/cinema/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94%EC%9D%98%EC%99%B8%EB%A1%9C/</guid>
+      <guid>http://localhost:56112/cinema/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94%EC%9D%98%EC%99%B8%EB%A1%9C/</guid>
       <description>&lt;h2 id=&#34;여기영화명을쓰고&#34;&gt;&#xD;&#xA;  여기영화명을쓰고&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%ec%97%ac%ea%b8%b0%ec%98%81%ed%99%94%eb%aa%85%ec%9d%84%ec%93%b0%ea%b3%a0&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;&lt;em&gt;여기한줄평을 써야할까봐&lt;/em&gt;&#xA;&lt;br&gt;&lt;br&gt;&#xA;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&lt;/br&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&lt;/br&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;cinema01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>nagative film</title>
-      <link>http://localhost:50925/photos/cafe-morning/</link>
+      <link>http://localhost:56112/photos/cafe-morning/</link>
       <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50925/photos/cafe-morning/</guid>
+      <guid>http://localhost:56112/photos/cafe-morning/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;AGFA APX 400 | LeicaMinizoom | 2025.10 | Madu-dong&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Busan</title>
-      <link>http://localhost:50925/siwa/busan/</link>
+      <link>http://localhost:56112/siwa/busan/</link>
       <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50925/siwa/busan/</guid>
+      <guid>http://localhost:56112/siwa/busan/</guid>
       <description>&lt;p&gt;부산 여행 기록 한두 줄…&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:50925/gyul/hello/</link>
+      <link>http://localhost:56112/gyul/hello/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50925/gyul/hello/</guid>
+      <guid>http://localhost:56112/gyul/hello/</guid>
       <description>&lt;p&gt;��-�-�-�&#xA;�t�i�t�l�e�:� �&amp;quot;�H�e�l�l�o� �H�u�g�o�&amp;quot;�&#xA;�d�a�t�e�:� �2�0�2�5�-�0�1�-�0�1�&#xA;�d�r�a�f�t�:� �f�a�l�s�e�&#xA;�-�-�-�&#xA;��� ��Ӥ¸҅�Ȳ��.�&#xA;�&#xD;�&#xA;�&lt;/p&gt;</description>
     </item>
   </channel>

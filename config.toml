@@ -1,5 +1,5 @@
 baseURL = "https://hyennnlog.netlify.app/"
-title = "HYENNNLOG.KR"
+title = "KIMHYEJIN"
 theme = "hugo-coder"
 
 [markup.goldmark.renderer]
@@ -11,15 +11,13 @@ unsafe = true
 contentDir = "content"
 
 [params]
-  author = "김혜진"
+  author = ""
   avatarURL = "images/profile.png"
   since = "2025"
   description = "hyennn.log"
   keywords = "blog, personal"
   info = [
-    "Have more than thou showest, speak less than thou knowest.",
-    "기록과 사진을 좋아합니다."
-  ]
+    "季節のはじまりを信じてみよう。",]
 
   # ✅ CSS 추가는 여기!
  customCSS = ["css/custom.css", "css/fixes.css", "css/photos.css"]
@@ -33,7 +31,7 @@ contentDir = "content"
 
 [menu]
   [[menu.main]]
-    name = "Cinema"
+    name = "Movie"
     pageRef = "/cinema"
     weight = 1
 
@@ -43,21 +41,16 @@ contentDir = "content"
     weight = 2
 
   [[menu.main]]
-  name = "Photos"     
+  name = "Archive"     
   pageRef = "/photos"
     weight = 3
 
   [[menu.main]]
-    name = "Archive"
-    pageRef = "/archive"
+    name = "Sketch"
+    pageRef = "/Note"
     weight = 4
 
   [[menu.main]]
-    name = "Note"
-    pageRef = "/Note"
-    weight = 5
-
-  [[menu.main]]
-    name = "‘gyul"
+    name = "Becoming🎞️"
     pageRef = "/gyul"
     weight = 6
