@@ -64,8 +64,9 @@ h2 {
 /* 글 제목 (h1, h2 등) */
 h1, h2, h3 {
   color: #333333;
+  font-size: 2rem;
   font-weight: 400;              /* 300: 얇게, 700: 굵게 */
-  letter-spacing: 0.5px;         /* 글자 간격 */
+  letter-spacing: 1px;         /* 글자 간격 */
   line-height: 1.4;
 }
 
@@ -81,7 +82,7 @@ h2 {
 /* 본문 기본 텍스트 */
 p {
   color: #4f4f4f;
-  font-size: 1rem;
+  font-size: 1.rem;
   line-height: 1.8;
   font-weight: 300;
 }
@@ -99,7 +100,7 @@ a:hover {
 
 body {
   font-family: 'Noto Serif KR', 'Noto Sans KR', serif;
-  background-color: #fdfaf6; /* 따뜻한 미색 배경 */
+  background-color: #ffffff; /* 따뜻한 미색 배경 */
 }
 
 

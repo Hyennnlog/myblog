@@ -2,61 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:56112/photos/cow-cat/</loc>
+    <loc>http://localhost:50786/photos/cow-cat/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/</loc>
+    <loc>http://localhost:50786/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/photos/</loc>
+    <loc>http://localhost:50786/photos/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/archive/</loc>
+    <loc>http://localhost:50786/archive/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/book/</loc>
+    <loc>http://localhost:50786/book/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/cinema/</loc>
+    <loc>http://localhost:50786/cinema/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/gyul/</loc>
+    <loc>http://localhost:50786/kimgyeul/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/note/</loc>
+    <loc>http://localhost:50786/siwa/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/siwa/</loc>
+    <loc>http://localhost:50786/sketch/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/archive/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
+    <loc>http://localhost:50786/archive/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/book/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
+    <loc>http://localhost:50786/book/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/gyul/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
+    <loc>http://localhost:50786/kimgyeul/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/note/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
+    <loc>http://localhost:50786/siwa/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/siwa/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
+    <loc>http://localhost:50786/sketch/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/cinema/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94%EC%9D%98%EC%99%B8%EB%A1%9C/</loc>
+    <loc>http://localhost:50786/cinema/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94%EC%9D%98%EC%99%B8%EB%A1%9C/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/photos/cafe-morning/</loc>
+    <loc>http://localhost:50786/photos/cafe-morning/</loc>
     <lastmod>2025-10-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/siwa/busan/</loc>
+    <loc>http://localhost:50786/siwa/busan/</loc>
     <lastmod>2025-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56112/gyul/hello/</loc>
+    <loc>http://localhost:50786/kimgyeul/hello/</loc>
   </url><url>
-    <loc>http://localhost:56112/categories/</loc>
+    <loc>http://localhost:50786/categories/</loc>
   </url><url>
-    <loc>http://localhost:56112/tags/</loc>
+    <loc>http://localhost:50786/tags/</loc>
   </url>
 </urlset>

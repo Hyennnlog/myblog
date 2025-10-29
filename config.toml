@@ -31,7 +31,7 @@ contentDir = "content"
 
 [menu]
   [[menu.main]]
-    name = "Movie"
+    name = "Cinema"
     pageRef = "/cinema"
     weight = 1
 
@@ -42,15 +42,15 @@ contentDir = "content"
 
   [[menu.main]]
   name = "Archive"     
-  pageRef = "/photos"
+  pageRef = "/photo"
     weight = 3
 
   [[menu.main]]
     name = "Sketch"
-    pageRef = "/Note"
+    pageRef = "/sketch"
     weight = 4
 
   [[menu.main]]
     name = "Becoming🎞️"
-    pageRef = "/gyul"
+    pageRef = "/kimgyeul"
     weight = 6
