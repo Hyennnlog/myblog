@@ -42,7 +42,7 @@ contentDir = "content"
 
   [[menu.main]]
   name = "Archive"     
-  pageRef = "/photo"
+  pageRef = "/photos"
     weight = 3
 
   [[menu.main]]
