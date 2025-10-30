@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Photos on KIMHYEJIN</title>
-    <link>http://localhost:50786/photos/</link>
-    <description>Recent content in Photos on KIMHYEJIN</description>
+    <title>사진 on KIMHYEJIN</title>
+    <link>http://localhost:64254/photos/</link>
+    <description>Recent content in 사진 on KIMHYEJIN</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 27 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50786/photos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64254/photos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cow cat</title>
-      <link>http://localhost:50786/photos/cow-cat/</link>
+      <link>http://localhost:64254/photos/cow-cat/</link>
       <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50786/photos/cow-cat/</guid>
-      <description>&lt;p&gt;여기에 본문 테스트 한 줄!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;cow cat&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:64254/photos/cow-cat/</guid>
+      <description></description>
     </item>
     <item>
       <title>nagative film</title>
-      <link>http://localhost:50786/photos/cafe-morning/</link>
+      <link>http://localhost:64254/photos/cafe-morning/</link>
       <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50786/photos/cafe-morning/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;AGFA APX 400 | LeicaMinizoom | 2025.10 | Madu-dong&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:64254/photos/cafe-morning/</guid>
+      <description>&lt;p&gt;AGFA APX 400 | LeicaMinizoom | 2025.10 | Madu-dong&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
