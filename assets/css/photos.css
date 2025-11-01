@@ -1,20 +1,255 @@
-/* photos ok */
-.photos-container{outline:2px dashed}
+/* === Fonts: 명조체 로드 ===
+   둘 중 하나만 사용해도 좋습니다.
+   (1) Noto Serif KR - 깔끔, 범용
+   (2) 나눔명조 - 따뜻한 인쇄물 질감
+*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;600;700&display=swap");
+/* 대체: @import url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.0/NanumMyeongjo.css"); */
 
-.photos-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+/* === 전체 기본 설정 (사진 페이지 전용) === */
+.photo-page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 28px 20px 40px;
+  font-family: "Noto Serif KR", "Nanum Myeongjo", "Times New Roman", serif;
+  color: #2f2f2f;
+  line-height: 1.8;
 }
+
+/* 대표 이미지(메인) */
+.photo-main {
+  margin: 8px 0 20px;
+}
+.photo-main img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+}
+
+/* 제목 */
+.photo-title {
+  font-size: 25px; /* ← 본문 제목 크기 */
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #2a2a2a;
+  margin: 14px 0 14px;
+}
+
+/* 본문(설명) */
+.photo-content {
+  font-size: 15px; /* ← 본문 글자 크기 */
+  color: #444;
+  margin: 6px auto 26px;
+  max-width: 760px;
+}
+.photo-content p { margin: 0 0 14px; }
+
+/* === 하단 그리드: Hover 캡션 오버레이 버전 === */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 18px;
+  margin-top: 32px;
+}
+
+.photo-item {
+  position: relative;
+  overflow: hidden; 
+  border-radius: 0px; /* ← 라운드 주려면 숫자 키울수록 끝 둥글게 */
+  background: #f8f7f5;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.photo-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s ease, opacity 0.3s ease;
+}
+
+/* hover 시 살짝 확대 */
+.photo-item:hover img {
+  transform: scale(1);
+  opacity: 0.9;
+}
+
+/* 그림자 부드럽게 */
+.photo-item:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+
+/* 오버레이 캡션 */
+.photo-item figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Noto Serif KR", "Nanum Myeongjo", serif;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  background: rgba(0, 0, 0, 0.0);
+  opacity: 0;
+  transition: all 0.35s ease;
+}
+
+/* hover 시 나타나는 효과 */
+.photo-item:hover figcaption {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.1); /* 마지막 숫자 작을수록 투명 */
+}
+}
+
+/* 잔잔한 종이 톤 느낌의 배경과 구분선(선택) */
+.photo-page {
+  background:
+    linear-gradient(#fffef8, #fffefa) padding-box;
+}
+.photo-content,
+.photo-grid {
+  border-top: 1px solid rgba(0,0,0,0.06);   
+  padding-top: 18px;
+}
+
+/* 모바일 타이트닝 */
+@media (max-width: 480px) {
+  .photo-page { padding: 22px 16px 32px; }
+  .photo-title { font-size: 26px; }
+  .photo-content { font-size: 15.5px; }
+  .photo-grid { gap: 10px; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+}
+
+/* ===== Photos 목록 페이지 (/photos/) ===== */
+.photos-list-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 28px 20px 44px;
+  font-family: "Noto Serif KR","Nanum Myeongjo",serif;
+  color: #2f2f2f;
+  line-height: 1.8;
+  background: linear-gradient(#fffef8, #fffefa);
+}
+
+.photos-list-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin: 6px 0 14px;
+  text-align: left; /* 필요하면 center로 변경 가능 */
+}
+
+.photos-list-intro {
+  font-size: 16.5px;
+  color: #555;
+  max-width: 760px;
+  margin: 4px 0 26px;
+}
+
+/* 카드 그리드 */
+.photo-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+/* 카드 */
 .photo-card {
   display: block;
-  aspect-ratio: 1 / 1;
-  overflow: hidden;
-  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
 }
-.photo-card img {
+
+.photo-card-figure {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 0; /* 혜진님 취향: 직사각형 */
+  background: #f6f5f3;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.photo-card-figure img,
+.photo-card-ph {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
   display: block;
 }
+
+.photo-card-ph {
+  aspect-ratio: 4/3;
+  display: grid;
+  place-items: center;
+  color: #aaa;
+  font-size: 14px;
+}
+
+/* hover 효과: 사진 살짝 확대 + 오버레이 등장 */
+.photo-card:hover .photo-card-figure {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.14);
+  transform: translateY(-3px);
+}
+
+.photo-card-figure img {
+  transition: transform 0.4s ease, opacity 0.3s ease;
+}
+.photo-card:hover .photo-card-figure img {
+  transform: scale(1.05);
+  opacity: 0.95;
+}
+
+/* 오버레이(타이틀) */
+.photo-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.0);
+  opacity: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 12px;
+  transition: all 0.35s ease;
+}
+
+.photo-card:hover .photo-card-overlay {
+  opacity: 1;
+  background: rgba(0,0,0,0.25); /* 어두워지는 정도는 여기서 조절 */
+}
+
+.photo-card-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  padding: 6px 10px;
+  background: rgba(0,0,0,0.45);
+  border-radius: 0; /* 직사각형 유지 */
+  letter-spacing: 0.3px;
+}
+
+/* 페이지네이션 */
+.photos-pagination {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 26px;
+  font-size: 14px;
+}
+.photos-pagination .pg {
+  color: #444;
+}
+.photos-pagination a.pg {
+  text-decoration: none;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+}
+.photos-pagination a.pg:hover {
+  background: #f3f1ec;
+}
+
