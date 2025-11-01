@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>사진 on KIMHYEJIN</title>
-    <link>http://localhost:64254/photos/</link>
+    <link>http://localhost:1313/photos/</link>
     <description>Recent content in 사진 on KIMHYEJIN</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:64254/photos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/photos/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>cow cat</title>
-      <link>http://localhost:64254/photos/cow-cat/</link>
-      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64254/photos/cow-cat/</guid>
-      <description></description>
+      <title>My first work, printed in the darkroom.</title>
+      <link>http://localhost:1313/photos/cow-cat/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/cow-cat/</guid>
+      <description>&lt;p&gt;🎞️ AGFA APX 400 &lt;/br&gt;&#xA;📸 LeicaMinizoom &lt;/br&gt;&#xA;🧷2025.10 &lt;/br&gt;&#xA;&lt;/br&gt;&#xA;&lt;img src=&#34;01.jpg&#34; alt=&#34; &#34;&gt;&#xA;&lt;img src=&#34;02.jpg&#34; alt=&#34; &#34;&gt;&#xA;&lt;img src=&#34;03.jpg&#34; alt=&#34; &#34;&gt;&#xA;&lt;img src=&#34;04.jpg&#34; alt=&#34; &#34;&gt;&#xA;&lt;img src=&#34;05.jpg&#34; alt=&#34; &#34;&gt;&#xA;&lt;img src=&#34;06.jpg&#34; alt=&#34; &#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>nagative film</title>
-      <link>http://localhost:64254/photos/cafe-morning/</link>
+      <link>http://localhost:1313/photos/cafe-morning/</link>
       <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64254/photos/cafe-morning/</guid>
+      <guid>http://localhost:1313/photos/cafe-morning/</guid>
       <description>&lt;p&gt;AGFA APX 400 | LeicaMinizoom | 2025.10 | Madu-dong&lt;/p&gt;</description>
     </item>
   </channel>
