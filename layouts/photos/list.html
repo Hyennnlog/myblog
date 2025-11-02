@@ -1,57 +1,31 @@
-{{/* 공용 본문 템플릿을 한 번 정의 */}}
-{{ define "photos_list_body" }}
-<main style="max-width:1100px;margin:0 auto;padding:24px">
+{{ define "main" }}
+<main class="container" style="max-width:1100px;margin:0 auto;padding:24px">
   <h1>{{ .Title }}</h1>
 
-<style>
-.photos-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-}
-</style>
-
-  <!-- _index.md 본문이 보이도록 -->
+  <!-- (선택) _index.md 본문 노출 -->
   {{ with .Content }}
     <div style="margin:12px 0 20px;color:#666">{{ . }}</div>
   {{ end }}
 
-  <!-- 섹션에 들어온 페이지 수 확인 -->
-  <p style="margin:8px 0">pages count: {{ len .Pages }}</p>
-
--  <!-- 일단 제목 리스트로라도 보이게 -->
--  {{ range .Pages.ByDate.Reverse }}
--    <div>• <a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
--  {{ end }}
-+  <!-- ✅ 이미지 정사각형 썸네일 그리드로 표시 -->
-+  <div class="photos-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;">
-+    {{ range .Pages.ByDate.Reverse }}
-+  <a href="{{ .RelPermalink }}" class="photo-card"
-+     style="display:block;position:relative;width:100%;padding-top:100%;overflow:hidden;border-radius:10px;">
-+    {{ $img := (.Resources.ByType "image" | first) }}
-+    {{ with $img }}
-+      {{ $thumb := .Fill "600x600 center" }}
-+      <img src="{{ $thumb.RelPermalink }}" alt="{{ $.Title }}"
-+           style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
-+    {{ else }}
-+      <div style="position:absolute;top:0;left:0;width:100%;height:100%;
-+                  display:flex;align-items:center;justify-content:center;
-+                  background:#eee;color:#666;font-size:14px;">
-+        {{ .Title }}
-+      </div>
-+    {{ end }}
-+  </a>
-+    {{ end }}
-+  </div>
+  <!-- ✅ 3열 정사각형 썸네일 그리드 -->
+  <div class="photos-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;">
+    {{ range .Pages.ByDate.Reverse }}
+      {{ $img := (.Resources.ByType "image" | first) }}
+      <a href="{{ .RelPermalink }}" class="photo-card"
+         style="display:block;position:relative;width:100%;padding-top:100%;overflow:hidden;border-radius:10px;">
+        {{ with $img }}
+          {{ $thumb := .Fill "600x600 center" }}
+          <img src="{{ $thumb.RelPermalink }}" alt="{{ $.Title }}"
+               style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+        {{ else }}
+          <div style="position:absolute;top:0;left:0;width:100%;height:100%;
+                      display:flex;align-items:center;justify-content:center;
+                      background:#eee;color:#666;font-size:14px;">
+            {{ .Title }}
+          </div>
+        {{ end }}
+      </a>
+    {{ end }}
+  </div>
 </main>
-{{ end }}
-
-{{/* Coder 테마가 보통 사용하는 블록명 추정 1 */}}
-{{ define "main" }}
-  {{ template "photos_list_body" . }}
-{{ end }}
-
-{{/* 혹시 블록명이 content인 경우도 대비 */}}
-{{ define "content" }}
-  {{ template "photos_list_body" . }}
 {{ end }}
