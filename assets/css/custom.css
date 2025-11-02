@@ -12,7 +12,7 @@ body { outline: 4px solid magenta !important; }
   opacity: 0.8;
   transform: translateY(-1px);
 }
-
+      
 /* 목록 제목/날짜 예시 */
 .post-title a { font-size: 1rem; font-weight: 500; color: #222; text-decoration: none; }
 .post-title a:hover { color: #007acc; }
