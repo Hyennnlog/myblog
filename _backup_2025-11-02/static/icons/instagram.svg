@@ -1,0 +1,12 @@
+<!-- static/icons/instagram.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <!-- 바깥 네모(라운드) -->
+  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"
+        fill="none" stroke="currentColor" stroke-width="2"/>
+  <!-- 렌즈 -->
+  <circle cx="12" cy="12" r="5.5"
+          fill="none" stroke="currentColor" stroke-width="2"/>
+  <!-- 플래시 점 -->
+  <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/>
+  <title>Instagram</title>
+</svg>

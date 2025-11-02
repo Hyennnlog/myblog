@@ -1,0 +1,13 @@
+{{ define "main" }}
+<main class="container" style="max-width:1100px;margin:0 auto;padding:24px">
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}
+    <div class="content" style="margin:12px 0 20px;color:#666">{{ . }}</div>
+  {{ end }}
+
+  {{/* 섹션 공통으로 보여줄 게 있으면 여기에 */}}
+  {{ range .Pages.ByDate.Reverse }}
+    <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+  {{ end }}
+</main>
+{{ end }}

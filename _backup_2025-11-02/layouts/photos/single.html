@@ -1,0 +1,53 @@
+{{/* layouts/photos/single.html — 테마 호환: main/content 둘 다 정의, template 호출 사용 */}}
+
+{{ define "main" }}
+  {{ template "photos_single_body" . }}
+{{ end }}
+
+{{ define "content" }}
+  {{ template "photos_single_body" . }}
+{{ end }}
+
+{{/* 같은 파일 안에 임베디드 템플릿 정의 */}}
+{{ define "photos_single_body" }}
+<main class="photo-page">
+
+  {{/* 1) 모든 이미지 수집 */}}
+  {{ $imgs := .Resources.ByType "image" }}
+
+  {{/* 2) 대표 이미지: main* (main.jpg, main.jpeg, main.png, main.webp 등) */}}
+  {{ $main := .Resources.GetMatch "main*" }}
+
+  {{/* 3) 스코프 문제 방지: 먼저 나머지 집합 선언 */}}
+  {{ $rest := $imgs }}
+
+  {{ with $main }}
+    <figure class="photo-main">
+      <img src="{{ .RelPermalink }}" alt="{{ $.Title }}">
+    </figure>
+    {{ $rest = where $imgs "RelPermalink" "ne" .RelPermalink }}
+  {{ end }}
+
+  <h1 class="photo-title">{{ .Title }}</h1>
+
+  {{ with .Content }}
+    <div class="photo-content">
+      {{ . }}
+    </div>
+  {{ end }}
+
+  {{/* 4) 하단그리드부분 */}}
+{{ if gt (len $rest) 0 }} 
+  <div class="photo-grid">
+    {{ range $index, $img := $rest }}
+<figure class="photo-item">
+  <img src="{{ $img.RelPermalink }}" alt="{{ $img.Name }}">
+  <figcaption>{{ $img.Name }}</figcaption>
+</figure>
+
+    {{ end }}
+  </div>
+{{ end }}
+
+</main>
+{{ end }}
