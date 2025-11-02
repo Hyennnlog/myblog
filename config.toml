@@ -1,4 +1,4 @@
-baseURL = "https://hyennnlog.kr/"
+baseURL = "https://hyennnlog.netlify.app/"
 title = "KIMHYEJIN"
 theme = "hugo-coder"
 
