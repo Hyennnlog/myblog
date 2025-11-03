@@ -10,7 +10,7 @@ theme = "hugo-coder"
   author = "김혜진"
   description = "hyennn.log"
 
-  customCSS = ["css/custom.css"]
+  customCSS = ["css/custom.css", "css/photos.css"]
 
 [menu]
   [[menu.main]]

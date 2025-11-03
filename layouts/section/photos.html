@@ -1,13 +1,17 @@
-{{ define "main" }}
-<main class="container" style="max-width:1100px;margin:0 auto;padding:24px">
-  <h1>{{ .Title }}</h1>
-  {{ with .Content }}
-    <div class="content" style="margin:12px 0 20px;color:#666">{{ . }}</div>
-  {{ end }}
-
-  {{/* 섹션 공통으로 보여줄 게 있으면 여기에 */}}
-  {{ range .Pages.ByDate.Reverse }}
-    <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
-  {{ end }}
+{{ define "content" }}
+<main class="photos-wrap">
+  <!-- PHOTOS GRID | pages={{ len .RegularPages }} -->
+<h1 class="photos-title">{{ or .Title "Photo" }}</h1>
+  <section class="photos-grid">
+    {{ range .RegularPages.ByDate.Reverse }}
+      {{ $img := or (.Resources.GetMatch "main.*") (index (.Resources.ByType "image") 0) }}
+      {{ if $img }}
+        {{ $thumb := $img.Fill "600x600 Center" }}
+        <a class="ph-card" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+          <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" loading="lazy" decoding="async">
+        </a>
+      {{ end }}
+    {{ end }}
+  </section>
 </main>
 {{ end }}

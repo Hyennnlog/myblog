@@ -1,26 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kimgyeuls on 🐢</title>
+    <title>프로필 on 🐢</title>
     <link>http://localhost:1313/kimgyeul/</link>
-    <description>Recent content in Kimgyeuls on 🐢</description>
+    <description>Recent content in 프로필 on 🐢</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/kimgyeul/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>거북이는 의외로 빨리 헤엄친다</title>
-      <link>http://localhost:1313/kimgyeul/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/kimgyeul/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
-      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/kimgyeul/hello/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/kimgyeul/hello/</guid>
-      <description>&lt;p&gt;��-�-�-�&#xA;�t�i�t�l�e�:� �&amp;quot;�H�e�l�l�o� �H�u�g�o�&amp;quot;�&#xA;�d�a�t�e�:� �2�0�2�5�-�0�1�-�0�1�&#xA;�d�r�a�f�t�:� �f�a�l�s�e�&#xA;�-�-�-�&#xA;��� ��Ӥ¸҅�Ȳ��.�&#xA;�&#xD;�&#xA;�&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

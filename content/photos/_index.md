@@ -1,4 +1,3 @@
 ---
-title: "Photos"
-description: "hyennn.log"
+title: "사진"
 ---

@@ -1,53 +1,43 @@
-{{/* layouts/photos/single.html — 테마 호환: main/content 둘 다 정의, template 호출 사용 */}}
-
-{{ define "main" }}
-  {{ template "photos_single_body" . }}
-{{ end }}
-
 {{ define "content" }}
-  {{ template "photos_single_body" . }}
-{{ end }}
+<main class="photos-single container">
+  <article>
+    <h1 class="photos-title">{{ .Title }}</h1>
 
-{{/* 같은 파일 안에 임베디드 템플릿 정의 */}}
-{{ define "photos_single_body" }}
-<main class="photo-page">
-
-  {{/* 1) 모든 이미지 수집 */}}
-  {{ $imgs := .Resources.ByType "image" }}
-
-  {{/* 2) 대표 이미지: main* (main.jpg, main.jpeg, main.png, main.webp 등) */}}
-  {{ $main := .Resources.GetMatch "main*" }}
-
-  {{/* 3) 스코프 문제 방지: 먼저 나머지 집합 선언 */}}
-  {{ $rest := $imgs }}
-
-  {{ with $main }}
-    <figure class="photo-main">
-      <img src="{{ .RelPermalink }}" alt="{{ $.Title }}">
-    </figure>
-    {{ $rest = where $imgs "RelPermalink" "ne" .RelPermalink }}
-  {{ end }}
-
-  <h1 class="photo-title">{{ .Title }}</h1>
-
-  {{ with .Content }}
-    <div class="photo-content">
-      {{ . }}
-    </div>
-  {{ end }}
-
-  {{/* 4) 하단그리드부분 */}}
-{{ if gt (len $rest) 0 }} 
-  <div class="photo-grid">
-    {{ range $index, $img := $rest }}
-<figure class="photo-item">
-  <img src="{{ $img.RelPermalink }}" alt="{{ $img.Name }}">
-  <figcaption>{{ $img.Name }}</figcaption>
-</figure>
-
+    {{ $img := or (.Resources.GetMatch "main.*") (index (.Resources.ByType "image") 0) }}
+    {{ if $img }}
+      {{ $w400  := $img.Resize "400x" }}
+      {{ $w800  := $img.Resize "800x" }}
+      {{ $w1200 := $img.Resize "1200x" }}
+      <figure class="ph-figure">
+        <img
+          src="{{ $w800.RelPermalink }}"
+          srcset="{{ $w400.RelPermalink }} 400w, {{ $w800.RelPermalink }} 800w, {{ $w1200.RelPermalink }} 1200w"
+          sizes="(max-width: 700px) 100vw, 800px"
+          alt="{{ .Title }}" loading="lazy" decoding="async">
+        {{ with .Params.caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+      </figure>
     {{ end }}
-  </div>
-{{ end }}
 
+    <div class="photos-single-body">
+      {{ .Content }}
+    </div>
+
+    <!-- ✅ 이전 / 다음 텍스트 네비게이션 -->
+    <nav class="photo-nav">
+  {{ with .PrevInSection }}
+    <a class="photo-nav-prev" href="{{ .RelPermalink }}">← {{ .Title }}</a>
+  {{ end }}
+
+  {{ if and .PrevInSection .NextInSection }}
+    <span class="photo-nav-divider">|</span>
+  {{ end }}
+
+  {{ with .NextInSection }}
+    <a class="photo-nav-next" href="{{ .RelPermalink }}">{{ .Title }} →</a>
+  {{ end }}
+</nav>
+
+
+  </article>
 </main>
 {{ end }}

@@ -1,0 +1,19 @@
+{{ define "content" }}
+<!-- cinema section HIT | kind={{ .Kind }} | section={{ .Section }} | pages={{ len .RegularPages }} -->
+<main class="container" style="max-width:800px;margin:0 auto;padding:24px;">
+  <h1 style="font-size:22px;font-weight:400;margin-bottom:24px;">{{ .Title }}</h1>
+
+  <ul style="list-style:none;margin:0;padding:0;">
+    {{ range .RegularPages.ByDate.Reverse }}
+      <li style="display:flex;gap:24px;align-items:baseline;margin:14px 0;">
+        <time style="color:#6b7280;min-width:160px;">
+          {{ .Date.Format "January 2, 2006" }}
+        </time>
+        <a href="{{ .RelPermalink }}" style="color:#111;text-decoration:none;font-weight:600;">
+          {{ .Title }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</main>
+{{ end }}

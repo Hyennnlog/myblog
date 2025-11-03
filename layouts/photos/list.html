@@ -1,31 +1,16 @@
-{{ define "main" }}
-<main class="container" style="max-width:1100px;margin:0 auto;padding:24px">
-  <h1>{{ .Title }}</h1>
-
-  <!-- (선택) _index.md 본문 노출 -->
-  {{ with .Content }}
-    <div style="margin:12px 0 20px;color:#666">{{ . }}</div>
-  {{ end }}
-
-  <!-- ✅ 3열 정사각형 썸네일 그리드 -->
-  <div class="photos-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;">
-    {{ range .Pages.ByDate.Reverse }}
-      {{ $img := (.Resources.ByType "image" | first) }}
-      <a href="{{ .RelPermalink }}" class="photo-card"
-         style="display:block;position:relative;width:100%;padding-top:100%;overflow:hidden;border-radius:10px;">
-        {{ with $img }}
-          {{ $thumb := .Fill "600x600 center" }}
-          <img src="{{ $thumb.RelPermalink }}" alt="{{ $.Title }}"
-               style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
-        {{ else }}
-          <div style="position:absolute;top:0;left:0;width:100%;height:100%;
-                      display:flex;align-items:center;justify-content:center;
-                      background:#eee;color:#666;font-size:14px;">
-            {{ .Title }}
-          </div>
-        {{ end }}
-      </a>
+{{ define "content" }}
+<main class="photos-wrap">
+  <h1 class="photos-title">{{ .Title }}</h1>  <!-- ← 이 한 줄만 추가 -->
+  <section class="photos-grid">
+    {{ range .RegularPages.ByDate.Reverse }}
+      {{ $img := or (.Resources.GetMatch "main.*") (index (.Resources.ByType "image") 0) }}
+      {{ if $img }}
+        {{ $thumb := $img.Fill "600x600 Center" }}
+        <a class="ph-card" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+          <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" loading="lazy" decoding="async">
+        </a>
+      {{ end }}
     {{ end }}
-  </div>
+  </section>
 </main>
 {{ end }}

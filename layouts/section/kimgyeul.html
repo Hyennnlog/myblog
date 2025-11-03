@@ -1,0 +1,63 @@
+{{ define "content" }}
+<main class="kimg-wrap container">
+
+  <h1 class="kimg-title">{{ .Title }}</h1>
+
+  <!-- 프로필 -->
+  <section class="kimg-profile">
+    <div>
+      <div class="kimg-line">
+        <strong>이름</strong>
+        <span>{{ .Params.name }}</span>
+      </div>
+      <div class="kimg-line">
+        <strong>생년</strong>
+        <span>{{ .Params.birth }}</span>
+      </div>
+      <div class="kimg-line">
+        <strong>신체</strong>
+        <span>{{ .Params.height }}cm / {{ .Params.weight }}kg</span>
+      </div>
+      <div class="kimg-line">
+        <strong>연락</strong>
+        <span>{{ .Params.contact }}</span>
+      </div>
+      {{ with .Params.note }}
+      <div class="kimg-note">{{ . }}</div>
+      {{ end }}
+    </div>
+  </section>
+
+  <!-- 작품활동 -->
+  <section class="kimg-works">
+    <h2>작품활동</h2>
+    <ul>
+      {{ range .Params.works }}
+        <li>
+          <span class="kimg-work-year">{{ .year }}</span>
+          <span class="kimg-work-title">「{{ .title }}」</span>
+          <span class="kimg-work-role">— {{ .role }}</span>
+          <span class="kimg-work-type">({{ .type }})</span>
+ {{ with .link }}
+      <a class="kimg-work-link" href="{{ . }}" target="_blank" rel="noopener">🎬 영상 보기</a>
+    {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+
+  <!-- Photos -->
+  <section class="kimg-gallery">
+    <h2>사진</h2>
+    <div class="kimg-grid">
+      {{ range .Resources.Match "gallery/*" }}
+        {{ $thumb := .Fill "300x250 Center" }}
+        <a class="kimg-card" href="{{ .RelPermalink }}" target="_blank" rel="noopener">
+          <img src="{{ $thumb.RelPermalink }}" alt="">
+        </a>
+      {{ end }}
+    </div>
+  </section>
+
+</main>
+{{ end }}

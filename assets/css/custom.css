@@ -130,5 +130,18 @@ body {
 }
 
 
+.kimg-work-link {
+  margin-left: 8px;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #555;
+  transition: all 0.2s ease;
+}
+
+.kimg-work-link:hover {
+  color: black;
+}
+
+
 
 
