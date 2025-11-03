@@ -1,56 +1,43 @@
-baseURL = "https://hyennnlog.netlify.app/"
-title = "KIMHYEJIN"
+baseURL = "https://hyennnlog.kr/"
+languageCode = "ko-kr"
+title = "🐢"
 theme = "hugo-coder"
 
-[markup.goldmark.renderer]
-unsafe = true
-
 [pagination]
-  pagerSize = 20
-
-contentDir = "content"
+  pagerSize = 10
 
 [params]
-  author = ""
-  avatarURL = "images/profile.png"
-  since = "2025"
+  author = "김혜진"
   description = "hyennn.log"
-  keywords = "blog, personal"
-  info = [
-    "季節のはじまりを信じてみよう。",]
 
-  # ✅ CSS 추가는 여기!
- customCSS = ["css/custom.css", "css/fixes.css", "css/photos.css"]
-
-
-[[params.social]]
-  name = "Instagram"
-  icon = "fa fa-instagram"
-  weight = 1
-  url = "https://www.instagram.com/hy_ennn/"
+  customCSS = ["css/custom.css"]
 
 [menu]
   [[menu.main]]
     name = "Cinema"
-    pageRef = "/cinema"
-    weight = 1
+    url = "/cinema/"
+
+    weight = 10
 
   [[menu.main]]
     name = "Book"
-    pageRef = "/book"
-    weight = 2
+    url = "/book/"
+    weight = 20
 
   [[menu.main]]
-  name = "Archive"     
-  pageRef = "/photos"
-    weight = 3
+    name = "Photo"
+    url = "/photos/"
+    weight = 30
 
   [[menu.main]]
     name = "Sketch"
-    pageRef = "/sketch"
-    weight = 4
+    url = "/sketch/"
+    weight = 40
 
   [[menu.main]]
     name = "Becoming🎞️"
-    pageRef = "/kimgyeul"
-    weight = 6
+    url = "/kimgyeul/"
+    weight = 50
+
+[markup.goldmark.renderer]
+  unsafe = true

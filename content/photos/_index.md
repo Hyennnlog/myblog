@@ -1,4 +1,4 @@
-+++
-title = "사진"
-draft = false
-+++
+---
+title: "Photos"
+description: "hyennn.log"
+---

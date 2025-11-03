@@ -1,5 +1,16 @@
 /* 적용 확인용: 화면 전체에 보라 테두리 */
-body { outline: 4px solid magenta !important; }
+body { outline: 4px solid magenta !important;
+  /* JP + KR fallback 조합 (한글 완전 지원 + 일본 명조 감성) */
+  font-family: "Noto Serif JP", "Noto Serif KR", serif !important;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  background: #fff;
+  color: #333;
+
+ }
+
+
 
 .navigation .nav-instagram img {
   width: 20px;
@@ -111,8 +122,11 @@ a:hover {
 
 
 body {
-  font-family: 'Noto Serif KR', 'Noto Sans KR', serif;
-  background-color: #ffffff; /* 따뜻한 미색 배경 */
+  font-family: "Noto Serif JP", "Noto Serif KR", serif !important; }
+  background-color: #ffffff;   /* 완전 흰색 배경 유지 */
+  color: #222;                 /* 글자색은 살짝 짙은 회색 추천 */
+  font-weight: 400;            /* 명조는 기본 400~500이 가장 자연스러움 */
+  line-height: 1.6;
 }
 
 
