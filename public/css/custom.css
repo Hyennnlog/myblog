@@ -10,7 +10,10 @@ body { outline: 4px solid magenta !important;
 
  }
 
-
+nav.navigation > .container {
+  max-width: 860px;  /* 메뉴 전용 폭 */
+  padding: 30px 20px;    /* 양쪽 여백 */
+}
 
 .navigation .nav-instagram img {
   width: 20px;

@@ -2,5 +2,4 @@
 title: "Home"
 ---
 
-> "Have more than thou showest, speak less than thou knowest."
-> — William Shakespeare
+> "어느 계절의 시작을 믿어보자"

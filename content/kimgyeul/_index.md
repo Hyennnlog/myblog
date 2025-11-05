@@ -6,7 +6,7 @@ birth: "2022-05-16"
 height: 96
 weight: 13.5
 contact: "agga99@naver.com"
-note: "자연 관찰과 연기를 좋아합니다."
+note: "자연 관찰과 이야기를 좋아합니다."
 
 works:
   - year: 2025
