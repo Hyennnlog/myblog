@@ -16,13 +16,13 @@ theme = "hugo-coder"
   [[menu.main]]
     name = "Cinema"
     url = "/cinema/"
-
     weight = 10
 
   [[menu.main]]
     name = "Book"
     url = "/book/"
     weight = 20
+
 
   [[menu.main]]
     name = "Photo"
