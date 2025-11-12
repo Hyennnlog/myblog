@@ -1,6 +1,6 @@
 baseURL = "https://hyennnlog.kr/"
 languageCode = "ko-kr"
-title = "🐢"
+title = "엄마, 내 눈은 언제 하트로 변해요"
 theme = "hugo-coder"
 
 [pagination]
