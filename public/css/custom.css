@@ -91,9 +91,22 @@ h2 {
 
 
 /* 4) 모바일에서 너무 작아지면 미디어쿼리로 보완 */
+/* 모바일에서 홈 버튼 + 메뉴 간격 벌리기 */
 @media (max-width: 768px) {
-  .navigation-title { font-size: 1.2rem !important; }
-  .navigation a, .nav-item a { font-size: 0.95rem !important; }
+  .navigation .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* 왼쪽/오른쪽으로 쭉 벌리기 */
+    padding: 8px 8px;             /* 좌우 여백은 살짝만 */
+  }
+
+  .navigation-title {
+    margin: 0;
+  }
+
+  .menu-button {
+    margin-left: auto;             /* 메뉴 버튼을 오른쪽 끝으로 */
+  }
 }
 
 /* 글 제목 (h1, h2 등) */
