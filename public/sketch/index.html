@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=62082&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <title>HYENNN</title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,26 +10,26 @@
 
 
 
-<meta name="description" content="hyennn.log">
+<meta name="description" content="연필과 크레용, 낙서와 그림들의 조각들입니다.">
 <meta name="keywords" content="">
 
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="스케치 관련된 글을 적어주자.">
-  <meta name="twitter:description" content="hyennn.log">
+  <meta name="twitter:title" content="Sketch">
+  <meta name="twitter:description" content="연필과 크레용, 낙서와 그림들의 조각들입니다.">
 
-<meta property="og:url" content="http://localhost:62082/sketch/">
+<meta property="og:url" content="http://localhost:1313/sketch/">
   <meta property="og:site_name" content="HYENNN">
-  <meta property="og:title" content="스케치 관련된 글을 적어주자.">
-  <meta property="og:description" content="hyennn.log">
+  <meta property="og:title" content="Sketch">
+  <meta property="og:description" content="연필과 크레용, 낙서와 그림들의 조각들입니다.">
   <meta property="og:locale" content="ko_kr">
   <meta property="og:type" content="website">
 
 
 
 
-<link rel="canonical" href="http://localhost:62082/sketch/">
+<link rel="canonical" href="http://localhost:1313/sketch/">
 
 
 <link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -100,7 +100,7 @@
     <nav class="navigation">
   <section class="container">
     
-<a class="navigation-title" href="http://localhost:62082/">
+<a class="navigation-title" href="http://localhost:1313/">
   <img src="/images/siwa.jpg" alt="home" class="home-logo">
 </a>
     
@@ -146,44 +146,157 @@
 
     <div class="content">
       
-<main class="container" style="max-width:800px;margin:0 auto;padding:24px;">
+
+<main style="max-width:1200px;margin:0 auto;padding:40px 20px;">
 
   
   <h1 style="
-      font-size:15px;
-      font-weight:300;
-      line-height:1.5;
-      letter-spacing:0.2px;
-      margin:40px 0 28px;">
- 스케치 관련된 글을 적어주자.
+    font-size:22px;
+    font-weight:500;
+    letter-spacing:0.5px;
+    margin:0 0 20px 0;
+  ">
+   
   </h1>
 
-  <ul style="list-style:none;margin:0;padding:0;">
+  
+  
+    <div style="margin:0 0 24px 0;font-size:14px;color:#666;line-height:1.7;">
+      <p>연필과 크레용, 낙서와 그림들의 조각들입니다.</p>
+
+    </div>
+  
+
+  
+  <div id="sketch-gallery" class="sketch-grid">
     
-      <li style="display:flex;gap:24px;align-items:baseline;margin:14px 0;font-weight:400;font-family:'Noto Sans KR', sans-serif;">
-        <time style="color:#6b7280;min-width:160px;">
-          October 23, 2025
-        </time>
-        <a href="/sketch/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%A7%84%EB%8B%A4/" style="color:#111;text-decoration:none;font-weight:500;font-family:'Noto Sans KR', sans-serif;">
-          거북이는 의외로 빨리 헤엄친다
+      
+      
+        
+        <a href="/sketch/05/main.jpg" class="sketch-card">
+          <img src="/sketch/05/main.jpg" alt="05">
         </a>
-      </li>
+      
     
-  </ul>
+      
+      
+        
+        <a href="/sketch/04/main.jpg" class="sketch-card">
+          <img src="/sketch/04/main.jpg" alt="04">
+        </a>
+      
+    
+      
+      
+        
+        <a href="/sketch/03/main.jpg" class="sketch-card">
+          <img src="/sketch/03/main.jpg" alt="03">
+        </a>
+      
+    
+      
+      
+        
+        <a href="/sketch/02/main.jpg" class="sketch-card">
+          <img src="/sketch/02/main.jpg" alt="02">
+        </a>
+      
+    
+      
+      
+        
+        <a href="/sketch/01/main.jpg" class="sketch-card">
+          <img src="/sketch/01/main.jpg" alt="01">
+        </a>
+      
+    
+  </div>
+
+  <style>
+     
+    .sketch-grid {
+      column-count: 3;
+      column-gap: 12px;
+    }
+
+    .sketch-card {
+      display: block;
+      break-inside: avoid;
+      margin-bottom: 12px;
+    }
+
+    .sketch-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+      border: 1px solid #e5e5e5;  
+      transition: transform .25s ease, filter .25s ease, opacity .25s ease;
+    }
+
+    .sketch-card img:hover {
+      transform: scale(1.005);
+      filter: brightness(0.96);
+    }
+
+     
+    @media (max-width: 900px) {
+      .sketch-grid {
+        column-count: 2;
+      }
+    }
+
+     
+    @media (max-width: 600px) {
+      .sketch-grid {
+        column-count: 1;
+      }
+    }
+
+  </style>
+
 </main>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery.min.css">
+
+
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const galleryEl = document.getElementById("sketch-gallery");
+  if (galleryEl && typeof lightGallery === "function") {
+lightGallery(galleryEl, {
+  selector: '.sketch-card',
+  plugins: [lgZoom],     
+  speed: 300,
+  thumbnail: true,
+  zoom: true,
+
+   
+  modePadding: 50,        
+  maxZoomLevel: 2.2,        
+});  }
+});
+</script>
+
 
     </div>
 
     <footer class="footer">
-  <section class="container">
-    ©
-    
-    2025
-    
-    ·
-    
-    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
-    
+  <section class="container" style="text-align:center;font-size:12px;color:#777;padding:16px 0;">
+    <p style="margin:4px 0;">
+      © 2025 KIMHYEJIN · HYENNNLOG.KR
+    </p>
+    <p style="margin:4px 0;">
+      built with <a href="https://gohugo.io/" target="_blank" style="color:#777;text-decoration:none;">Hugo</a>
+      &amp;
+      <a href="https://github.com/luizdepra/hugo-coder" target="_blank" style="color:#777;text-decoration:none;">Coder</a>
+    </p>
   </section>
 </footer>
 

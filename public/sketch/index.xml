@@ -1,19 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>스케치 관련된 글을 적어주자. on HYENNN</title>
-    <link>http://localhost:62082/sketch/</link>
-    <description>Recent content in 스케치 관련된 글을 적어주자. on HYENNN</description>
+    <title>Sketch on HYENNN</title>
+    <link>http://localhost:1313/sketch/</link>
+    <description>Recent content in Sketch on HYENNN</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:62082/sketch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/sketch/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>거북이는 의외로 빨리 헤엄친다</title>
-      <link>http://localhost:62082/sketch/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%A7%84%EB%8B%A4/</link>
+      <title>05</title>
+      <link>http://localhost:1313/sketch/05/</link>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sketch/05/</guid>
+      <description>&lt;p&gt;drawing05&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>04</title>
+      <link>http://localhost:1313/sketch/04/</link>
+      <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sketch/04/</guid>
+      <description>&lt;p&gt;drawing04&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>03</title>
+      <link>http://localhost:1313/sketch/03/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sketch/03/</guid>
+      <description>&lt;p&gt;drawing03&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>01</title>
+      <link>http://localhost:1313/sketch/01/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62082/sketch/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%A7%84%EB%8B%A4/</guid>
-      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/sketch/01/</guid>
+      <description>&lt;p&gt;drawing01&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>02</title>
+      <link>http://localhost:1313/sketch/02/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sketch/02/</guid>
+      <description>&lt;p&gt;스케치 테스트 02&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

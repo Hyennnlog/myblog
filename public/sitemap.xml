@@ -13,11 +13,29 @@
     <loc>http://localhost:1313/cinema/%EC%84%B8%EA%B3%84%EC%9D%98%EC%A3%BC%EC%9D%B8/</loc>
     <lastmod>2025-10-31T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/sketch/05/</loc>
+    <lastmod>2025-10-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/photos/greenbluelight/</loc>
+    <lastmod>2025-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/sketch/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/photos/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/sketch/04/</loc>
+    <lastmod>2025-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/sketch/03/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/sketch/01/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/sketch/02/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
@@ -31,16 +49,10 @@
     <loc>http://localhost:1313/siwa/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/sketch/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%A7%84%EB%8B%A4/</loc>
-    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/book/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/book/%EA%B3%A8%EB%AA%A9%EC%9D%98-%EC%A1%B0/</loc>
-    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/sketch/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/photos/cow-cat/</loc>
@@ -52,6 +64,9 @@
     <loc>http://localhost:1313/siwa/busan/</loc>
     <lastmod>2025-10-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/photos/01/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/photos/double-double/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -60,6 +75,9 @@
   </url><url>
     <loc>http://localhost:1313/photos/shadow/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/photos/%EB%A7%A4%EC%8B%A4%EC%B0%A8/</loc>
+    <lastmod>2022-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>

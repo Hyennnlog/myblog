@@ -10,6 +10,15 @@ body { outline: 4px solid magenta !important;
 
  }
 
+.container {
+    max-width: 1200px !important;   /* 기본은 약 860px */
+}
+
+/* 홈(navbar 포함) 위아래 여백 조금 더 */
+.navigation {
+    padding: 20px 40px !important;
+}
+
 nav.navigation > .container {
   max-width: 860px;  /* 메뉴 전용 폭 */
   padding: 30px 20px;    /* 양쪽 여백 */
@@ -145,6 +154,8 @@ body {
   color: black;
 }
 
-
+html {
+  overflow-y: scroll;
+}
 
 

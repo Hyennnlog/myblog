@@ -1,27 +1,107 @@
 {{ define "content" }}
-<main class="container" style="max-width:800px;margin:0 auto;padding:24px;">
 
-  <!-- Book 섹션 제목 -->
+<main style="max-width:1200px;margin:0 auto;padding:40px 20px;">
+
+  <!-- 페이지 제목 -->
   <h1 style="
-      font-size:15px;
-      font-weight:300;
-      line-height:1.5;
-      letter-spacing:0.2px;
-      margin:40px 0 28px;">
- {{ .Title | safeHTML }}
+    font-size:22px;
+    font-weight:500;
+    letter-spacing:0.5px;
+    margin:0 0 20px 0;
+  ">
+   
   </h1>
 
-  <ul style="list-style:none;margin:0;padding:0;">
+  <!-- _index.md 본문 (선택) -->
+  {{ with .Content }}
+    <div style="margin:0 0 24px 0;font-size:14px;color:#666;line-height:1.7;">
+      {{ . }}
+    </div>
+  {{ end }}
+
+  <!-- 스케치 그리드 + LightGallery 대상 -->
+  <div id="sketch-gallery" class="sketch-grid">
     {{ range .RegularPages.ByDate.Reverse }}
-      <li style="display:flex;gap:24px;align-items:baseline;margin:14px 0;font-weight:400;font-family:'Noto Sans KR', sans-serif;">
-        <time style="color:#6b7280;min-width:160px;">
-          {{ .Date.Format "January 2, 2006" }}
-        </time>
-        <a href="{{ .RelPermalink }}" style="color:#111;text-decoration:none;font-weight:500;font-family:'Noto Sans KR', sans-serif;">
-          {{ .Title }}
+      {{ $img := .Resources.GetMatch "main*" }}
+      {{ if $img }}
+        <!-- lightGallery가 여기를 읽어서 전체화면으로 띄움 -->
+        <a href="{{ $img.RelPermalink }}" class="sketch-card">
+          <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}">
         </a>
-      </li>
+      {{ end }}
     {{ end }}
-  </ul>
+  </div>
+
+  <style>
+    /* 컬럼(열) 레이아웃: 사진 비율 그대로, 위아래로 쭉쭉 */
+    .sketch-grid {
+      column-count: 3;
+      column-gap: 12px;
+    }
+
+    .sketch-card {
+      display: block;
+      break-inside: avoid;
+      margin-bottom: 12px;
+    }
+
+    .sketch-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+      border: 1px solid #e5e5e5; /* 얇은 연한 회색 테두리 */
+      transition: transform .25s ease, filter .25s ease, opacity .25s ease;
+    }
+
+    .sketch-card img:hover {
+      transform: scale(1.005);
+      filter: brightness(0.96);
+    }
+
+    /* 태블릿: 2열 */
+    @media (max-width: 900px) {
+      .sketch-grid {
+        column-count: 2;
+      }
+    }
+
+    /* 모바일: 1열 */
+    @media (max-width: 600px) {
+      .sketch-grid {
+        column-count: 1;
+      }
+    }
+
+  </style>
+
 </main>
+
+
+
+<!-- LightGallery CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery.min.css">
+
+<!-- LightGallery JS -->
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const galleryEl = document.getElementById("sketch-gallery");
+  if (galleryEl && typeof lightGallery === "function") {
+lightGallery(galleryEl, {
+  selector: '.sketch-card',
+  plugins: [lgZoom],     
+  speed: 300,
+  thumbnail: true,
+  zoom: true,
+
+  /* ✨ 여기부터 이미지 크기 조절 키 ✨ */
+  modePadding: 50,        // 팝업 이미지 주변 여백
+  maxZoomLevel: 2.2,        // 확대 가능 비율
+});  }
+});
+</script>
+
 {{ end }}
