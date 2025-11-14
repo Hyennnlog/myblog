@@ -4,17 +4,19 @@
 
   <!-- 페이지 제목 -->
   <h1 style="
-    font-size:22px;
+    font-size:15px;
     font-weight:500;
-    letter-spacing:0.5px;
-    margin:0 0 20px 0;
+    letter-spacing:1.5px;
+    margin:24px 0;
+    
   ">
-   
+
+
   </h1>
 
   <!-- _index.md 본문 (선택) -->
   {{ with .Content }}
-    <div style="margin:0 0 24px 0;font-size:14px;color:#666;line-height:1.7;">
+    <div style="margin:40px 0 28px 0;font-size:15px;color:#666;line-height:1.7;font-family: 'Noto Sans KR', sans-serif;">
       {{ . }}
     </div>
   {{ end }}

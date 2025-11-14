@@ -1,8 +1,8 @@
 /* 전체 컨테이너 */
 .photos-wrap {
-  max-width: 860px;   /* ← 그리드 전체 폭 (페이지를 차지하는 폭) */
+  max-width: 1200px;   /* ← 그리드 전체 폭 (페이지를 차지하는 폭) */
   margin: 0 auto;
-  padding: 20px 12px;  /* ← 위아래/좌우 여백 */
+  padding: 40px 20px;  /* ← 위아래/좌우 여백 */
 }
 
 /* 그리드 레이아웃 */
