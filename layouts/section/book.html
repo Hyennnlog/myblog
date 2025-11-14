@@ -1,4 +1,27 @@
 {{ define "content" }}
-<!-- book section -->
-{{ partial "section_list.html" . }}
+<main class="container" style="max-width:800px;margin:0 auto;padding:24px;">
+
+  <!-- Book 섹션 제목 -->
+  <h1 style="
+      font-size:15px;
+      font-weight:300;
+      line-height:1.5;
+      letter-spacing:0.2px;
+      margin:40px 0 28px;">
+ {{ .Title | safeHTML }}
+  </h1>
+
+  <ul style="list-style:none;margin:0;padding:0;">
+    {{ range .RegularPages.ByDate.Reverse }}
+      <li style="display:flex;gap:24px;align-items:baseline;margin:14px 0;font-weight:400;font-family:'Noto Sans KR', sans-serif;">
+        <time style="color:#6b7280;min-width:160px;">
+          {{ .Date.Format "January 2, 2006" }}
+        </time>
+        <a href="{{ .RelPermalink }}" style="color:#111;text-decoration:none;font-weight:500;font-family:'Noto Sans KR', sans-serif;">
+          {{ .Title }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</main>
 {{ end }}

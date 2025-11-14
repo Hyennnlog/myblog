@@ -10,4 +10,3 @@ draft: false
 *내 꿈이 이뤄지는 순간이었거든*
 <u>내가 처음 담당했던 영화야</u>
 
-![스틸컷](/content/cinema/cinema01_01.jpg)

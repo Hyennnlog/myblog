@@ -1,7 +1,18 @@
 {{ define "content" }}
 <main class="photos-wrap">
   <!-- PHOTOS GRID | pages={{ len .RegularPages }} -->
-<h1 class="photos-title">{{ or .Title "Photo" }}</h1>
+
+  <!-- 섹션 제목 -->
+  <h1 style="
+      font-size:15px;
+      font-weight:300;
+      line-height:1.5;
+      letter-spacing:0.2px;
+      margin:40px 0 28px;">
+ {{ .Title | safeHTML }}
+  </h1>
+
+
   <section class="photos-grid">
     {{ range .RegularPages.ByDate.Reverse }}
       {{ $img := or (.Resources.GetMatch "main.*") (index (.Resources.ByType "image") 0) }}

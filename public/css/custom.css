@@ -80,12 +80,12 @@ h2 {
   font-size: 1.5rem;
 }
 
+
 /* 4) 모바일에서 너무 작아지면 미디어쿼리로 보완 */
 @media (max-width: 768px) {
   .navigation-title { font-size: 1.2rem !important; }
   .navigation a, .nav-item a { font-size: 0.95rem !important; }
 }
-
 
 /* 글 제목 (h1, h2 등) */
 h1, h2, h3 {
