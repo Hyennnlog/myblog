@@ -1,43 +1,50 @@
 baseURL = "https://hyennnlog.kr/"
 languageCode = "ko-kr"
-title = "기록"
+title = "HYENNN"
 theme = "hugo-coder"
 
 [pagination]
   pagerSize = 10
 
 [params]
-  author = "김혜진"
+  author = ""
   description = "hyennn.log"
 
   customCSS = ["css/custom.css", "css/photos.css"]
 
 [menu]
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+
   [[menu.main]]
     name = "Cinema"
     url = "/cinema/"
-    weight = 10
+    weight = 20
 
   [[menu.main]]
     name = "Book"
     url = "/book/"
-    weight = 20
+    weight = 30
 
 
   [[menu.main]]
     name = "Photo"
     url = "/photos/"
-    weight = 30
+    weight = 40
 
   [[menu.main]]
     name = "Sketch"
     url = "/sketch/"
-    weight = 40
+    weight = 50
 
   [[menu.main]]
     name = "Becoming🎞️"
     url = "/kimgyeul/"
-    weight = 50
+    weight = 60
 
 [markup.goldmark.renderer]
   unsafe = true

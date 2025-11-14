@@ -1,3 +1,3 @@
 ---
-title: "영화 관련된 문장 같은 거를 여기에 적어주자"
+title: "“The lies are in the dialogue, the truth is in the visuals.”<br>-Kelly Reichardt "
 ---
