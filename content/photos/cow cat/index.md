@@ -3,10 +3,14 @@ title: "Cow Cat"
 date: 2025-10-19
 draft: false
 ---
-![](01.jpg)</br>
+
+<p style="text-align:center;">
 🎞️ AGFA APX 400 </br>
 📸 LeicaMinizoom </br>
-🧷2025.10 </br>
 </br>
+<i>My first work, printed in the darkroom.</i>
+</p>
 
-My first work, printed in the darkroom.
+<div align="center">
+<img src="01.JPG" alt="" width="500">
+<img src="02.JPG" alt="" width="500">
