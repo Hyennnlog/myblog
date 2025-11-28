@@ -62,14 +62,14 @@ html {
   color: #4a4a4a !important;
 }
 .navigation-title:hover {
-  color: #4374D9 !important;  /* 마우스 올렸을 때 색상 */
+  color: #d4d9d2 !important;  /* 마우스 올렸을 때 색상 */
 }
 
 /* 메뉴 텍스트 기본 스타일 */
 .navigation a,
 .nav-item a {
   color: #4a4a4a !important;      /* 기본 글자색 */
-  font-weight: 400;               /* 굵기: 300(얇게)~700(굵게) */
+  font-weight: 200;               /* 굵기: 300(얇게)~700(굵게) */
   font-size: 1.6rem;             /* 크기: 기본보다 살짝 작게 */
   text-transform: none;           /* 모두 대문자 방지 */
   letter-spacing: 0.5px;          /* 글자 간격 */
@@ -78,9 +78,10 @@ html {
 /* 메뉴 hover (마우스 올릴 때) */
 .navigation a:hover,
 .nav-item a:hover {
-  color: #7a5e48 !important;      /* 따뜻한 브라운 계열 강조색 */
+  color: #4a4a4a !important;      /*  */
   transition: color 0.2s ease;
 }
+
 
 
 /* 3) 본문 제목 (필요하면) */
@@ -250,4 +251,9 @@ html {
   background-color: transparent;  /* 흰 바탕 덮어씌우는 거 제거 */
 }
 
+/* 모바일 메뉴 오픈 시 보이는 배경을 투명하게 변경 */
+#menu-toggle:checked ~ .navigation-list {
+  background-color: rgba(220, 220, 220, 0.5) !important; /* 완전 투명 */
+  backdrop-filter: blur(px); /* 선택: 배경 살짝 흐리게 (없애도 됨) */
+}
 
