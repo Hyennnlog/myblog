@@ -10,6 +10,7 @@
 
 
 
+<meta name="author" content="kimhyejin">
 <meta name="description" content="hyennn.log">
 <meta name="keywords" content="">
 
@@ -87,7 +88,7 @@
 
 
 
-<body class="preload-transitions colorscheme-light">
+<body class="site-bg">
   
 <div class="float-container">
     <a id="dark-mode-toggle" class="colorscheme-toggle">
@@ -100,9 +101,10 @@
     <nav class="navigation">
   <section class="container">
     
-<a class="navigation-title" href="http://localhost:1313/">
-  <img src="/images/siwa.png" alt="home" class="home-logo">
+<a class="navigation-title" href="http://localhost:1313/" style="font-weight:600;letter-spacing:2px;">
+  "엄마, 내 눈은 언제 하트로 변해요"
 </a>
+
     
     
       <input type="checkbox" id="menu-toggle" />
@@ -146,49 +148,79 @@
 
     <div class="content">
       
-<main class="container" style="max-width:800px;margin:0 auto;padding:24px;">
+<main class="photos-wrap">
+  <h1 class="photos-title">만조를 기다리며.</h1>
 
-  
-  <h1 style="
-      font-size:15px;
-      font-weight:300;
-      line-height:1.5;
-      letter-spacing:0.2px;
-      margin:40px 0 28px;">
- 만조를 기다리며.
-  </h1>
-
-  <ul style="list-style:none;margin:0;padding:0;">
+  <section class="photos-grid">
     
-      <li style="display:flex;gap:24px;align-items:baseline;margin:14px 0;font-weight:400;font-family:'Noto Sans KR', sans-serif;">
-        <time style="color:#6b7280;min-width:160px;">
-          November 26, 2025
-        </time>
-        <a href="/book/%EB%B0%A4%EC%9D%B4%EC%98%81%EC%9B%90%ED%95%A0%EA%B2%83%EC%B2%98%EB%9F%BC/" style="color:#111;text-decoration:none;font-weight:500;font-family:'Noto Sans KR', sans-serif;">
-          서유미 소설집 『밤이 영원할 것처럼』 
+      
+      
+        
+        <a class="ph-card" href="/book/%EB%B0%A4%EC%9D%B4%EC%98%81%EC%9B%90%ED%95%A0%EA%B2%83%EC%B2%98%EB%9F%BC/" aria-label="서유미 소설집 『밤이 영원할 것처럼』 ">
+          <img src="/book/%EB%B0%A4%EC%9D%B4%EC%98%81%EC%9B%90%ED%95%A0%EA%B2%83%EC%B2%98%EB%9F%BC/main_hu_4fd60f07162ba861.jpg" alt="서유미 소설집 『밤이 영원할 것처럼』 " loading="lazy" decoding="async">
         </a>
-      </li>
+      
     
-      <li style="display:flex;gap:24px;align-items:baseline;margin:14px 0;font-weight:400;font-family:'Noto Sans KR', sans-serif;">
-        <time style="color:#6b7280;min-width:160px;">
-          October 23, 2025
-        </time>
-        <a href="/book/%EA%B3%A8%EB%AA%A9%EC%9D%98-%EC%A1%B0/" style="color:#111;text-decoration:none;font-weight:500;font-family:'Noto Sans KR', sans-serif;">
-          송섬 장편소설 『골목의 조』 
+      
+      
+        
+        <a class="ph-card" href="/book/%EA%B3%A8%EB%AA%A9%EC%9D%98-%EC%A1%B0/" aria-label="송섬 장편소설 『골목의 조』 ">
+          <img src="/book/%EA%B3%A8%EB%AA%A9%EC%9D%98-%EC%A1%B0/main_hu_7b85ceb74e42674e.jpg" alt="송섬 장편소설 『골목의 조』 " loading="lazy" decoding="async">
         </a>
-      </li>
+      
     
-      <li style="display:flex;gap:24px;align-items:baseline;margin:14px 0;font-weight:400;font-family:'Noto Sans KR', sans-serif;">
-        <time style="color:#6b7280;min-width:160px;">
-          October 21, 2025
-        </time>
-        <a href="/book/%EC%B0%A8%EC%9D%B4%EB%B0%8D%EB%9F%89-%ED%96%89%EC%9E%90-%EC%97%B0%EC%9E%91/" style="color:#111;text-decoration:none;font-weight:500;font-family:'Noto Sans KR', sans-serif;">
-          차이밍량 행자 연작 
+      
+      
+        
+        <a class="ph-card" href="/book/%EC%B0%A8%EC%9D%B4%EB%B0%8D%EB%9F%89-%ED%96%89%EC%9E%90-%EC%97%B0%EC%9E%91/" aria-label="차이밍량 행자 연작 ">
+          <img src="/book/%EC%B0%A8%EC%9D%B4%EB%B0%8D%EB%9F%89-%ED%96%89%EC%9E%90-%EC%97%B0%EC%9E%91/01_hu_8d550467ba3948a.jpg" alt="차이밍량 행자 연작 " loading="lazy" decoding="async">
         </a>
-      </li>
+      
     
-  </ul>
+  </section>
 </main>
+
+<style>
+   
+  .photos-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+
+   
+  .photos-title {
+    color: #666;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    text-align: left;
+  }
+
+   
+  .photos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+
+   
+  .ph-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;    
+    display: block;
+    border-radius: 0;
+  }
+
+   
+  @media (max-width: 600px) {
+    .photos-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>
 
     </div>
 

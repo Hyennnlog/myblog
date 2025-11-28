@@ -10,6 +10,7 @@
 
 
 
+<meta name="author" content="kimhyejin">
 <meta name="description" content="hyennn.log">
 <meta name="keywords" content="">
 
@@ -89,7 +90,7 @@
 
 
 
-<body class="preload-transitions colorscheme-light">
+<body class="site-bg">
   
 <div class="float-container">
     <a id="dark-mode-toggle" class="colorscheme-toggle">
@@ -102,9 +103,10 @@
     <nav class="navigation">
   <section class="container">
     
-<a class="navigation-title" href="http://localhost:1313/">
-  <img src="/images/siwa.png" alt="home" class="home-logo">
+<a class="navigation-title" href="http://localhost:1313/" style="font-weight:600;letter-spacing:2px;">
+  "엄마, 내 눈은 언제 하트로 변해요"
 </a>
+
     
     
       <input type="checkbox" id="menu-toggle" />
@@ -148,41 +150,71 @@
 
     <div class="content">
       
+<main class="photos-wrap">
+  <h1 class="photos-title">“The lies are in the dialogue, the truth is in the visuals.”&lt;br&gt;-Kelly Reichardt </h1>
 
-<main class="container" style="max-width:800px;margin:0 auto;padding:24px;">
-  
-  <h1 style="
-      font-size:15px;
-      font-weight:300;
-      line-height:1.5;
-      letter-spacing:0.2px;
-      margin:40px 0 28px;">
- “The lies are in the dialogue, the truth is in the visuals.”<br>-Kelly Reichardt 
-  </h1>
-
-
-  <ul style="list-style:none;margin:0;padding:0;">
+  <section class="photos-grid">
     
-      <li style="display:flex;gap:24px;align-items:baseline;margin:14px 0;font-weight:400;font-family:'Noto Sans KR', sans-serif;">
-        <time style="color:#6b7280;min-width:160px;">
-          October 31, 2025
-        </time>
-        <a href="/cinema/%EC%84%B8%EA%B3%84%EC%9D%98%EC%A3%BC%EC%9D%B8/" style="color:#111;text-decoration:none;font-weight:500;">
-          세계의 주인, The World of Love
+      
+      
+        
+        <a class="ph-card" href="/cinema/%EC%84%B8%EA%B3%84%EC%9D%98%EC%A3%BC%EC%9D%B8/" aria-label="세계의 주인, The World of Love">
+          <img src="/cinema/%EC%84%B8%EA%B3%84%EC%9D%98%EC%A3%BC%EC%9D%B8/%EC%84%B8%EA%B3%84%EC%9D%98%EC%A3%BC%EC%9D%B8_hu_ed9afdfcf5b4acc6.gif" alt="세계의 주인, The World of Love" loading="lazy" decoding="async">
         </a>
-      </li>
+      
     
-      <li style="display:flex;gap:24px;align-items:baseline;margin:14px 0;font-weight:400;font-family:'Noto Sans KR', sans-serif;">
-        <time style="color:#6b7280;min-width:160px;">
-          May 15, 2025
-        </time>
-        <a href="/cinema/%ED%95%B4%ED%94%BC%EC%97%94%EB%93%9C/" style="color:#111;text-decoration:none;font-weight:500;">
-          해피엔드, Happyend
+      
+      
+        
+        <a class="ph-card" href="/cinema/%ED%95%B4%ED%94%BC%EC%97%94%EB%93%9C/" aria-label="해피엔드, Happyend">
+          <img src="/cinema/%ED%95%B4%ED%94%BC%EC%97%94%EB%93%9C/happyend_hu_576d70630f6fbf56.jfif" alt="해피엔드, Happyend" loading="lazy" decoding="async">
         </a>
-      </li>
+      
     
-  </ul>
+  </section>
 </main>
+
+<style>
+   
+  .photos-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+
+   
+  .photos-title {
+    color: #666;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    text-align: left;
+  }
+
+   
+  .photos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+
+   
+  .ph-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;    
+    display: block;
+    border-radius: 0;
+  }
+
+   
+  @media (max-width: 600px) {
+    .photos-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>
 
     </div>
 

@@ -7,7 +7,7 @@ theme = "hugo-coder"
   pagerSize = 10
 
 [params]
-  author = ""
+  author = "kimhyejin"
   description = "hyennn.log"
 
   customCSS = ["css/custom.css", "css/photos.css"]

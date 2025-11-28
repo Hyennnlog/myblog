@@ -10,6 +10,9 @@ body { outline: 4px solid magenta !important;
 
  }
 
+@import "photos.css"; /* photo 그리드 적용 */
+
+
 .container {
     max-width: 1200px !important;   /* 기본은 약 860px */
 }
@@ -213,6 +216,38 @@ body {
 
 html {
   overflow-y: scroll;
+}
+
+/* 사이트 전체 배경 이미지 (모든 페이지 공통) */
+.site-bg {
+  background-image: url("/images/home-bg.jpg"); /* 배경 파일 경로 */
+  background-size: cover;        /* 화면 꽉 채우기 */
+  background-position: center;   /* 이미지 중앙 기준 */
+  background-repeat: no-repeat;
+  background-attachment: fixed;  /* 고정 (스크롤해도 배경 안 움직임) */
+}
+
+/* 내용 영역 배경이 흰색일 경우 배경을 가려서 안 보일 수 있으므로 투명하게 */
+.container,
+.wrapper,
+.main-content,
+.content {
+  background-color: transparent !important;
+}
+
+/* 홈 화면 전용 배경 이미지 */
+.home-body {
+  background-image: url("/images/home-bg.jpg"); /* static/images/home-bg.jpg */
+  background-size: cover;       /* 화면 꽉 채우기 */
+  background-position: center;  /* 가운데 기준 */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* 스크롤해도 고정: 취향에 따라 빼도 됨 */
+}
+
+/* 안의 메인 컨테이너 배경이 흰색이면 이미지가 안 보일 수 있어서, 필요에 따라 조정 */
+.home-body .wrapper,
+.home-body .container {
+  background-color: transparent;  /* 흰 바탕 덮어씌우는 거 제거 */
 }
 
 
