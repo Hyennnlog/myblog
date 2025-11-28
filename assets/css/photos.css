@@ -210,3 +210,12 @@
     gap: 6px;
   }
 }
+
+/* 전체 사이트 전역 배경 이미지 */
+body {
+  background-image: url("/images/home-bg.jpg");   /* 너의 배경 이미지로 변경 */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* 스크롤해도 고정 */
+}

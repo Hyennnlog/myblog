@@ -148,146 +148,97 @@
 
     <div class="content">
       
+<main class="photos-wrap">
+  <h1 class="photos-title">Sketch</h1>
 
-<main style="max-width:1200px;margin:0 auto;padding:40px 20px;">
-
-  
-  <h1 style="
-    font-size:15px;
-    font-weight:500;
-    letter-spacing:1.5px;
-    margin:24px 0;
-    
-  ">
-
-
-  </h1>
-
-  
-  
-    <div style="margin:40px 0 28px 0;font-size:15px;color:#666;line-height:1.7;font-family: 'Noto Sans KR', sans-serif;">
-      <p>연필과 크레용, 낙서와 그림들의 조각들입니다.</p>
-
-    </div>
-  
-
-  
-  <div id="sketch-gallery" class="sketch-grid">
+  <section class="photos-grid">
     
       
       
         
-        <a href="/sketch/05/main.jpg" class="sketch-card">
-          <img src="/sketch/05/main.jpg" alt="05">
+        <a class="ph-card" href="/sketch/05/" aria-label="05">
+          <img src="/sketch/05/main_hu_287741cbf4b1a5d7.jpg" alt="05" loading="lazy" decoding="async">
         </a>
       
     
       
       
         
-        <a href="/sketch/04/main.jpg" class="sketch-card">
-          <img src="/sketch/04/main.jpg" alt="04">
+        <a class="ph-card" href="/sketch/04/" aria-label="04">
+          <img src="/sketch/04/main_hu_56ee0d2064afa7dd.jpg" alt="04" loading="lazy" decoding="async">
         </a>
       
     
       
       
         
-        <a href="/sketch/03/main.jpg" class="sketch-card">
-          <img src="/sketch/03/main.jpg" alt="03">
+        <a class="ph-card" href="/sketch/03/" aria-label="03">
+          <img src="/sketch/03/main_hu_46a8036fdf282fe4.jpg" alt="03" loading="lazy" decoding="async">
         </a>
       
     
       
       
         
-        <a href="/sketch/02/main.jpg" class="sketch-card">
-          <img src="/sketch/02/main.jpg" alt="02">
+        <a class="ph-card" href="/sketch/02/" aria-label="02">
+          <img src="/sketch/02/main_hu_db137df217ba62f0.jpg" alt="02" loading="lazy" decoding="async">
         </a>
       
     
       
       
         
-        <a href="/sketch/01/main.jpg" class="sketch-card">
-          <img src="/sketch/01/main.jpg" alt="01">
+        <a class="ph-card" href="/sketch/01/" aria-label="01">
+          <img src="/sketch/01/main_hu_b7003cd0da188897.jpg" alt="01" loading="lazy" decoding="async">
         </a>
       
     
-  </div>
-
-  <style>
-     
-    .sketch-grid {
-      column-count: 3;
-      column-gap: 12px;
-    }
-
-    .sketch-card {
-      display: block;
-      break-inside: avoid;
-      margin-bottom: 12px;
-    }
-
-    .sketch-card img {
-      width: 100%;
-      height: auto;
-      border-radius: 0;
-      border: 1px solid #e5e5e5;  
-      transition: transform .25s ease, filter .25s ease, opacity .25s ease;
-    }
-
-    .sketch-card img:hover {
-      transform: scale(1.005);
-      filter: brightness(0.96);
-    }
-
-     
-    @media (max-width: 900px) {
-      .sketch-grid {
-        column-count: 2;
-      }
-    }
-
-     
-    @media (max-width: 600px) {
-      .sketch-grid {
-        column-count: 1;
-      }
-    }
-
-  </style>
-
+  </section>
 </main>
 
-
-
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery.min.css">
-
-
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const galleryEl = document.getElementById("sketch-gallery");
-  if (galleryEl && typeof lightGallery === "function") {
-lightGallery(galleryEl, {
-  selector: '.sketch-card',
-  plugins: [lgZoom],     
-  speed: 300,
-  thumbnail: true,
-  zoom: true,
+<style>
+   
+  .photos-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
 
    
-  modePadding: 50,        
-  maxZoomLevel: 2.2,        
-});  }
-});
-</script>
+  .photos-title {
+    color: #fff;
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    text-indent: 1.2em;  
+    margin:40px 0 28px;
+  }
 
+   
+  .photos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+
+   
+  .ph-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 3 / 4;     
+    display: block;
+    border-radius: 0;
+  }
+
+   
+  @media (max-width: 600px) {
+    .photos-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>
 
     </div>
 

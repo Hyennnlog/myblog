@@ -1,18 +1,23 @@
 {{ define "content" }}
 <main class="photos-wrap">
-  <h1 class="photos-title">{{ .Title }}</h1>
 
-  <section class="photos-grid">
-    {{ range .RegularPages.ByDate.Reverse }}
-      {{ $img := or (.Resources.GetMatch "main.*") (index (.Resources.ByType "image") 0) }}
-      {{ if $img }}
-        {{ $thumb := $img.Fill "600x600 Center" }}
-        <a class="ph-card" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
-          <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" loading="lazy" decoding="async">
-        </a>
+  <!-- ✅ 반투명 박스용 래퍼 -->
+  <div class="book-panel">
+    <h1 class="photos-title">{{ .Title }}</h1>
+
+    <section class="photos-grid">
+      {{ range .RegularPages.ByDate.Reverse }}
+        {{ $img := or (.Resources.GetMatch "main.*") (index (.Resources.ByType "image") 0) }}
+        {{ if $img }}
+          {{ $thumb := $img.Fill "600x600 Center" }}
+          <a class="ph-card" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+            <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" loading="lazy" decoding="async">
+          </a>
+        {{ end }}
       {{ end }}
-    {{ end }}
-  </section>
+    </section>
+  </div> <!-- /.book-panel -->
+
 </main>
 
 <style>
@@ -23,13 +28,22 @@
     padding: 40px 20px;
   }
 
+  /* ✅ 반투명 박스 */
+  .book-panel {
+    background: rgba(0, 0, 0, 0.5);  /* ← 반투명 검정 */
+    padding: 20px;
+    border-radius: 10px;
+  }
+
   /* 제목 */
   .photos-title {
-    color: #666;
-    font-weight: 300;
-    font-size: 18px;
+    color: #fff;
+    font-weight: 200;
+    font-size: 16px;
     letter-spacing: 1.5px;
     text-align: left;
+    text-indent: 1.2em;
+    margin: 0 0 20px;
   }
 
   /* 그리드 기본: 데스크탑 3칸 */
@@ -44,7 +58,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    aspect-ratio: 1 / 1;   /* 정사각형 */
+    aspect-ratio: 1 / 1;
     display: block;
     border-radius: 0;
   }

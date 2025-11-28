@@ -1,109 +1,61 @@
 {{ define "content" }}
+<main class="photos-wrap">
+  <h1 class="photos-title">{{ .Title }}</h1>
 
-<main style="max-width:1200px;margin:0 auto;padding:40px 20px;">
-
-  <!-- 페이지 제목 -->
-  <h1 style="
-    font-size:15px;
-    font-weight:500;
-    letter-spacing:1.5px;
-    margin:24px 0;
-    
-  ">
-
-
-  </h1>
-
-  <!-- _index.md 본문 (선택) -->
-  {{ with .Content }}
-    <div style="margin:40px 0 28px 0;font-size:15px;color:#666;line-height:1.7;font-family: 'Noto Sans KR', sans-serif;">
-      {{ . }}
-    </div>
-  {{ end }}
-
-  <!-- 스케치 그리드 + LightGallery 대상 -->
-  <div id="sketch-gallery" class="sketch-grid">
+  <section class="photos-grid">
     {{ range .RegularPages.ByDate.Reverse }}
-      {{ $img := .Resources.GetMatch "main*" }}
+      {{ $img := or (.Resources.GetMatch "main.*") (index (.Resources.ByType "image") 0) }}
       {{ if $img }}
-        <!-- lightGallery가 여기를 읽어서 전체화면으로 띄움 -->
-        <a href="{{ $img.RelPermalink }}" class="sketch-card">
-          <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}">
+        {{ $thumb := $img.Fill "600x600 Center" }}
+        <a class="ph-card" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+          <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" loading="lazy" decoding="async">
         </a>
       {{ end }}
     {{ end }}
-  </div>
-
-  <style>
-    /* 컬럼(열) 레이아웃: 사진 비율 그대로, 위아래로 쭉쭉 */
-    .sketch-grid {
-      column-count: 3;
-      column-gap: 12px;
-    }
-
-    .sketch-card {
-      display: block;
-      break-inside: avoid;
-      margin-bottom: 12px;
-    }
-
-    .sketch-card img {
-      width: 100%;
-      height: auto;
-      border-radius: 0;
-      border: 1px solid #e5e5e5; /* 얇은 연한 회색 테두리 */
-      transition: transform .25s ease, filter .25s ease, opacity .25s ease;
-    }
-
-    .sketch-card img:hover {
-      transform: scale(1.005);
-      filter: brightness(0.96);
-    }
-
-    /* 태블릿: 2열 */
-    @media (max-width: 900px) {
-      .sketch-grid {
-        column-count: 2;
-      }
-    }
-
-    /* 모바일: 1열 */
-    @media (max-width: 600px) {
-      .sketch-grid {
-        column-count: 1;
-      }
-    }
-
-  </style>
-
+  </section>
 </main>
 
+<style>
+  /* 전체 컨테이너 */
+  .photos-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
 
+  /* 제목 */
+  .photos-title {
+    color: #fff;
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    text-indent: 1.2em; /* 원하는 만큼 조절 */
+    margin:40px 0 28px;
+  }
 
-<!-- LightGallery CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery.min.css">
+  /* 그리드 기본: 데스크탑 3칸 */
+  .photos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
 
-<!-- LightGallery JS -->
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script>
+  /* 카드 이미지 */
+  .ph-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 3 / 4;    /* ← 3:4 비율로 변경 */
+    display: block;
+    border-radius: 0;
+  }
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const galleryEl = document.getElementById("sketch-gallery");
-  if (galleryEl && typeof lightGallery === "function") {
-lightGallery(galleryEl, {
-  selector: '.sketch-card',
-  plugins: [lgZoom],     
-  speed: 300,
-  thumbnail: true,
-  zoom: true,
-
-  /* ✨ 여기부터 이미지 크기 조절 키 ✨ */
-  modePadding: 50,        // 팝업 이미지 주변 여백
-  maxZoomLevel: 2.2,        // 확대 가능 비율
-});  }
-});
-</script>
-
+  /* 모바일(600px 이하)에서 3칸 */
+  @media (max-width: 600px) {
+    .photos-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>
 {{ end }}

@@ -159,11 +159,12 @@ h2 {
 
 /* 글 제목 (h1, h2 등) */
 h1, h2, h3 {
-  color: #333333;
+  color: #d5d5d5;
   font-size: 2rem;
   font-weight: 400;              /* 300: 얇게, 700: 굵게 */
   letter-spacing: 1px;         /* 글자 간격 */
   line-height: 1.4;
+
 }
 
 /* 본문 글 제목 아래 여백 조정 */
@@ -177,15 +178,18 @@ h2 {
 
 /* 본문 기본 텍스트 */
 p {
-  color: #4f4f4f;
+  color: #d5d5d5;
   font-size: 1.rem;
   line-height: 1.8;
   font-weight: 300;
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: px;
+  border-radius: 0px;
 }
 
 /* 링크 (본문 내 링크 색상) */
 a {
-  color: #7a5e48;
+  color: #C7D3ED;
   text-decoration: none;
 }
 a:hover {
@@ -284,3 +288,4 @@ html {
     display: block;
   }
 }
+
