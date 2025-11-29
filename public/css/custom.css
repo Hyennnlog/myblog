@@ -182,9 +182,6 @@ p {
   font-size: 1.rem;
   line-height: 1.8;
   font-weight: 300;
-  background-color: rgba(0, 0, 0, 0.35);
-  padding: px;
-  border-radius: 0px;
 }
 
 /* 링크 (본문 내 링크 색상) */
