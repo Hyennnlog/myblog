@@ -41,7 +41,7 @@
 
 /* hover 시 어둡게 */
 .ph-card:hover img {
-  opacity: 0.4;
+  opacity: 0.5;
 }
 
 /* hover 시 제목 표시 */
@@ -186,13 +186,13 @@
 .kimg-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* ✅ 한 줄에 3개씩 */
-  gap: 8px; /* 사진 사이 간격 */
+  gap: 3px; /* 사진 사이 간격 */
 }
 
 .kimg-card {
   aspect-ratio: 1/1;
   overflow: hidden;
-  border: 1px solid #000;
+  border: 0px;
   display: block;
 }
 
@@ -206,8 +206,8 @@
 /* 모바일에서는 두 줄로 */
 @media (max-width: 640px) {
   .kimg-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 6px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
   }
 }
 
