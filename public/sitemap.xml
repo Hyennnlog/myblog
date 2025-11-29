@@ -7,10 +7,10 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/book/</loc>
+    <loc>http://localhost:1313/book/%EB%B0%A4%EC%9D%B4%EC%98%81%EC%9B%90%ED%95%A0%EA%B2%83%EC%B2%98%EB%9F%BC/</loc>
     <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/book/%EB%B0%A4%EC%9D%B4%EC%98%81%EC%9B%90%ED%95%A0%EA%B2%83%EC%B2%98%EB%9F%BC/</loc>
+    <loc>http://localhost:1313/book/</loc>
     <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/photos/</loc>
@@ -49,13 +49,13 @@
     <loc>http://localhost:1313/archive/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/siwa/</loc>
-    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/archive/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/siwa/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
+    <loc>http://localhost:1313/diary/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/diary/</loc>
     <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/book/%EA%B3%A8%EB%AA%A9%EC%9D%98-%EC%A1%B0/</loc>
@@ -70,7 +70,7 @@
     <loc>http://localhost:1313/photos/family/</loc>
     <lastmod>2025-10-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/siwa/busan/</loc>
+    <loc>http://localhost:1313/diary/busan/</loc>
     <lastmod>2025-10-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/photos/01/</loc>
@@ -91,6 +91,8 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/siwa/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

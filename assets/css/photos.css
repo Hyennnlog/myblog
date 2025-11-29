@@ -9,11 +9,11 @@
 .photos-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 6px;
+  gap: 1px;
 }
 
 .photos-title {
-  color: #666;
+  color: #43587f;
   font-weight: 300;
   font-size: 18px;
   letter-spacing: 1.5px;
@@ -26,7 +26,6 @@
   position: relative;
   aspect-ratio: 1 / 1;
   overflow: hidden;
-  border: 0.7px solid #4C4C4C;
   background: #000000;
 }
 
@@ -60,7 +59,7 @@
   pointer-events: none;        /* 텍스트가 클릭 막지 않도록 */
   transition: opacity 0.25s ease-in-out;
   font-family: 'Inter', 'Noto Sans KR', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .ph-card:hover::after {
@@ -82,7 +81,7 @@
 
 .photo-nav a {
   font-size: 15px;
-  color: #6b4b2e; /* 따뜻한 브라운 계열. 검정 원하면 #111 */
+  color: #43587f; /* 따뜻한 브라운 계열. 검정 원하면 #111 */
   text-decoration: none;
   font-weight: 400;
   transition: color 0.2s ease;
@@ -109,7 +108,7 @@
 }
 
 .photo-nav a:hover {
-  color: #666;
+  color: #43587f;
 }
 
 
@@ -186,7 +185,7 @@
 .kimg-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* ✅ 한 줄에 3개씩 */
-  gap: 3px; /* 사진 사이 간격 */
+  gap: 1px; /* 사진 사이 간격 */
 }
 
 .kimg-card {
@@ -207,7 +206,7 @@
 @media (max-width: 640px) {
   .kimg-grid {
     grid-template-columns: repeat(3, 1fr);
-    gap: 3px;
+    gap: 1px;
   }
 }
 

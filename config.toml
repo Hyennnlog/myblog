@@ -15,36 +15,41 @@ theme = "hugo-coder"
 [menu]
 
   [[menu.main]]
-    name = "About"
+    name = "소개"
     url = "/about/"
     weight = 10
 
 
   [[menu.main]]
-    name = "Cinema"
+    name = "영화리뷰"
     url = "/cinema/"
     weight = 20
 
   [[menu.main]]
-    name = "Book"
+    name = "독서노트"
     url = "/book/"
     weight = 30
 
 
   [[menu.main]]
-    name = "Photo"
+    name = "필름기록"
     url = "/photos/"
     weight = 40
 
   [[menu.main]]
-    name = "Sketch"
+    name = "스케치북"
     url = "/sketch/"
     weight = 50
 
   [[menu.main]]
-    name = "Becoming🎞️"
-    url = "/kimgyeul/"
+    name = "일기장"
+    url = "/diary/"
     weight = 60
+
+  [[menu.main]]
+    name = "🎞️"
+    url = "/kimgyeul/"
+    weight = 70
 
 [markup.goldmark.renderer]
   unsafe = true

@@ -1,0 +1,33 @@
+{{ define "content" }}
+<main class="container" style="max-width:1200px;margin:0 auto;padding:40px 20px;">
+
+  <h1 style="
+    font-size:16px;
+    font-weight:400;
+    margin:40px 0 28px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    text-indent: 1.2em; /* 원하는 만큼 조절 */
+    color:#3d61ad;">{{ .Title }}
+
+</h1>
+
+  {{ with .Content }}
+    <div style="font-size:14px;color:#666;margin:0 0 24px;line-height:1.7;">
+      {{ . }}
+    </div>
+  {{ end }}
+
+  <ul style="list-style:none;padding:0;margin:0;">
+    {{ range .RegularPages.ByDate.Reverse }}
+      <li style="margin-bottom:12px;">
+        <a href="{{ .RelPermalink }}" style="display:flex;gap:12px;align-items:baseline;text-decoration:none;">
+          <span style="font-size:13px;color:#60776c;min-width:90px;">{{ .Date.Format "Jan 02, 2006" }}</span>
+          <span style="font-size:15px;color:#43587f;">{{ .Title }}</span>
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+
+</main>
+{{ end }}
