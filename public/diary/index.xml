@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>그리고 나의 이야기 on HYENNN</title>
-    <link>http://localhost:59376/diary/</link>
+    <link>http://localhost:1313/diary/</link>
     <description>Recent content in 그리고 나의 이야기 on HYENNN</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:59376/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>처음 쓰는 일기</title>
+      <link>http://localhost:1313/diary/2025-11-30-first/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/diary/2025-11-30-first/</guid>
+      <description>&lt;p&gt;오늘은 블로그에 일기 섹션을 만들었다.&lt;br&gt;&#xA;조금 복잡했지만 뿌듯하다. 🐢&lt;/p&gt;</description>
+    </item>
     <item>
       <title>거북이는 의외로 빨리 헤엄친다</title>
-      <link>http://localhost:59376/diary/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
+      <link>http://localhost:1313/diary/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:59376/diary/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
-      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:59376/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/diary/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
+      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Busan</title>
-      <link>http://localhost:59376/diary/busan/</link>
+      <link>http://localhost:1313/diary/busan/</link>
       <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:59376/diary/busan/</guid>
+      <guid>http://localhost:1313/diary/busan/</guid>
       <description>&lt;p&gt;부산 여행 기록 한두 줄…&lt;/p&gt;</description>
     </item>
   </channel>

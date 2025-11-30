@@ -1,8 +1,10 @@
 ---
-title: "03"
-date: 2025-10-25
+title: "그리다 만,"
+date: 2021-05-20
 draft: false
 ---
 
-drawing03
+![스케치북](main.jpg)
+
+2021년 초여름 제주 바다. 그리다 만..
 

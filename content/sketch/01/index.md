@@ -1,8 +1,10 @@
 ---
-title: "01"
-date: 2025-10-23
+title: "25년 여름, 시와"
+date: 2025-08-01
 draft: false
 ---
 
-drawing01
+![스케치북](main.jpg)
+
+25년 여름, 시와
 
