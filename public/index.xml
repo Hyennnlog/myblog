@@ -2,255 +2,283 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on HYENNN</title>
-    <link>http://localhost:50080/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on HYENNN</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
     <lastBuildDate>Sun, 30 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50080/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>처음 쓰는 일기</title>
-      <link>http://localhost:50080/diary/2025-11-30-first/</link>
+      <link>http://localhost:1313/diary/2025-11-30-first/</link>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/diary/2025-11-30-first/</guid>
+      <guid>http://localhost:1313/diary/2025-11-30-first/</guid>
       <description>&lt;p&gt;오늘은 블로그에 일기 섹션을 만들었다.&lt;br&gt;&#xA;조금 복잡했지만 뿌듯하다. 🐢&lt;/p&gt;</description>
     </item>
     <item>
       <title>서유미 소설집 『밤이 영원할 것처럼』 </title>
-      <link>http://localhost:50080/book/%EB%B0%A4%EC%9D%B4%EC%98%81%EC%9B%90%ED%95%A0%EA%B2%83%EC%B2%98%EB%9F%BC/</link>
+      <link>http://localhost:1313/book/%EB%B0%A4%EC%9D%B4%EC%98%81%EC%9B%90%ED%95%A0%EA%B2%83%EC%B2%98%EB%9F%BC/</link>
       <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/book/%EB%B0%A4%EC%9D%B4%EC%98%81%EC%9B%90%ED%95%A0%EA%B2%83%EC%B2%98%EB%9F%BC/</guid>
+      <guid>http://localhost:1313/book/%EB%B0%A4%EC%9D%B4%EC%98%81%EC%9B%90%ED%95%A0%EA%B2%83%EC%B2%98%EB%9F%BC/</guid>
       <description>&lt;img src=&#34;main.jpg&#34; alt=&#34;밤이 영원할 것처럼&#34; width=&#34;500&#34;&gt;&#xD;&#xA;&lt;p&gt;&lt;u&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/u&gt;&lt;br&gt;&#xA;이 책을 추천한 책방지기는 이렇게 소개했다. &amp;ldquo;이 소설이 얼마나 좋은지 어떻게 말로 다하지! 소설을 읽는 내내 인물들이 나아가는 방향으로 함께 마음을 썼다. 내면의 어떤 부분을 자꾸만 건드리는 탓에 여러번 일기를 써야했다.&amp;rdquo; 기대한 것보다 더 좋았다. 수록된 단편 모두, 각각의 인물들이 품고 있는 에너지가 좋았다. 작가만의 속도로 인물을 보여주고 주변을 잠시 들였다가 다시 제자리로 돌아가 숨 한 번 돌리는 이야기들. 한두번의 언급으로만 드러나는 주변 인물들의 묘사가 나는 왜그렇게 좋았을까. 특히, &amp;lt;밤이 벤치&amp;gt;의 경진이 느꼈던 &lt;em&gt;어떤 시기의 자신을 거기에 두고 온 것 같은 기분&lt;/em&gt;을 나도 알 것만 같아서, 짧은 이야기로 만났지만 정이 든 것만 같다.&#xA;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&#xA;&lt;u&gt;&lt;strong&gt;Underlines&lt;/strong&gt;&lt;/u&gt;&lt;br&gt;&#xA;&lt;em&gt;&lt;strong&gt;&amp;ldquo;서유미는 &amp;lsquo;다른 미래&amp;rsquo;를 눈앞에 보여주는 법이 없다. 다만, 스스로 다른 미래를 마주할 수 있도록 온몸을 이완시키고 새로운 자신을 경험할 수 있도록 돕는다. 이것이 서유미가 보여주는 희망이며 낙관이다&amp;rdquo;&lt;/strong&gt;&lt;/em&gt;  - 해설(소유정 문학평론가) 중에서&#xA;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&#xA;&lt;u&gt;&lt;strong&gt;synopsis , Quotes&lt;/strong&gt;&lt;/u&gt;&lt;br&gt;&#xA;&lt;strong&gt;토요일 아침의 로건&lt;/strong&gt; - 시한부 판정을 받은 &amp;lsquo;로건&amp;rsquo;, 매주 토요일마다 영어 회화를 가르쳐주던 &amp;lsquo;젤다&amp;rsquo;에게 그만 둔다는 말을 하기까지의 일주일이다. 일주일동안 그동안의 사회인으로서의 &amp;lsquo;나&amp;rsquo;를 돌아보는 계기를 갖고, 돌아온 토요일 오전, 수업이 끝난 뒤 &amp;lsquo;젤다&amp;rsquo;에게 &amp;ldquo;이제 영어 공부를 그만하려고 해요&amp;quot;라고 말한다. 그때서야 비로소 &lt;u&gt;자신에게 무슨 일이 일어났고 자신이 무엇을 선택했는 지 알게된다&lt;/u&gt;&#xA;&lt;/br&gt;&lt;/br&gt; &lt;em&gt;&amp;ldquo;그는 자신에게 무슨 일이 일어났고 자신이 무엇을 선택했는지 알게 되었다. 그러자 비로소 마음이 아팠다&amp;rdquo;-34p&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>책방밀물</title>
-      <link>http://localhost:50080/photos/2025.11/</link>
+      <title>COW CAT!</title>
+      <link>http://localhost:1313/photos/2025.112/</link>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2025.11/</guid>
+      <guid>http://localhost:1313/photos/2025.112/</guid>
+      <description>&lt;p&gt;camera. leicaminizoom / film. ilford400&lt;/p&gt;&#xA;&lt;div align=&#34;left&#34;&gt;&#xD;&#xA;&lt;img src=&#34;3.jpg&#34; alt=&#34;&#34; width=&#34;400&#34;&gt;&#xD;&#xA;&lt;img src=&#34;2.jpg&#34; alt=&#34;&#34; width=&#34;400&#34;&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>책방밀물</title>
+      <link>http://localhost:1313/photos/2025.11/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/2025.11/</guid>
       <description>&lt;p&gt;&lt;i&gt;&amp;ldquo;반드시 밀물 때는 온다. 바로 그 날, 나는 바다로 나갈 것이다&amp;rdquo;&lt;/i&gt; 나에겐 앨리스의 토끼굴같은 밀물이다. 문을 열고 입장하는 순간 무한한 가능성의 공간으로 떨어지는 기분이 든달까. 이곳에서는 시간도 다르게 흐르는 거 같다. 생각만으로도 위안이 되는 나의 귀여운 토끼굴.&lt;/p&gt;&#xA;&lt;div align=&#34;left&#34;&gt;&#xD;&#xA;&lt;img src=&#34;02.JPEG&#34; alt=&#34;&#34; width=&#34;350&#34;&gt;&#xD;&#xA;&lt;img src=&#34;03.JPEG&#34; alt=&#34;&#34; width=&#34;350&#34;&gt;&#xD;&#xA;&lt;img src=&#34;04.jpg&#34; alt=&#34;&#34; width=&#34;350&#34;&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>세계의 주인, The World of Love</title>
-      <link>http://localhost:50080/cinema/%EC%84%B8%EA%B3%84%EC%9D%98%EC%A3%BC%EC%9D%B8/</link>
+      <link>http://localhost:1313/cinema/%EC%84%B8%EA%B3%84%EC%9D%98%EC%A3%BC%EC%9D%B8/</link>
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/cinema/%EC%84%B8%EA%B3%84%EC%9D%98%EC%A3%BC%EC%9D%B8/</guid>
+      <guid>http://localhost:1313/cinema/%EC%84%B8%EA%B3%84%EC%9D%98%EC%A3%BC%EC%9D%B8/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;%EC%84%B8%EA%B3%84%EC%9D%98%EC%A3%BC%EC%9D%B8.gif&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;2025 | 드라마 | 감독 윤가은 | 출연 서수빈, 장혜진&#xA;&lt;/br&gt;&lt;strong&gt;★★★★&lt;/strong&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;주인이의 주변을 통해서 주인이를 들여다보게 되는 영화. &lt;strong&gt;제대로 알아야 하고, 정확하게 표현해야 하고, 그리고 잘 돌봐야 한다는 이야기로 읽었다.&lt;/strong&gt; 짠-하고 사라지는 건 없고 결국 어디선가 들통나기 마련이지만 결국에는 긴 격려와 응원으로 마무리되는 남동생 해인의 마술쇼는 이 영화를 감상하는 데 큰 힌트를 주는 거 같기도 했다. 주인이가 마주하는 다양한 얼굴들을 보면서 그게 혹 나의 표정은 아닐까 되돌아보게 되고, 강한 분노 앞에서 무기력해지는 나를 발견하기도 했다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>green, blue, light.</title>
-      <link>http://localhost:50080/photos/2025.10/</link>
+      <link>http://localhost:1313/photos/2025.10/</link>
       <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2025.10/</guid>
+      <guid>http://localhost:1313/photos/2025.10/</guid>
       <description>&lt;p&gt;🎞️ Kodak ULTRAMAX 400 &lt;/br&gt;&#xA;📸 Minolta Himatic AF-D &lt;/br&gt;&#xA;🧷2025.10 &lt;/br&gt;&#xA;&lt;/br&gt;&#xA;green, blue, light.&lt;/p&gt;</description>
     </item>
     <item>
       <title>거북이는 의외로 빨리 헤엄친다</title>
-      <link>http://localhost:50080/archive/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
+      <link>http://localhost:1313/archive/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/archive/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
-      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:50080/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/archive/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
+      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>거북이는 의외로 빨리 헤엄친다</title>
-      <link>http://localhost:50080/diary/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
+      <link>http://localhost:1313/diary/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/diary/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
-      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:50080/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/diary/%EA%B1%B0%EB%B6%81%EC%9D%B4%EB%8A%94-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%B9%A8%EB%A6%AC-%ED%97%A4%EC%97%84%EC%B9%9C%EB%8B%A4/</guid>
+      <description>&lt;p&gt;#거북이는 의외로 빨리 헤엄친다&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;가장 먼저 리뷰를 쓰고 싶은 영화&lt;/strong&gt;&#xA;&lt;em&gt;내 꿈이 이뤄지는 순간이었거든&lt;/em&gt;&#xA;&lt;u&gt;내가 처음 담당했던 영화야&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/content/cinema/cinema01_01.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>송섬 장편소설 『골목의 조』 </title>
-      <link>http://localhost:50080/book/%EA%B3%A8%EB%AA%A9%EC%9D%98-%EC%A1%B0/</link>
+      <link>http://localhost:1313/book/%EA%B3%A8%EB%AA%A9%EC%9D%98-%EC%A1%B0/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/book/%EA%B3%A8%EB%AA%A9%EC%9D%98-%EC%A1%B0/</guid>
+      <guid>http://localhost:1313/book/%EA%B3%A8%EB%AA%A9%EC%9D%98-%EC%A1%B0/</guid>
       <description>&lt;img src=&#34;main.jpg&#34; alt=&#34;골목의 조&#34; width=&#34;500&#34;&gt;&#xD;&#xA;&lt;p&gt;&lt;u&gt;&lt;strong&gt;synopsis&lt;/strong&gt;&lt;/u&gt;&lt;br&gt;&#xA;엄마의 부재과 아버지의 자살이라는 유년시절을 보낸 &amp;lsquo;나&amp;rsquo;,&#xA;사회에 잘 적응하지 못하지만 &amp;lsquo;나름의 요령&amp;rsquo;으로 삶을 이어나가는 화자는 우연히 골목 안 술집 사장님 &amp;lsquo;조&amp;rsquo;를 만나게 된다. &amp;lsquo;나&amp;rsquo;는 매일 밤 퇴근 후에 &amp;lsquo;조&amp;rsquo;의 술집으로 가서 책을 읽기도 하고, &amp;lsquo;조&amp;rsquo;와 대화를 나누기도 한다. 그러던 어느 날 아침, 갑자기 방 한구석에 정체를 알 수 없는 아저씨 한 명이 나타났다가 같은 방법으로 갑자기 사라져버린 사건으로 &amp;lsquo;나&amp;rsquo;는 &amp;lsquo;조&amp;rsquo;와 함께 지내게 되고, 둘은 집 안에서 보이지 않는 고양이를 찾다가 벽지 안 자투리 장소를 발견하게 되는데&amp;hellip; 그들은 그 곳을 &amp;lsquo;남겨진 골목&amp;rsquo;이라고 부르게 된다. &lt;em&gt;우리가 그곳에 가야 하는 상황에 처했을 때 우리를 받아주는 곳&lt;/em&gt;. 그리고 며칠 뒤 조의 죽음. 기차 선로에 직각으로 누워있었다고.. 시간이 흘러, &amp;lsquo;나&amp;rsquo;는 아버지의 납골당이 만기되어 고향에 들렀다 돌아오는 길에 지하철 역사에서 아버지 유골함을 분실하게 되고, 분실한 유골함을 찾기 위해 분실물보관소에 갔다가 예전에 같이 대화를 나눈 적이 있었던 &amp;lsquo;지민&amp;rsquo;을 만나게 된다. 이후 분실된 유골함을 찾아 &amp;lsquo;내&amp;rsquo;가 살고 있는 반지하 집으로 온 &amp;lsquo;지민&amp;rsquo;, 둘은 그날 밤 긴 이야기를 나누게 되고, 냉동실에 보관되어있던 죽은 설리를 땅에 묻어주는 것까지 함께 한다. 모든 것을 쏟아내듯 말하고 나자 &amp;lsquo;나&amp;rsquo;는 그때서야 시간이 흐르듯, 중력에 이끌리듯, 가끔 생각도 하면서, 종종 슬플거고, 헤어나오기 힘들지도 모르지만.. 또 그러다가 괜찮을 거라는 것을 받아들인다. &lt;em&gt;&amp;ldquo;조, 골목에 있고 싶다면 얼마든지 있어도 돼. 그곳은 그러라고 있는 장소니까. 원한다면 언제든 창문을 노크해도 좋아. 네가 떠나기 전까지 나는 여기에 있을게.&amp;rdquo;&lt;/em&gt; 마치 한 계절을 보내듯이, 이야기는 끝난다.&#xA;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>차이밍량 행자 연작 </title>
-      <link>http://localhost:50080/book/%EC%B0%A8%EC%9D%B4%EB%B0%8D%EB%9F%89-%ED%96%89%EC%9E%90-%EC%97%B0%EC%9E%91/</link>
+      <link>http://localhost:1313/book/%EC%B0%A8%EC%9D%B4%EB%B0%8D%EB%9F%89-%ED%96%89%EC%9E%90-%EC%97%B0%EC%9E%91/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/book/%EC%B0%A8%EC%9D%B4%EB%B0%8D%EB%9F%89-%ED%96%89%EC%9E%90-%EC%97%B0%EC%9E%91/</guid>
+      <guid>http://localhost:1313/book/%EC%B0%A8%EC%9D%B4%EB%B0%8D%EB%9F%89-%ED%96%89%EC%9E%90-%EC%97%B0%EC%9E%91/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;1.jpg&#34; alt=&#34;차이밍량 행자 연작&#34; width=&#34;300&#34;&gt;_&lt;img src=&#34;2.jpg&#34; alt=&#34;차이밍량 행자 연작&#34; width=&#34;300&#34;&gt;&#xA;&lt;img src=&#34;01.jpg&#34; alt=&#34;차이밍량 행자 연작&#34; width=&#34;600&#34;&gt;&#xA;&lt;img src=&#34;02.jpg&#34; alt=&#34;차이밍량 행자 연작&#34; width=&#34;600&#34;&gt;&#xA;&lt;img src=&#34;03.jpg&#34; alt=&#34;차이밍량 행자 연작&#34; width=&#34;600&#34;&gt;&#xA;&lt;img src=&#34;04.jpg&#34; alt=&#34;차이밍량 행자 연작&#34; width=&#34;600&#34;&gt;&#xA;&lt;img src=&#34;05.jpg&#34; alt=&#34;차이밍량 행자 연작&#34; width=&#34;600&#34;&gt;&#xA;&lt;img src=&#34;06.jpg&#34; alt=&#34;차이밍량 행자 연작&#34; width=&#34;600&#34;&gt;&#xA;&lt;img src=&#34;07.jpg&#34; alt=&#34;차이밍량 행자 연작&#34; width=&#34;600&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;u&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/u&gt;&lt;br&gt;&#xA;이 책은 2024년 전주국제영화제에서 기획하고 상영했던 차이밍량 감독의 행자 연작을 책으로도 기획 출판한 서적이다. 배우 이강생이 붉은 승복을 입고 맨발로 세계 여러 도시를 아주 느리게 걷는 모습을 담은 일련의 단편 영화 시리즈인 &amp;lsquo;행자 연작&amp;rsquo;은, 상업적인 영화 시장에 대한 차이밍량 감독의 비판적 시각과 그만의 독자적인 예술 철학을 보여주는 대표적인 기록물이기도 하다. 파주에 위치한 카페 JIDO에서 읽고, 좋았던 부분을 발췌해서 메모하여 옮겼다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Busan</title>
-      <link>http://localhost:50080/diary/busan/</link>
+      <link>http://localhost:1313/diary/busan/</link>
       <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/diary/busan/</guid>
+      <guid>http://localhost:1313/diary/busan/</guid>
       <description>&lt;p&gt;부산 여행 기록 한두 줄…&lt;/p&gt;</description>
     </item>
     <item>
       <title>25년 여름, 시와</title>
-      <link>http://localhost:50080/sketch/01/</link>
+      <link>http://localhost:1313/sketch/01/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/sketch/01/</guid>
+      <guid>http://localhost:1313/sketch/01/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;스케치북&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;25년 여름, 시와&lt;/p&gt;</description>
     </item>
     <item>
-      <title>(왼쪽부터) 시와, 결, 귤, 오공</title>
-      <link>http://localhost:50080/photos/2025.07/</link>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2025.07/</guid>
-      <description>&lt;p&gt;film. FUJI C200 / camera. Olympus LT-1 &lt;/br&gt;&#xA;제목 그대로, 왼쪽부터 시와 결 귤 오공.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>놀이터 옆 거울 앞에서</title>
-      <link>http://localhost:50080/sketch/06/</link>
+      <link>http://localhost:1313/sketch/06/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/sketch/06/</guid>
+      <guid>http://localhost:1313/sketch/06/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;스케치북&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;2025년 여름, 놀이터 옆에 놓여진 거울 앞에서 우리.&lt;/p&gt;</description>
     </item>
     <item>
       <title>해피엔드, Happyend</title>
-      <link>http://localhost:50080/cinema/%ED%95%B4%ED%94%BC%EC%97%94%EB%93%9C/</link>
+      <link>http://localhost:1313/cinema/%ED%95%B4%ED%94%BC%EC%97%94%EB%93%9C/</link>
       <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/cinema/%ED%95%B4%ED%94%BC%EC%97%94%EB%93%9C/</guid>
+      <guid>http://localhost:1313/cinema/%ED%95%B4%ED%94%BC%EC%97%94%EB%93%9C/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;happyend.jpg&#34; alt=&#34;스틸컷&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;2025 | 드라마 | 감독 네오 소라 | 출연 쿠리하라 하야토, 히다카 유키토&#xA;&lt;/br&gt;&lt;strong&gt;★★★★&lt;/strong&gt;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;올들어 가장 좋았다. 모든 게 솔직했다고 해야할까. &lt;/br&gt;&#xA;옳고 그름보다 앞섰던 우정에 예기치 않은 균열이 생기고, 같다고 믿었던 서로가 사실은 근본적으로 달랐다는 것을 깨닫고, 모두가 각자 다른 방향으로 발끝이 어긋났음에도 고민과 갈등은 개인의 몫으로 남겨두고 씩씩하게 안녕하는 태도. 과거의 나를 떠올리면서, 미래의 아이들을 상상하면서 아주 오랜만에 참 좋았다.&#xA;&lt;/br&gt;&lt;/br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;제가 상상력이 부족해서 제목 짓는 데 항상 고민이 많거든요. 직감적으로 발음과 울림, 형태를 생각했을 때 ‘해피엔드’가 가장 잘 어울린다고 느꼈습니다. 이 영화에서 큰 세계는 이미 디스토피아로 끝나버린 세계지만, 주인공들의 작은 세계에서는 우정과 에너지가 존재하니까요.&amp;rdquo; -네오 소라 인터뷰 중에서&lt;/p&gt;</description>
     </item>
     <item>
       <title>안산 산책길</title>
-      <link>http://localhost:50080/photos/2022.03/</link>
+      <link>http://localhost:1313/photos/2022.03/</link>
       <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2022.03/</guid>
+      <guid>http://localhost:1313/photos/2022.03/</guid>
       <description>&lt;p&gt;안산으로 아침 산보 다녀오는 게 첫아이 태교였지.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>흠뻑</title>
+      <link>http://localhost:1313/photos/2020.083/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/2020.083/</guid>
+      <description>&lt;p&gt;제주 바다에 갔으니까. &amp;lsquo;젖은 옷은 어떻게 하지&amp;rsquo;와 같은 생각은 나중에 하기로 하고.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>매실차</title>
-      <link>http://localhost:50080/photos/2022.02/</link>
+      <link>http://localhost:1313/photos/2022.02/</link>
       <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2022.02/</guid>
+      <guid>http://localhost:1313/photos/2022.02/</guid>
       <description>&lt;p&gt;2021년 여름, 좋은 친구가 생겼다. 그녀의 집에 놀러가면 항상 얼음 동동 매실차를 줬는데. 잘 지내고 있겠지, 식구들 모두 안녕하기를.&lt;/p&gt;</description>
     </item>
     <item>
       <title>사랑을 하고 있어</title>
-      <link>http://localhost:50080/sketch/05/</link>
+      <link>http://localhost:1313/sketch/05/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/sketch/05/</guid>
+      <guid>http://localhost:1313/sketch/05/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;스케치북&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;2021년에 발매된 강아솔 싱글 [사랑을 하고 있어] 앨범 커버.&lt;/p&gt;</description>
     </item>
     <item>
       <title>무제</title>
-      <link>http://localhost:50080/sketch/04/</link>
+      <link>http://localhost:1313/sketch/04/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/sketch/04/</guid>
+      <guid>http://localhost:1313/sketch/04/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;스케치북&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;아마도 2021년, 색연필도 재미있다고 생각하기 시작한 떄.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>청소</title>
+      <link>http://localhost:1313/photos/2021.073/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/2021.073/</guid>
+      <description>&lt;p&gt;우리는 둘 다 청소를 좋아해서 참 다행이야.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>등 대고 자는 게 편한거야?</title>
-      <link>http://localhost:50080/photos/2021.072/</link>
+      <link>http://localhost:1313/photos/2021.072/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2021.072/</guid>
+      <guid>http://localhost:1313/photos/2021.072/</guid>
       <description>&lt;p&gt;허리 다칠 거 같은데.. 이거 너무 인간중심적인 생각인거야?&lt;/p&gt;</description>
     </item>
     <item>
       <title>해질녘, 16층 복도.</title>
-      <link>http://localhost:50080/photos/2021.07/</link>
+      <link>http://localhost:1313/photos/2021.07/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2021.07/</guid>
+      <guid>http://localhost:1313/photos/2021.07/</guid>
       <description>&lt;p&gt;좋았던 기억이 너무 많네. 16층 우리의 첫 집.&lt;/p&gt;</description>
     </item>
     <item>
       <title>그리다 만,</title>
-      <link>http://localhost:50080/sketch/03/</link>
+      <link>http://localhost:1313/sketch/03/</link>
       <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/sketch/03/</guid>
+      <guid>http://localhost:1313/sketch/03/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;스케치북&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;2021년 초여름 제주 바다. 그리다 만..&lt;/p&gt;</description>
     </item>
     <item>
-      <title>2020, 카페여름</title>
-      <link>http://localhost:50080/sketch/02/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/sketch/02/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;스케치북&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;아마도 2020년? 카페 여름.&lt;/p&gt;</description>
+      <title>엄마가 찍어준 우리</title>
+      <link>http://localhost:1313/photos/2020.082/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/2020.082/</guid>
+      <description>&lt;p&gt;엄마, 혜정, 혜진. 우리 셋이 함께했던 첫 제주여행에서 엄마가 찍어준 우리&lt;/p&gt;</description>
     </item>
     <item>
       <title>해방촌에서 내가 가장 많이 찍었던 스팟</title>
-      <link>http://localhost:50080/photos/2020.08/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2020.08/</guid>
+      <link>http://localhost:1313/photos/2020.08/</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/2020.08/</guid>
       <description>&lt;p&gt;해방촌에 갈 때마다 찍었던 거 같아. 비건스페이스 옆 고양이 벽화와 큰 나무, 복도식 아파트.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>2020, 카페여름</title>
+      <link>http://localhost:1313/sketch/02/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sketch/02/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;스케치북&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;아마도 2020년? 카페 여름.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>15층 부모님댁 현관에서 바라본,</title>
-      <link>http://localhost:50080/photos/2020.06/</link>
+      <link>http://localhost:1313/photos/2020.06/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2020.06/</guid>
+      <guid>http://localhost:1313/photos/2020.06/</guid>
       <description>&lt;p&gt;내 방이 없는, 내가 살아본 적 없는, 엄마아빠집. 현관 뷰가 너무 좋아.&lt;/p&gt;</description>
     </item>
     <item>
       <title>1602호 시선, 눈 오는 날의 풍경</title>
-      <link>http://localhost:50080/photos/2020.02/</link>
+      <link>http://localhost:1313/photos/2020.02/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2020.02/</guid>
+      <guid>http://localhost:1313/photos/2020.02/</guid>
       <description>&lt;img src=&#34;2.jpg&#34; alt=&#34;2&#34; width=&#34;800&#34;&gt;&#xD;&#xA;&lt;img src=&#34;3.jpg&#34; alt=&#34;3&#34; width=&#34;800&#34;&gt;&#xD;&#xA;&lt;p&gt;camera. leicaminizoom / film. fujicolorc200&lt;/p&gt;</description>
     </item>
     <item>
       <title>페이퍼넛츠</title>
-      <link>http://localhost:50080/photos/2019.12/</link>
+      <link>http://localhost:1313/photos/2019.12/</link>
       <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2019.12/</guid>
-      <description>&lt;p&gt;2019년 12월 25일, 시작. 페이퍼넛츠&lt;/p&gt;</description>
+      <guid>http://localhost:1313/photos/2019.12/</guid>
+      <description>&lt;p&gt;볕이 참 예쁘게 들어오던 곳. 봄겨울에는 세시에서 네시, 여름가을에는 다섯시에서 여섯시. 그 시간이 정말 예뻤지.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2019년 도쿄</title>
-      <link>http://localhost:50080/photos/2019.10/</link>
+      <link>http://localhost:1313/photos/2019.10/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2019.10/</guid>
+      <guid>http://localhost:1313/photos/2019.10/</guid>
       <description>&lt;p&gt;페이퍼넛츠의 레퍼런스를 찾아 떠났던 도쿄 여행. 다 - 좋았던 거 같아. 물론 페이퍼넛츠의 시작에 큰 힌트를 얻어오기도 했고 !&lt;/p&gt;</description>
     </item>
     <item>
       <title>가깝고도 멀었던 도쿄, 스물아홉 혜진.</title>
-      <link>http://localhost:50080/photos/2019.102/</link>
+      <link>http://localhost:1313/photos/2019.102/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2019.102/</guid>
+      <guid>http://localhost:1313/photos/2019.102/</guid>
       <description>&lt;p&gt;나의 스물 아홉이 사진 한 장에 다 담긴 거 같아서 좋아. 고마워 혜정.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>좋아했던 풍경</title>
+      <link>http://localhost:1313/photos/2019.08/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/2019.08/</guid>
+      <description>&lt;p&gt;여름만 되면 그렇게 예뻐보이더라고. 언덕 오르는 게 힘들어도, 저 풍경만 보면 기분이 좋아졌어.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>그는 다 계획이 있었다</title>
-      <link>http://localhost:50080/photos/2019.01/</link>
+      <link>http://localhost:1313/photos/2019.01/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2019.01/</guid>
+      <guid>http://localhost:1313/photos/2019.01/</guid>
       <description>&lt;img src=&#34;2019.01(2).JPG&#34; alt=&#34;사진 설명&#34; width=&#34;800&#34;&gt;&#xD;&#xA;&lt;p&gt;그는 언제나 숫자로 계획을 세웠다. 노트에는 숫자만 있지 한글은 없었다. 신기하게도 한해가 지날 때쯤에는 그가 계획한 숫자에 대부분은 도달해 있었다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>아마도 을지로였던 거 같아</title>
-      <link>http://localhost:50080/photos/2018.10/</link>
+      <link>http://localhost:1313/photos/2018.10/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2018.10/</guid>
+      <guid>http://localhost:1313/photos/2018.10/</guid>
       <description>&lt;img src=&#34;2.JPG&#34; alt=&#34;2018.10-2&#34; width=&#34;800&#34;&gt;&#xD;&#xA;&lt;p&gt;2018년, 당시에는 을지로에서 필름을 구매하고, 스캔도 떴다. 그 핑계로 강화에서 서울로 나오곤 했다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>매일 걸었던 오솔길</title>
-      <link>http://localhost:50080/photos/2018.092/</link>
+      <link>http://localhost:1313/photos/2018.092/</link>
       <pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2018.092/</guid>
+      <guid>http://localhost:1313/photos/2018.092/</guid>
       <description>&lt;p&gt;매일 아침 이 길을 걸었다. 늘 보는 풍경이었지만 언제나 아름다웠다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2018년 9월, 강화도 우리집</title>
-      <link>http://localhost:50080/photos/2018.09/</link>
+      <link>http://localhost:1313/photos/2018.09/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2018.09/</guid>
+      <guid>http://localhost:1313/photos/2018.09/</guid>
       <description>&lt;p&gt;2018.08.19 - 2019.08.18 강화도 양도면 조산리.&lt;/p&gt;</description>
     </item>
     <item>
       <title>간식먹자 귤,오공!</title>
-      <link>http://localhost:50080/photos/2018.093/</link>
+      <link>http://localhost:1313/photos/2018.093/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2018.093/</guid>
+      <guid>http://localhost:1313/photos/2018.093/</guid>
       <description>&lt;p&gt;셀프타이머로 기록한 귤,오공 간식 시간.&lt;/p&gt;</description>
     </item>
     <item>
       <title>하이파이브!</title>
-      <link>http://localhost:50080/photos/2018.094/</link>
+      <link>http://localhost:1313/photos/2018.094/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/photos/2018.094/</guid>
+      <guid>http://localhost:1313/photos/2018.094/</guid>
       <description>&lt;p&gt;고양이는 불러도 오지 않는다는데, 오공이는 부르면 온다. 손을 높이 들어올리면, 폴짝 뛰어 하이파이브!&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:50080/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50080/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;여기 내용은 일단 템플릿에서 직접 쓸 거라 간단히만 적어둘게요.&#xA;이 텍스트는 나중에 안 보여도 괜찮아요.&lt;/p&gt;</description>
     </item>
   </channel>
