@@ -19,9 +19,6 @@
     <loc>http://localhost:1313/book/</loc>
     <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/photos/2020.01/</loc>
-    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/photos/2025.112/</loc>
     <lastmod>2025-11-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -36,9 +33,6 @@
   </url><url>
     <loc>http://localhost:1313/cinema/%EC%84%B8%EA%B3%84%EC%9D%98%EC%A3%BC%EC%9D%B8/</loc>
     <lastmod>2025-10-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/photos/2020.083/</loc>
-    <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/photos/2025.10/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
@@ -67,9 +61,6 @@
     <loc>http://localhost:1313/sketch/</loc>
     <lastmod>2025-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/photos/2025.07/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/sketch/06/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -78,6 +69,9 @@
   </url><url>
     <loc>http://localhost:1313/photos/2022.03/</loc>
     <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/photos/2020.083/</loc>
+    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/photos/2022.02/</loc>
     <lastmod>2022-02-20T00:00:00+00:00</lastmod>
@@ -103,10 +97,10 @@
     <loc>http://localhost:1313/photos/2020.082/</loc>
     <lastmod>2020-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/sketch/02/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/photos/2020.08/</loc>
+    <lastmod>2020-08-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/sketch/02/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/photos/2020.06/</loc>
