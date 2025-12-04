@@ -1,16 +1,45 @@
 {{ define "content" }}
-<main class="photos-wrap">
-  <h1 class="photos-title">{{ .Title }}</h1>
-  <section class="photos-grid">
-    {{ range .RegularPages.ByDate.Reverse }}
-      {{ $img := or (.Resources.GetMatch "main.*") (index (.Resources.ByType "image") 0) }}
-      {{ if $img }}
-        {{ $thumb := $img.Fill "600x600 Center" }}
-        <a class="ph-card" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
-          <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" loading="lazy" decoding="async">
+<main class="container" style="max-width:1200px;margin:0 auto;padding:40px 20px;">
+
+  <h1 style="
+    font-size:16px;
+    font-weight:400;
+    margin:40px 0 28px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    text-indent: 1.2em;
+    color:#3d61ad;">{{ .Title }}
+  </h1>
+
+  {{ with .Content }}
+    <div style="font-size:14px;color:#666;margin:0 0 24px;line-height:1.7;">
+      {{ . }}
+    </div>
+  {{ end }}
+
+  <ul style="list-style:none;padding:0;margin:0;">
+    {{ range .Pages.ByDate.Reverse }}
+      <li style="margin-bottom:12px;">
+
+        <!-- 날짜 + 제목 전체를 한 개의 링크로 묶기 -->
+        <a href="{{ .RelPermalink }}"
+          style="display:flex;gap:12px;align-items:baseline;text-decoration:none;">
+
+          <!-- 날짜 -->
+          <span style="font-size:13px;color:#60776c;min-width:90px;">
+            {{ .Date.Format "Jan 02, 2006" }}
+          </span>
+
+          <!-- 제목 -->
+          <span style="font-size:15px;color:#43587f;font-weight:400;">
+            {{ .Title }}
+          </span>
+
         </a>
-      {{ end }}
+
+      </li>
     {{ end }}
-  </section>
+  </ul>
+
 </main>
 {{ end }}
