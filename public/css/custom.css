@@ -16,7 +16,7 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 120px;  /* ← PC에서 딱 좋았던 그 위치 */
+  padding-top: 100px;  /* ← PC에서 딱 좋았던 그 위치 */
 }
 
 .home-hero-inner {
@@ -26,7 +26,7 @@ body {
 /* 모바일에서만 더 위로 올리기 */
 @media (max-width: 768px) {
   .home-hero {
-    padding-top: 40px;  /* ← 숫자 줄이면 더 위로 붙음, 필요하면 40px, 30px로 더 줄여도 돼 */
+    padding-top: 100px;  /* ← 숫자 줄이면 더 위로 붙음, 필요하면 40px, 30px로 더 줄여도 돼 */
   }
 }
 
@@ -35,7 +35,7 @@ body.home-bg {
   min-height: 100vh;
   background-image: url("/images/main5.jpg"); /* 2단계에서 넣은 파일 경로 */
   background-size: cover;        /* 화면 꽉 채우기 */
-  background-position: top;   /* 정렬 */
+  background-position: center;   /* 정렬 */
   background-repeat: no-repeat;
 }
 
