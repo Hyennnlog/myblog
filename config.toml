@@ -32,7 +32,7 @@ theme = "hugo-coder"
 
 
   [[menu.main]]
-    name = "필름"
+    name = "사진"
     url = "/photos/"
     weight = 40
 

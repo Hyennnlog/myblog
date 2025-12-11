@@ -1,6 +1,6 @@
 {{ define "content" }}
 <main class="photos-wrap">
-  <h1 class="photos-title">{{ .Title }}</h1>
+  <h1 class="cinema-title">{{ .Title }}</h1>
   <section class="photos-grid">
     {{ range .RegularPages.ByDate.Reverse }}
       {{ $img := or (.Resources.GetMatch "main.*") (index (.Resources.ByType "image") 0) }}

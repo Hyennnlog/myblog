@@ -3,12 +3,12 @@
 
   <h1 style="
     font-size:16px;
-    font-weight:400;
+    font-weight:300;
     margin:40px 0 28px;
     letter-spacing: 1.5px;
     text-align: left;
     text-indent: 1.2em;
-    color:#3d61ad;">{{ .Title }}
+    color:#000;">{{ .Title }}
   </h1>
 
   {{ with .Content }}
@@ -26,12 +26,12 @@
           style="display:flex;gap:12px;align-items:baseline;text-decoration:none;">
 
           <!-- 날짜 -->
-          <span style="font-size:13px;color:#60776c;min-width:90px;">
+          <span style="font-size:12px;color:#000;min-width:90px;">
             {{ .Date.Format "Jan 02, 2006" }}
           </span>
 
           <!-- 제목 -->
-          <span style="font-size:15px;color:#43587f;font-weight:400;">
+          <span style="font-size:12px;color:#000;font-weight:350;">
             {{ .Title }}
           </span>
 

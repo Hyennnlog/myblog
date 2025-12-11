@@ -5,6 +5,7 @@
   padding: 40px 20px;  /* ← 위아래/좌우 여백 */
 }
 
+
 /* 포토 본문 이미지 왼쪽 정렬 */
 .photos-single .ph-figure {
   text-align: left;
