@@ -5,12 +5,15 @@
     <loc>http://localhost:1313/kimgyeul/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/book/%EB%B0%A4%EC%9D%B4%EC%98%81%EC%9B%90%ED%95%A0%EA%B2%83%EC%B2%98%EB%9F%BC/</loc>
-    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/book/%EB%A7%88%EB%A6%AC%EB%82%98a/</loc>
+    <lastmod>2025-12-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/book/</loc>
+    <lastmod>2025-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/book/%EB%B0%A4%EC%9D%B4%EC%98%81%EC%9B%90%ED%95%A0%EA%B2%83%EC%B2%98%EB%9F%BC/</loc>
     <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/photos/2025.112/</loc>
@@ -49,26 +52,29 @@
     <loc>http://localhost:1313/diary/</loc>
     <lastmod>2025-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/sketch/01/</loc>
-    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/sketch/</loc>
-    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/photos/2025.07/</loc>
     <lastmod>2025-07-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/diary/%EC%97%AC%EB%A6%84-%EB%9D%84%EC%9A%B0%EA%B8%B0/</loc>
     <lastmod>2025-07-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/sketch/01/</loc>
+    <lastmod>2025-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/sketch/</loc>
+    <lastmod>2025-07-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/sketch/06/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/diary/%EA%B8%B0%EC%96%B5%ED%95%98%EB%8A%94-%EA%B2%8C-%EC%95%84%EB%8B%88%EB%9D%BC-%EB%B0%9C%EB%AA%85%ED%95%98%EB%8A%94-%EA%B1%B0%EB%9D%BC%EA%B3%A0/</loc>
     <lastmod>2025-05-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/cinema/%ED%95%B4%ED%94%BC%EC%97%94%EB%93%9C/</loc>
     <lastmod>2025-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/sketch/04/</loc>
+    <lastmod>2025-04-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/diary/2024%EB%85%84-%EC%97%B0%EB%A7%90%EA%B8%B0%EB%A1%9D/</loc>
     <lastmod>2024-12-31T00:00:00+00:00</lastmod>
@@ -117,9 +123,6 @@
   </url><url>
     <loc>http://localhost:1313/diary/%ED%83%9C%EB%AA%BD/</loc>
     <lastmod>2021-09-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/sketch/04/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/photos/2021.073/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>

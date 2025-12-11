@@ -21,28 +21,28 @@ theme = "hugo-coder"
 
 
   [[menu.main]]
-    name = "영화리뷰"
+    name = "영화"
     url = "/cinema/"
     weight = 20
 
   [[menu.main]]
-    name = "독서노트"
+    name = "책"
     url = "/book/"
     weight = 30
 
 
   [[menu.main]]
-    name = "필름기록"
+    name = "필름"
     url = "/photos/"
     weight = 40
 
   [[menu.main]]
-    name = "스케치북"
+    name = "그림"
     url = "/sketch/"
     weight = 50
 
   [[menu.main]]
-    name = "일기장"
+    name = "일기"
     url = "/diary/"
     weight = 60
 
