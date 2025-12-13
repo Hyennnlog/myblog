@@ -6,8 +6,15 @@
     <description>Recent content in 좋아하는 영화의 좋아하는 장면을 수집합니다 on HYENNN</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 31 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/cinema/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>여행과 나날</title>
+      <link>http://localhost:1313/cinema/%EC%97%AC%ED%96%89%EA%B3%BC-%EB%82%98%EB%82%A0/</link>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cinema/%EC%97%AC%ED%96%89%EA%B3%BC-%EB%82%98%EB%82%A0/</guid>
+      <description>&lt;p&gt;2025 | 드라마 | 감독 미야케 쇼 | 출연 심은경, 카와이 유미&#xA;&lt;/br&gt;★★★★&#xA;&lt;br&gt;&lt;br&gt;&lt;br&gt;&#xA;&lt;img src=&#34;1.jpg&#34; alt=&#34;&#34; width=&#34;500&#34;&gt;&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;&lt;br&gt;&#xA;여름에는 상처가, 겨울에는 구멍이, 이야기를 만든다. 무엇이 사람들을 행복하게 하는지 모르겠다는 고백과 함께. 스크린을 보고 있는 것만으로도 여름-겨울을 지나는 여행을 하는 기분이었다. 4:3 비율의 프레임 안에 계절과 날씨, 그날의 온도까지도 이토록 우아하고 유려하게 담을 수 있다니. 연신 감탄하면서 보았다. 카메라 하나 둘러메고 어디로든 떠나고 싶어졌다. 말로부터 멀어지고 싶어졌다.&lt;/p&gt;&#xA;&lt;br&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Quote&lt;/strong&gt; &lt;br&gt;&#xA;&lt;em&gt;거친 파도 소리아 눈의 고요함 사이에서 불안함과 우스꽝스러움 사이에서 하나의 &amp;lsquo;여행&amp;rsquo;이 서서히 형태를 바꿔갑니다. 극장에서 낯선 이가 되는 특별한 경험을 마음껏 즐겨주세요 - 미야케 쇼&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>세계의 주인, The World of Love</title>
       <link>http://localhost:1313/cinema/%EC%84%B8%EA%B3%84%EC%9D%98%EC%A3%BC%EC%9D%B8/</link>
