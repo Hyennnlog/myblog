@@ -23,17 +23,19 @@
     </div>
 
     <!-- ✅ 이전 / 다음 텍스트 네비게이션 -->
-    <nav class="photo-nav">
+<nav class="photo-nav">
   {{ with .PrevInSection }}
-    <a class="photo-nav-prev" href="{{ .RelPermalink }}">← {{ .Title }}</a>
-  {{ end }}
-
-  {{ if and .PrevInSection .NextInSection }}
-    <span class="photo-nav-divider">|</span>
+    <a class="photo-prev" href="{{ .RelPermalink }}">
+      <span class="nav-label">이전</span>
+      <span class="nav-title">{{ .Title }}</span>
+    </a>
   {{ end }}
 
   {{ with .NextInSection }}
-    <a class="photo-nav-next" href="{{ .RelPermalink }}">{{ .Title }} →</a>
+    <a class="photo-next" href="{{ .RelPermalink }}">
+      <span class="nav-label">다음</span>
+      <span class="nav-title">{{ .Title }}</span>
+    </a>
   {{ end }}
 </nav>
 
