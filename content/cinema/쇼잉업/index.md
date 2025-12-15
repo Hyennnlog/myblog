@@ -1,5 +1,5 @@
 ---
-title: "쇼잉업"
+title: "쇼잉업, Showing Up"
 date: 2025-01-08
 draft: false
 ---

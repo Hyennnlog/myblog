@@ -1,5 +1,5 @@
 ---
-title: "추락의 해부"
+title: "추락의 해부, Anatomy of a Fall"
 date: 2025-01-01
 draft: false
 ---
