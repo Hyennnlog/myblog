@@ -223,6 +223,9 @@
     <loc>http://localhost:1313/diary/%EC%B7%A8%EC%A7%81/</loc>
     <lastmod>2016-03-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/cinema/%EC%9B%AC%EB%94%94%EC%99%80%EB%A3%A8%EC%8B%9C/</loc>
+    <lastmod>2010-07-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
