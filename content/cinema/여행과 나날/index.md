@@ -1,5 +1,5 @@
 ---
-title: "여행과 나날"
+title: "여행과 나날, 旅と日々"
 date: 2025-12-12
 draft: false
 ---

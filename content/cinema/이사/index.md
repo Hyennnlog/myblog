@@ -6,7 +6,7 @@ draft: false
 1993 | 드라마 | 감독 소마이 신지 | 출연 타바타 토모코, 사쿠라다 준코
 </br>★★★★
 <br><br><br>
-<img src="main.jfif" alt="" width="500">
+<img src="main.jpg" alt="" width="500">
 <br><br>
 
 **NOTE**<br>
@@ -31,8 +31,4 @@ draft: false
 
 <img src="1.jpg" alt="" width="500"><br>
 <img src="2.jpg" alt="" width="500"><br>
-<img src="3.jpg" alt="" width="500"><br>
-<img src="4.jpg" alt="" width="500"><br>
-<img src="5.jpg" alt="" width="500"><br>
-<img src="6.jpg" alt="" width="500"><br>
-<img src="7.jpg" alt="" width="500"><br>
+<img src="3.jfif" alt="" width="500"><br>
