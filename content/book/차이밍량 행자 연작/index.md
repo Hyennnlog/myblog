@@ -5,15 +5,6 @@ draft: false
 ---
 
 <img src="1.jpg" alt="차이밍량 행자 연작" width="300">_<img src="2.jpg" alt="차이밍량 행자 연작" width="300">
-<img src="01.jpg" alt="차이밍량 행자 연작" width="600">
-<img src="02.jpg" alt="차이밍량 행자 연작" width="600">
-<img src="03.jpg" alt="차이밍량 행자 연작" width="600">
-<img src="04.jpg" alt="차이밍량 행자 연작" width="600">
-<img src="05.jpg" alt="차이밍량 행자 연작" width="600">
-<img src="06.jpg" alt="차이밍량 행자 연작" width="600">
-<img src="07.jpg" alt="차이밍량 행자 연작" width="600">
-
-
 
 <u>**Notes**</u>  
 이 책은 2024년 전주국제영화제에서 기획하고 상영했던 차이밍량 감독의 행자 연작을 책으로도 기획 출판한 서적이다. 배우 이강생이 붉은 승복을 입고 맨발로 세계 여러 도시를 아주 느리게 걷는 모습을 담은 일련의 단편 영화 시리즈인 '행자 연작'은, 상업적인 영화 시장에 대한 차이밍량 감독의 비판적 시각과 그만의 독자적인 예술 철학을 보여주는 대표적인 기록물이기도 하다. 파주에 위치한 카페 JIDO에서 읽고, 좋았던 부분을 발췌해서 메모하여 옮겼다.
@@ -26,4 +17,10 @@ draft: false
 
 **"모든 현상계는 꿈, 허깨비, 물거품, 그림자, 이슬, 번개 같으니 마땅히 이와 같이 볼지니라" - 금강경**
 </br></br></br>
-
+<img src="01.jpg" alt="차이밍량 행자 연작" width="600">
+<img src="02.jpg" alt="차이밍량 행자 연작" width="600">
+<img src="03.jpg" alt="차이밍량 행자 연작" width="600">
+<img src="04.jpg" alt="차이밍량 행자 연작" width="600">
+<img src="05.jpg" alt="차이밍량 행자 연작" width="600">
+<img src="06.jpg" alt="차이밍량 행자 연작" width="600">
+<img src="07.jpg" alt="차이밍량 행자 연작" width="600">
