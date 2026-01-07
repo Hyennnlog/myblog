@@ -16,7 +16,7 @@
 /* 그리드 레이아웃 */
 .photos-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1px;
 }
 
@@ -32,7 +32,7 @@
 /* 각 사진 카드 */
 .ph-card {
   position: relative;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 3 / 4;
   overflow: hidden;
   background: #000000;
 }
