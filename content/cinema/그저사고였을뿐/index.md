@@ -6,7 +6,7 @@ draft: false
 2025 | 드라마 | 감독 자파르 파니히 | 출연 바히드 모바셰리, 마리암 아프샤리
 </br>★★★★
 <br><br><br>
-<img src="main.webp" alt="" width="500">
+<img src="thumb.jpg" alt="" width="500">
 <br><br>
 
 **NOTE**<br>
