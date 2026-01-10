@@ -6,7 +6,7 @@ draft: false
 2025 | 드라마 | 감독 네오 소라 | 출연 쿠리하라 하야토, 히다카 유키토
 </br>**★★★★**
 <br><br><br>
-<img src="main.jfif" alt="" width="500">
+<img src="movie.jpg" alt="" width="500">
 <br><br>
 
 **NOTE**<br>
@@ -17,8 +17,3 @@ draft: false
 
 **Quote**<br>
 "제가 상상력이 부족해서 제목 짓는 데 항상 고민이 많거든요. 직감적으로 발음과 울림, 형태를 생각했을 때 ‘해피엔드’가 가장 잘 어울린다고 느꼈습니다. 이 영화에서 큰 세계는 이미 디스토피아로 끝나버린 세계지만, 주인공들의 작은 세계에서는 우정과 에너지가 존재하니까요." -네오 소라 인터뷰 중에서
-
-<br>
-
-<img src="1.jfif" alt="" width="500"><br>
-<img src="2.jfif" alt="" width="500"><br>
