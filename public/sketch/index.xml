@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>스케치북 on HYENNN</title>
+    <link>http://localhost:1313/sketch/</link>
+    <description>Recent content in 스케치북 on HYENNN</description>
+    <generator>Hugo</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Fri, 28 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/sketch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025-11-28</title>
+      <link>http://localhost:1313/sketch/07/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sketch/07/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;스케치북&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;김수정 작가님과 함께 했던 수업, [금요일엔 인물을 그려요]. &lt;br&gt;&#xA;흑연이라는 재료가 꼭 흑백필름을 닮아 있었다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2025-07-03</title>
+      <link>http://localhost:1313/sketch/01/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sketch/01/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;스케치북&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;오- 이제는 자세가 좀 나오는데?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2025-06-24</title>
+      <link>http://localhost:1313/sketch/06/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sketch/06/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;스케치북&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;2025년 여름, 놀이터 옆에 놓여진 거울 앞에서 우리.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2025-04-30</title>
+      <link>http://localhost:1313/sketch/04/</link>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sketch/04/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;스케치북&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;좋았어. 아주.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>사랑을 하고 있어</title>
+      <link>http://localhost:1313/sketch/05/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sketch/05/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;스케치북&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;2021년에 발매된 강아솔 싱글 [사랑을 하고 있어] 앨범 커버.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>그리다 만,</title>
+      <link>http://localhost:1313/sketch/03/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sketch/03/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;스케치북&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;2021년 초여름 제주 바다. 그리다 만..&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2020, 카페여름</title>
+      <link>http://localhost:1313/sketch/02/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sketch/02/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;main.jpg&#34; alt=&#34;스케치북&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;아마도 2020년? 카페 여름.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

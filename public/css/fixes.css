@@ -1,0 +1,9 @@
+/* 다크모드에서도 이미지 반전 금지 */
+@media (prefers-color-scheme: dark) {
+  img { 
+    filter: none !important;
+    mix-blend-mode: normal !important;
+  }
+}
+/* 혹시 테마가 전체에 invert를 거는 케이스 대비 */
+img, video, canvas, svg { filter: none !important; }

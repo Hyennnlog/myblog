@@ -1,0 +1,362 @@
+body {
+  font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+}
+
+@import "photos.css"; /* photo 그리드 적용 */
+
+
+.container {
+    max-width: 1200px !important;   /* 기본은 약 860px */
+}
+
+/* 홈 히어로 영역 기본 (PC 기준) */
+.home-hero {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 100px;  /* ← PC에서 딱 좋았던 그 위치 */
+}
+
+.home-hero-inner {
+  text-align: center;
+}
+
+/* 모바일에서만 더 위로 올리기 */
+@media (max-width: 768px) {
+  .home-hero {
+    padding-top: 100px;  /* ← 숫자 줄이면 더 위로 붙음, 필요하면 40px, 30px로 더 줄여도 돼 */
+  }
+}
+
+/* ① 홈에서만 전체 배경 사진 */
+body.home-bg {
+  min-height: 100vh;
+  background-image: url("/images/main5.jpg"); /* 2단계에서 넣은 파일 경로 */
+  background-size: cover;        /* 화면 꽉 채우기 */
+  background-position: center;   /* 정렬 */
+  background-repeat: no-repeat;
+}
+
+/* ② 홈에서만: 안쪽 박스 배경 투명하게 (흰색 박스가 덮지 않도록) */
+body.home-bg .wrapper,
+body.home-bg .content {
+  background: transparent;
+}
+
+/* ③ 홈에서만: 헤더(메뉴)를 사진 위에 겹치게 + 투명하게 */
+body.home-bg .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  box-shadow: none;
+  z-index: 100;
+}
+
+/* 모든 내부 페이지 기본 배경 */
+body.white-bg {
+  background: #ffffff;
+}
+
+/* 안쪽 콘텐츠도 흰색으로 */
+body.white-bg .wrapper,
+body.white-bg .content {
+  background: #ffffff;
+}
+
+
+/* hugo-coder에서 실제 메뉴는 .navigation 안에 있어 */
+body.home-bg .navigation {
+  background: transparent;
+  box-shadow: none;
+}
+
+/* 홈(navbar 포함) 위아래 여백 조금 더 */
+.navigation {
+    padding: 20px 40px !important;
+}
+
+nav.navigation > .container {
+  max-width: 860px;  /* 메뉴 전용 폭 */
+  padding: 30px 20px;    /* 양쪽 여백 */
+}
+
+.navigation .nav-instagram img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  display: inline-block;
+  transition: opacity .2s ease, transform .12s ease;
+}
+.navigation .nav-instagram a:hover img {
+  opacity: 0.8;
+  transform: translateY(-1px);
+}
+      
+/* 목록 제목/날짜 예시 */
+.post-title a { font-size: 1rem; font-weight: 500; color: #222; text-decoration: none; }
+.post-title a:hover { color: #007acc; }
+.post-meta time { font-size: 0.9rem; color: #999; }
+
+/* 인스타그램 아이콘 크게 (여러 경우 커버) */
+i.fa.fa-instagram,
+i.fab.fa-instagram,
+i.fa-brands.fa-instagram,
+.fa-instagram { font-size: 1em !important; line-height: 1; }
+
+/* 0) 전체 기준 rem 크기 보정 (전역이 작아졌다면) */
+html {
+  font-size: 9px; /* 필요 시 17~18px로 올려도 됨 */
+}
+
+/* 메인 제목(HYENNNLOG.KR) 스타일 변경 */
+.navigation-title {
+  font-size: 1.6rem !important;   /* 원하는 크기로 조절 */
+  font-weight: 400 !important;     /* 얇게 */
+  color: #000000 !important;
+}
+.navigation-title:hover {
+  color: #000000 !important;  /* 마우스 올렸을 때 색상 */
+}
+
+/* 메뉴 텍스트 기본 스타일 */
+.navigation a,
+.nav-item a {
+  color: #000; !important;      /* 기본 글자색 */
+  font-weight: 400;               /* 굵기: 300(얇게)~700(굵게) */
+  font-size: 1.6rem;             /* 크기: 기본보다 살짝 작게 */
+  text-transform: none;           /* 모두 대문자 방지 */
+  letter-spacing: 0.5px;          /* 글자 간격 */
+}
+
+/* 메뉴 hover (마우스 올릴 때) */
+.navigation a:hover,
+.nav-item a:hover {
+  color: #60776c !important;      /*  */
+  transition: color 0.2s ease;
+}
+
+/* 필요하면 모바일에서 더 작게 */
+@media (max-width: 768px) {
+  .photos-title,
+  .cinema-title,
+  .book-title,
+  .sketch-title {
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+}
+
+/* 3) 본문 제목 (필요하면) */
+
+.content h1 {
+  font-size: 12px !important;
+  font-weight: 300;
+  color: #000; 
+}
+
+h1, .post-title, .entry-title {
+  font-size: 2rem;                 /* 큰 제목 */
+  font-weight: 400;
+}
+h2 {
+  font-size: 1.5rem;
+}
+
+
+/* -----------------------------------------
+   모바일 풀스크린 메뉴
+----------------------------------------- */
+@media (max-width: 768px) {
+
+  /* 메뉴 전체가 화면을 100% 덮도록 */
+  .navigation-list {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding-top: 80px; /* 상단 여백: 로고랑 충돌 방지 */
+    background: rgba(255, 255, 255, 0.97); /* 아주 옅은 흰색 오버레이 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+  }
+
+  /* 메뉴가 열렸을 때(fullscreen) 보이도록 */
+  #menu-toggle:checked ~ .navigation-list {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* 메뉴 아이템 스타일 */
+  .navigation-item {
+    margin: 20px 0 !important;
+  }
+
+  .navigation-item a {
+    font-size: 20px;
+    color: #222;
+  }
+
+  /* 햄버거 버튼은 오른쪽 상단에 고정 */
+  .menu-button {
+    position: fixed !important;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+
+  /* 로고도 좌상단 고정 (원래 위치 유지) */
+  .navigation-title {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 9999;
+  }
+
+  /* 기본 메뉴 상자(border 등) 없애기 */
+  .navigation-list {
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+
+
+/* 글 제목 (h1, h2 등) */
+h1, h2, h3 {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 400;              /* 300: 얇게, 700: 굵게 */
+  letter-spacing: 1px;         /* 글자 간격 */
+  line-height: 1.4;
+
+}
+
+/* 본문 글 제목 아래 여백 조정 */
+h1 {
+  margin-bottom: 1rem;
+}
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+/* 본문 기본 텍스트 */
+p {
+  color: #000;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+/* 링크 (본문 내 링크 색상) */
+a {
+  color: #C7D3ED;
+  text-decoration: none;
+}
+a:hover {
+  color: #a57b5b;
+  text-decoration: underline;
+}
+
+
+body {
+  font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; }
+  background-color: #ffffff;   /* 완전 흰색 배경 유지 */
+  color: #000;                 /* 글자색은 살짝 짙은 회색 추천 */
+  font-weight: 400;            /* 명조는 기본 400~500이 가장 자연스러움 */
+  line-height: 1.6;
+}
+
+
+.kimg-work-link {
+  margin-left: 8px;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #555;
+  transition: all 0.2s ease;
+}
+
+.kimg-work-link:hover {
+  color: black;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+/* 사이트 전체 배경 이미지 (모든 페이지 공통) */
+.site-bg {
+  background-image: url("/images/home-bg.jpg"); /* 배경 파일 경로 */
+  background-size: cover;        /* 화면 꽉 채우기 */
+  background-position: center;   /* 이미지 중앙 기준 */
+  background-repeat: no-repeat;
+  background-attachment: fixed;  /* 고정 (스크롤해도 배경 안 움직임) */
+}
+
+/* 내용 영역 배경이 흰색일 경우 배경을 가려서 안 보일 수 있으므로 투명하게 */
+.container,
+.wrapper,
+.main-content,
+.content {
+  background-color: transparent !important;
+}
+
+/* 홈 화면 전용 배경 이미지 */
+.home-body {
+  background-image: url("/images/home-bg.jpg"); /* static/images/home-bg.jpg */
+  background-size: cover;       /* 화면 꽉 채우기 */
+  background-position: center;  /* 가운데 기준 */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* 스크롤해도 고정: 취향에 따라 빼도 됨 */
+}
+
+/* 안의 메인 컨테이너 배경이 흰색이면 이미지가 안 보일 수 있어서, 필요에 따라 조정 */
+.home-body .wrapper,
+.home-body .container {
+  background-color: transparent;  /* 흰 바탕 덮어씌우는 거 제거 */
+}
+
+/* 모바일 메뉴 오픈 시 보이는 배경을 투명하게 변경 */
+#menu-toggle:checked ~ .navigation-list {
+  background-color: rgba(250, 250, 250, 0.7) !important; /* 완전 투명 */
+  backdrop-filter: blur(3px); /* 선택: 배경 살짝 흐리게 (없애도 됨) */
+}
+
+/* ============================
+   모바일(600px 이하) 사진 그리드 꽉 채우기
+   ============================ */
+
+@media (max-width: 600px) {
+
+  /* 그리드 컨테이너 양옆 여백 제거 */
+  .photos-wrap {
+    padding: 0 !important;
+    margin: 0 !important
+    max-width: 100% !important;
+  }
+
+  /* 그리드 자체 여백도 제거 */
+  .photos-grid {
+    padding: 0 !important;
+    margin: 0 !important;
+    gap: 1px !important; /* 인스타처럼 "딱 붙이지 않고" 아주 조금 */
+    grid-template-columns: repeat(3, 1fr) !important; /* 3열 유지 */
+  }
+
+  /* 이미지가 다른 여백을 먹으면 방지 */
+  .ph-card img {
+    border-radius: 0 !important;
+    display: block;
+  }
+}
+
