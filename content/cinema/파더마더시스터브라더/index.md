@@ -1,10 +1,11 @@
 ---
 title: "파더 마더 시스터 브라더, Father Mother Sister Brother"
 date: 2026-01-13
+rating: 4.0
+excerpt: "유년시절은 아이의 것이 아니라 부모의 것이구나. 하나에서 둘, 둘에서 셋-넷이 되는 것이 가족이라면 그 반대는.. "
 draft: false
 ---
 2025 | 드라마 | 감독 짐 자무쉬 | 출연 케이트 블란쳇, 애덤 드라이버
-</br>★★★★
 <br><br><br>
 <img src="movie.jpg" alt="" width="500">
 <br><br>

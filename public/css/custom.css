@@ -118,6 +118,101 @@ html {
   font-size: 9px; /* 필요 시 17~18px로 올려도 됨 */
 }
 
+/* ===== Cinema list (RogerEbert-style) ===== */
+.cinema-list-wrap{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.cinema-intro{
+  color:#666;
+  font-size:14px;
+  line-height:1.8;
+  margin: 0 0 18px 0;
+}
+
+.cinema-list{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.cinema-item{
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  padding-bottom: 14px;
+}
+
+.cinema-link{
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cinema-cover{
+  width: 280px;              /* 가로 폭 */
+  aspect-ratio: 16 / 9;      /* ⭐ 가로형 핵심 */
+  height: auto;
+  object-fit: cover;
+  border-radius: 1px;
+  flex: 0 0 auto;
+}
+
+.cinema-meta{
+  min-width: 0; /* 말줄임에 중요 */
+  padding-top: 2px;
+}
+
+.cinema-title{
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin: 0 0 6px 0;
+}
+
+.cinema-sub{
+  display:flex;
+  gap: 10px;
+  align-items:center;
+  font-size: 12px;
+  color:#777;
+  margin-bottom: 8px;
+}
+
+.cinema-rating{
+  font-size: 12px;
+  color:#444;
+}
+
+.cinema-excerpt{
+  margin: 0;
+  color:#555;
+  font-size: 13px;
+  line-height: 1.7;
+
+  /* 너무 길면 정리(2~3줄) */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Mobile: cover on top, text below */
+@media (max-width: 700px){
+  .cinema-link{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .cinema-cover{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+}
+
+
 /* 메인 제목(HYENNNLOG.KR) 스타일 변경 */
 .navigation-title {
   font-size: 1.6rem !important;   /* 원하는 크기로 조절 */

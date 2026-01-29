@@ -1,15 +1,43 @@
- {{ define "content" }}
-<main class="photos-wrap">
-  <h1 class="cinema-title">{{ .Title }}</h1>
-  <section class="photos-grid">
+{{ define "content" }}
+<main class="cinema-list-wrap">
+  {{ with .Content }}
+    <div class="cinema-intro">{{ . }}</div>
+  {{ end }}
+
+  <section class="cinema-list">
     {{ range .RegularPages.ByDate.Reverse }}
       {{ $img := or (.Resources.GetMatch "main.*") (index (.Resources.ByType "image") 0) }}
+      {{ $thumb := "" }}
       {{ if $img }}
-        {{ $thumb := $img.Fit "600x800 Center" }}
-        <a class="ph-card" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
-          <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" loading="lazy" decoding="async">
-        </a>
+        {{ $thumb = ($img.Fill "520x520 Center").RelPermalink }}
       {{ end }}
+
+      <article class="cinema-item">
+        <a class="cinema-link" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+          {{ if $thumb }}
+            <img class="cinema-cover" src="{{ $thumb }}" alt="{{ .Title }}" loading="lazy" decoding="async">
+          {{ end }}
+
+          <div class="cinema-meta">
+            <h2 class="cinema-title">{{ .Title }}</h2>
+
+            <div class="cinema-sub">
+              {{ with .Params.rating }}
+                <span class="cinema-rating">★ {{ . }}</span>
+              {{ end }}
+              <span class="cinema-date">{{ .Date.Format "2006.01.02" }}</span>
+            </div>
+
+            <p class="cinema-excerpt">
+              {{ with .Params.excerpt }}
+                {{ . }}
+              {{ else }}
+                {{ .Summary }}
+              {{ end }}
+            </p>
+          </div>
+        </a>
+      </article>
     {{ end }}
   </section>
 </main>
