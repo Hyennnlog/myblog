@@ -39,7 +39,7 @@ theme = "hugo-coder"
 
   [[menu.main]]
     name = "Drawing-月間。"
-    url = "/sketch/"
+    url = "/monthly-drawing/"
     weight = 50
 
   [[menu.main]]

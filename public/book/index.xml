@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>읽고, 쓰고, 생각합니다 on ✍️</title>
+    <title>Book-note。 on ✍️</title>
     <link>http://localhost:1313/book/</link>
-    <description>Recent content in 읽고, 쓰고, 생각합니다 on ✍️</description>
+    <description>Recent content in Book-note。 on ✍️</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
     <lastBuildDate>Thu, 08 Jan 2026 00:00:00 +0000</lastBuildDate>

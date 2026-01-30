@@ -1,3 +1,3 @@
 ---
-title: "읽고, 쓰고, 생각합니다"
+title: "Book-note。"
 ---

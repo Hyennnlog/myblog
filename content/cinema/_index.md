@@ -1,3 +1,3 @@
 ---
-title: "영화를 보고 감상을 기록합니다"
+title: "Cinema-note°"
 ---
