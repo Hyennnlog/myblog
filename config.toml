@@ -1,6 +1,6 @@
 baseURL = "https://hyennnlog.kr/"
 languageCode = "ko-kr"
-title = "HYENNN"
+title = "✍️"
 theme = "hugo-coder"
 
 [pagination]
@@ -12,42 +12,43 @@ theme = "hugo-coder"
 
   customCSS = ["css/custom.css", "css/photos.css"]
 
+
 [menu]
 
   [[menu.main]]
-    name = "소개"
+    name = "About。"
     url = "/about/"
     weight = 10
 
 
   [[menu.main]]
-    name = "영화"
+    name = "Cinema-note°"
     url = "/cinema/"
     weight = 20
 
   [[menu.main]]
-    name = "책"
+    name = "Book-note。"
     url = "/book/"
     weight = 30
 
 
   [[menu.main]]
-    name = "사진"
+    name = "35mm-films°"
     url = "/photos/"
     weight = 40
 
   [[menu.main]]
-    name = "그림"
+    name = "Drawing-月間。"
     url = "/sketch/"
     weight = 50
 
   [[menu.main]]
-    name = "일기"
+    name = "Notes°"
     url = "/diary/"
     weight = 60
 
   [[menu.main]]
-    name = "🎞️"
+    name = "/et cetera.."
     url = "/kimgyeul/"
     weight = 70
 

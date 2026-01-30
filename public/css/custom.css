@@ -166,7 +166,7 @@ html {
 }
 
 .cinema-title{
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   letter-spacing: 0.2px;
   margin: 0 0 6px 0;
@@ -176,25 +176,25 @@ html {
   display:flex;
   gap: 10px;
   align-items:center;
-  font-size: 12px;
+  font-size: 15px;
   color:#777;
   margin-bottom: 8px;
 }
 
 .cinema-rating{
-  font-size: 12px;
+  font-size: 15px;
   color:#444;
 }
 
 .cinema-excerpt{
   margin: 0;
-  color:#555;
-  font-size: 13px;
+  color:#000;
+  font-size: 15px;
   line-height: 1.7;
 
   /* 너무 길면 정리(2~3줄) */
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: unset;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -215,7 +215,7 @@ html {
 
 /* 메인 제목(HYENNNLOG.KR) 스타일 변경 */
 .navigation-title {
-  font-size: 1.6rem !important;   /* 원하는 크기로 조절 */
+  font-size: 1.5rem !important;   /* 원하는 크기로 조절 */
   font-weight: 400 !important;     /* 얇게 */
   color: #000000 !important;
 }
@@ -223,15 +223,23 @@ html {
   color: #000000 !important;  /* 마우스 올렸을 때 색상 */
 }
 
-/* 메뉴 텍스트 기본 스타일 */
+/* 데스크탑 상단 메뉴 아이템 간격 */
+.navigation .navigation-list > li {
+  margin: 0 9px !important;
+}
+
+/* 메뉴 텍스트 기본 스타일 (데스크탑) */
 .navigation a,
 .nav-item a {
-  color: #000; !important;      /* 기본 글자색 */
-  font-weight: 400;               /* 굵기: 300(얇게)~700(굵게) */
-  font-size: 1.6rem;             /* 크기: 기본보다 살짝 작게 */
-  text-transform: none;           /* 모두 대문자 방지 */
-  letter-spacing: 0.5px;          /* 글자 간격 */
+  color: #000 !important;   /* ← 느낌표 위치도 같이 수정 */
+  font-weight: 300;
+  font-size: 2rem;
+  text-transform: none;
+  letter-spacing: 2px;
+
+  margin: 0 14px;           /* ← 메뉴 사이 간격 */
 }
+
 
 /* 메뉴 hover (마우스 올릴 때) */
 .navigation a:hover,
@@ -247,16 +255,17 @@ html {
   .book-title,
   .sketch-title {
     font-size: 16px;
-    margin-bottom: 14px;
+    margin-bottom: 5px;
   }
 }
 
 /* 3) 본문 제목 (필요하면) */
 
 .content h1 {
-  font-size: 12px !important;
+  font-size: 18px !important;
   font-weight: 300;
   color: #000; 
+  margin-bottom: 30px;
 }
 
 h1, .post-title, .entry-title {
@@ -354,8 +363,8 @@ h2 {
 /* 본문 기본 텍스트 */
 p {
   color: #000;
-  font-size: 1.4rem;
-  line-height: 1.5;
+  font-size: 1.6rem;
+  line-height: 1.6;
   font-weight: 300;
 }
 

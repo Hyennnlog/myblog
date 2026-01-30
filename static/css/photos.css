@@ -1,0 +1,192 @@
+/* 전체 컨테이너 */
+.photos-wrap {
+  max-width: 1200px;   /* ← 그리드 전체 폭 (페이지를 차지하는 폭) */
+  margin: 0 auto;
+  padding: 40px 20px;  /* ← 위아래/좌우 여백 */
+}
+
+
+/* 포토 본문 이미지 왼쪽 정렬 */
+.photos-single .ph-figure {
+  text-align: left;
+  margin-left: 0;   /* 왼쪽으로 붙이기 */
+  margin-right: auto;
+}
+
+/* 그리드 레이아웃 */
+.photos-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+}
+
+.photos-title {
+  color: #43587f;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  text-align: left;    /* ← 왼쪽 정렬 */
+
+}
+
+/* 각 사진 카드 */
+.ph-card {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: #000000;
+}
+
+
+/* 이미지 기본 상태 */
+.ph-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
+  display: block;
+}
+
+/* hover 시 어둡게 */
+.ph-card:hover img {
+  opacity: 0.5;
+}
+
+/* hover 시 제목 표시 */
+.ph-card::after {
+  content: attr(aria-label);   /* HTML에서 aria-label에 넣어둔 값이 제목으로 사용됨 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;        /* 텍스트가 클릭 막지 않도록 */
+  transition: opacity 0.25s ease-in-out;
+  font-family: 'Inter', 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+}
+
+.ph-card:hover::after {
+  opacity: 1;
+}
+
+.photo-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin-top: 56px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0,0,0,0.08);
+
+  gap: 14px;                 /* 데스크탑 간격 */
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 링크 전체 */
+.photo-nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 이전 / 다음 라벨 */
+.nav-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 300;
+  color: #999;
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+}
+
+/* 제목 */
+.nav-title {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* hover – 아주 미묘하게 */
+.photo-nav a:hover .nav-title {
+  color: #000;
+}
+
+/* 📱 모바일 */
+@media (max-width: 600px) {
+  .photo-nav {
+    gap: 8px;               /* 간격 더 좁게 */
+    margin-top: 40px;
+    padding-top: 16px;
+  }
+
+  .nav-title {
+    font-size: 13px;
+  }
+}
+
+/* ===== Becoming (kimgyeul) ===== */
+.kimg-wrap { max-width: 900px; margin: 0 auto; padding: 24px 12px; }
+.kimg-title { font-size: 22px; font-weight: 400; margin: 8px 0 20px; letter-spacing: .3px; }
+
+.kimg-profile {
+  border: 1px solid #e5e5e5;
+  padding: 16px;
+  margin-bottom: 20px;
+  background: #fafafa;
+}
+.kimg-line { margin: 2px 0; font-size: 14px; color:#222; display:flex; gap:10px; }
+.kimg-line strong { width: 48px; font-weight:600; color:#111; }
+.kimg-note { margin-top: 8px; font-size: 13px; color:#555; }
+
+.kimg-works h2, .kimg-gallery h2 { font-size: 16px; font-weight: 500; margin: 18px 0 10px; color:#111; }
+.kimg-works ul { padding:0; margin:0 0 12px; list-style:none; }
+.kimg-works li { font-size: 14px; color:#333; margin: 6px 0; }
+.kimg-work-year { display:inline-block; width:58px; color:#777; }
+.kimg-work-title { font-weight:500; }
+.kimg-work-role, .kimg-work-type { color:#666; }
+
+.kimg-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* ✅ 한 줄에 3개씩 */
+  gap: 1px; /* 사진 사이 간격 */
+}
+
+.kimg-card {
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border: 0px;
+  display: block;
+}
+
+.kimg-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* 모바일에서는 두 줄로 */
+@media (max-width: 640px) {
+  .kimg-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+  }
+}
+
+/* 전체 사이트 전역 배경 이미지 */
+body {
+  background-image: url("/images/home-bg.jpg");   /* 너의 배경 이미지로 변경 */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* 스크롤해도 고정 */
+}
