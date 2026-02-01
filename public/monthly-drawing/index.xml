@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Drawing-月間。 on ✍️</title>
-    <link>http://localhost:1313/monthly-drawing/</link>
-    <description>Recent content in Drawing-月間。 on ✍️</description>
+    <title>Drawing-月間。 on KIMHYEJIN</title>
+    <link>http://localhost:54295/monthly-drawing/</link>
+    <description>Recent content in Drawing-月間。 on KIMHYEJIN</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
     <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/monthly-drawing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54295/monthly-drawing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>first</title>
-      <link>http://localhost:1313/monthly-drawing/first/</link>
+      <link>http://localhost:54295/monthly-drawing/first/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/monthly-drawing/first/</guid>
+      <guid>http://localhost:54295/monthly-drawing/first/</guid>
       <description>&lt;p&gt;내용&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>first</title>
-      <link>http://localhost:1313/monthly-drawing/seco/</link>
+      <link>http://localhost:54295/monthly-drawing/seco/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/monthly-drawing/seco/</guid>
+      <guid>http://localhost:54295/monthly-drawing/seco/</guid>
       <description>&lt;p&gt;내용&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>first</title>
-      <link>http://localhost:1313/monthly-drawing/tri/</link>
+      <link>http://localhost:54295/monthly-drawing/tri/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/monthly-drawing/tri/</guid>
+      <guid>http://localhost:54295/monthly-drawing/tri/</guid>
       <description>&lt;p&gt;내용&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>

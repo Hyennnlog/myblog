@@ -1,5 +1,5 @@
 ---
-title: "에릭 포토리노 『나를 지켜줘 아니면 나를 죽여줘 Marina A』 "
+title: "에릭 포토리노 장편소설 『나를 지켜줘 아니면 나를 죽여줘 Marina A』 "
 date: 2025-12-09
 draft: false
 ---

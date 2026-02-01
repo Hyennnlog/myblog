@@ -1,23 +1,20 @@
 {{ define "content" }}
-<main class="photos-wrap">
-  <!-- PHOTOS GRID | pages={{ len .RegularPages }} -->
+<main class="film-wrap">
 
-  <!-- 섹션 제목 -->
-<h1 class="photos-title films-title">
-  35mm-films°
-</h1>
+  <h1 class="film-title">{{ .Title }}</h1>
 
-
-  <section class="photos-grid">
+  <section class="film-grid">
     {{ range .RegularPages.ByDate.Reverse }}
-      {{ $img := or (.Resources.GetMatch "main.*") (index (.Resources.ByType "image") 0) }}
-      {{ if $img }}
-        {{ $thumb := $img.Fill "600x600 Center" }}
-        <a class="ph-card" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+      {{ $cover := or (.Resources.GetMatch "main.*") (index (.Resources.ByType "image") 0) }}
+      {{ if $cover }}
+        {{ $thumb := $cover.Fill "900x900 Center" }}
+        <a class="film-card" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
           <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" loading="lazy" decoding="async">
+          <span class="film-label">{{ .Title }}</span>
         </a>
       {{ end }}
     {{ end }}
   </section>
+
 </main>
 {{ end }}

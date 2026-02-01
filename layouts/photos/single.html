@@ -1,45 +1,23 @@
 {{ define "content" }}
-<main class="photos-single container">
-  <article>
-    <h1 class="photos-title">{{ .Title }}</h1>
+<main class="film-single-wrap">
 
-    {{ $img := or (.Resources.GetMatch "main.*") (index (.Resources.ByType "image") 0) }}
-    {{ if $img }}
-      {{ $w400  := $img.Resize "400x" }}
-      {{ $w800  := $img.Resize "800x" }}
-      {{ $w1200 := $img.Resize "1200x" }}
-      <figure class="ph-figure">
-        <img
-          src="{{ $w800.RelPermalink }}"
-          srcset="{{ $w400.RelPermalink }} 400w, {{ $w800.RelPermalink }} 800w, {{ $w1200.RelPermalink }} 1200w"
-          sizes="(max-width: 700px) 100vw, 800px"
-          alt="{{ .Title }}" loading="lazy" decoding="async">
-        {{ with .Params.caption }}<figcaption>{{ . }}</figcaption>{{ end }}
-      </figure>
-    {{ end }}
+  <h1 class="film-single-title">{{ .Title }}</h1>
 
-    <div class="photos-single-body">
-      {{ .Content }}
+  {{ with .Content }}
+    <div class="film-single-intro">
+      {{ . }}
     </div>
-
-    <!-- ✅ 이전 / 다음 텍스트 네비게이션 -->
-<nav class="photo-nav">
-  {{ with .PrevInSection }}
-    <a class="photo-prev" href="{{ .RelPermalink }}">
-      <span class="nav-label">이전</span>
-      <span class="nav-title">{{ .Title }}</span>
-    </a>
   {{ end }}
 
-  {{ with .NextInSection }}
-    <a class="photo-next" href="{{ .RelPermalink }}">
-      <span class="nav-label">다음</span>
-      <span class="nav-title">{{ .Title }}</span>
-    </a>
-  {{ end }}
-</nav>
+  <section class="film-single-grid">
+{{ range .Resources.ByType "image" }}
+  {{ $img := . }}
+  {{ $display := $img.Resize "1600x" }}  <!-- 가로 1600px로, 비율 유지 -->
+  <figure class="film-single-figure">
+    <img src="{{ $display.RelPermalink }}" alt="" loading="lazy" decoding="async">
+  </figure>
+{{ end }}
+  </section>
 
-
-  </article>
 </main>
 {{ end }}

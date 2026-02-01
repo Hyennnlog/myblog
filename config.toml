@@ -1,6 +1,6 @@
 baseURL = "https://hyennnlog.kr/"
 languageCode = "ko-kr"
-title = "✍️"
+title = "KIMHYEJIN"
 theme = "hugo-coder"
 
 [pagination]
@@ -9,7 +9,7 @@ theme = "hugo-coder"
 [params]
   author = "kimhyejin"
   description = "hyennn.log"
-
+  
   customCSS = ["css/custom.css", "css/photos.css"]
 
 
