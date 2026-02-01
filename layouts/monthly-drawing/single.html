@@ -1,18 +1,23 @@
 {{ define "content" }}
-<main class="photos-single container">
-  <article>
-    <h1 class="photos-title">{{ .Title }}</h1>
+<main class="md-wrap">
 
-    {{ $base := .File.ContentBaseName }}
-    {{ $img := printf "/images/drawing/%s.jpg" $base }}
+  <h1 class="md-title">{{ .Title }}</h1>
 
-    <figure class="ph-figure">
-      <img src="{{ $img }}" alt="{{ .Title }}" style="max-width:100%;height:auto;display:block;">
-    </figure>
-
-    <div class="photos-single-body">
-      {{ .Content }}
+  {{ with .Content }}
+    <div style="margin:0 0 18px 0; font-size:14px; line-height:1.7;">
+      {{ . }}
     </div>
-  </article>
+  {{ end }}
+
+  <section class="md-grid md-grid--inside">
+      {{ range where (.Resources.ByType "image") "Name" "ne" "main.jpg" }}
+      {{ $img := . }}
+      {{ $thumb := $img.Fill "900x900 Center" }}
+      <a class="md-card" href="{{ $img.RelPermalink }}" aria-label="{{ $img.Name }}">
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ $img.Name }}" loading="lazy" decoding="async">
+      </a>
+    {{ end }}
+  </section>
+
 </main>
 {{ end }}

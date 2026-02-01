@@ -4,10 +4,22 @@
   <url>
     <loc>http://localhost:1313/kimgyeul/</loc>
   </url><url>
-    <loc>http://localhost:1313/cinema/</loc>
-    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/monthly-drawing/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/monthly-drawing/first/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/monthly-drawing/seco/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/monthly-drawing/tri/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/cinema/</loc>
     <lastmod>2026-01-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/cinema/%EB%88%84%EB%B2%A8%EB%B0%94%EA%B7%B8/</loc>
@@ -271,8 +283,6 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/monthly-drawing/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

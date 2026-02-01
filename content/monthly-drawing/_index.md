@@ -1,5 +1,5 @@
 ---
-title: "monthly-drawing"
+title: "Drawing-月間。"
 ---
 
 > "어느 계절의 시작을 믿어보자"
