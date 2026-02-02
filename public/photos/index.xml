@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>35mm-films° on KIMHYEJIN</title>
-    <link>http://localhost:54295/photos/</link>
+    <link>http://localhost:1313/photos/</link>
     <description>Recent content in 35mm-films° on KIMHYEJIN</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
     <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:54295/photos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/photos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2 0 2 6</title>
-      <link>http://localhost:54295/photos/2026/</link>
+      <link>http://localhost:1313/photos/2026/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54295/photos/2026/</guid>
+      <guid>http://localhost:1313/photos/2026/</guid>
       <description>&lt;p&gt;camera. contax tvsⅢ&lt;/p&gt;</description>
     </item>
     <item>
       <title>2 0 2 0 - 2 0 2 3</title>
-      <link>http://localhost:54295/photos/2020-2023/</link>
+      <link>http://localhost:1313/photos/2020-2023/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54295/photos/2020-2023/</guid>
+      <guid>http://localhost:1313/photos/2020-2023/</guid>
       <description></description>
     </item>
     <item>
       <title>2 0 2 5</title>
-      <link>http://localhost:54295/photos/2025/</link>
+      <link>http://localhost:1313/photos/2025/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54295/photos/2025/</guid>
+      <guid>http://localhost:1313/photos/2025/</guid>
       <description></description>
     </item>
     <item>
       <title>2 0 1 8 - 2 0 1 9</title>
-      <link>http://localhost:54295/photos/2018-2019/</link>
+      <link>http://localhost:1313/photos/2018-2019/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54295/photos/2018-2019/</guid>
+      <guid>http://localhost:1313/photos/2018-2019/</guid>
       <description></description>
     </item>
   </channel>
