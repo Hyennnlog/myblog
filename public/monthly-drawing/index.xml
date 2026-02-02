@@ -6,28 +6,21 @@
     <description>Recent content in Drawing-月間。 on KIMHYEJIN</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/monthly-drawing/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>first</title>
-      <link>http://localhost:1313/monthly-drawing/first/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/monthly-drawing/first/</guid>
-      <description>&lt;p&gt;내용&amp;hellip;&lt;/p&gt;</description>
+      <title>2 0 2 6 。 0 1</title>
+      <link>http://localhost:1313/monthly-drawing/2026.01/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/monthly-drawing/2026.01/</guid>
+      <description></description>
     </item>
     <item>
-      <title>first</title>
-      <link>http://localhost:1313/monthly-drawing/seco/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/monthly-drawing/seco/</guid>
-      <description>&lt;p&gt;내용&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>first</title>
-      <link>http://localhost:1313/monthly-drawing/tri/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/monthly-drawing/tri/</guid>
-      <description>&lt;p&gt;내용&amp;hellip;&lt;/p&gt;</description>
+      <title>2 0 2 5 。 </title>
+      <link>http://localhost:1313/monthly-drawing/2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/monthly-drawing/2025/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

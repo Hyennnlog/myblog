@@ -9,27 +9,6 @@
     <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>first</title>
-      <link>http://localhost:1313/monthly-drawing/first/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/monthly-drawing/first/</guid>
-      <description>&lt;p&gt;내용&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>first</title>
-      <link>http://localhost:1313/monthly-drawing/seco/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/monthly-drawing/seco/</guid>
-      <description>&lt;p&gt;내용&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>first</title>
-      <link>http://localhost:1313/monthly-drawing/tri/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/monthly-drawing/tri/</guid>
-      <description>&lt;p&gt;내용&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>김선오 산문집 『미지를 위한 루바토』 </title>
       <link>http://localhost:1313/book/%EB%AF%B8%EC%A7%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%A3%A8%EB%B0%94%ED%86%A0/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
@@ -70,6 +49,13 @@
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/photos/2026/</guid>
       <description>&lt;p&gt;camera. contax tvsⅢ&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2 0 2 6 。 0 1</title>
+      <link>http://localhost:1313/monthly-drawing/2026.01/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/monthly-drawing/2026.01/</guid>
+      <description></description>
     </item>
     <item>
       <title>연말기록, 2025</title>
@@ -224,6 +210,13 @@
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/cinema/%EC%87%BC%EC%9E%89%EC%97%85/</guid>
       <description>&lt;p&gt;2022 | 드라마 | 감독 켈리 레이카트 | 출연 미셸 윌리엄스, 홍 차우&#xA;&lt;br&gt;&lt;br&gt;&lt;br&gt;&#xA;&lt;img src=&#34;main.jpg&#34; alt=&#34;&#34; width=&#34;500&#34;&gt;&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;&lt;br&gt;&#xA;리지의 일상을 가만히 들여다보며 창작자의 삶을 잠시동안 체험했다. 작업에 몰두하고 싶은 그녀의 마음도, 온갖 장애물들이 들이닥칠 때 그녀의 복잡한 심정과 분노도, 모두 알 것만 같았다.&lt;/p&gt;&#xA;&lt;p&gt;가마에서 꺼내진 본인의 조각품을 이리저리 돌려보면서 &amp;ldquo;너무 예쁘지 않나요&amp;rdquo; 라고 말하는 그녀의 표정이 잊혀지지가 않는데, 아마도 &lt;u&gt;난 한 번도 내가 만든 무엇을 저토록 사랑해본 적이 없었던 것 같아서&lt;/u&gt;가 아닐까.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2 0 2 5 。 </title>
+      <link>http://localhost:1313/monthly-drawing/2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/monthly-drawing/2025/</guid>
+      <description></description>
     </item>
     <item>
       <title>추락의 해부, Anatomy of a Fall</title>
