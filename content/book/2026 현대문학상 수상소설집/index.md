@@ -4,21 +4,25 @@ date: 2026-02-15
 draft: false
 ---
 
-<u>**Notes**</u><br>
 
 [수상작] <br>
-임솔아 <사랑보다 조금 더 짙은 얼굴> <span class="rating">●●●○</span>  
+임솔아 <사랑보다 조금 더 짙은 얼굴>   
 
 [자선작 ] <br>
 임솔아 <금빛 베드 러너> <span class="rating">●●●●</span>  
 
 [후보작]<br>
 김혜진 <관종들> <span class="rating">●●●●</span>  <br>
-박솔뫼 <사과> <span class="rating">●●●○</span>  <br>
-서장원 <상어> <span class="rating">●●●○</span>  <br>
+박솔뫼 <사과> <span class="rating">●●○○</span>  <br>
+서장원 <상어> <span class="rating">●●○○</span>  <br>
 이미상 <일일야성> <span class="rating">●●○○</span>  <br> 
 임  현 <우리가 우리에게 죄지은 자를> <span class="rating">●●●●</span>  <br> 
  
+-
+
+‣ Notes.<br>
+연말연초, 짧은 기간동안 여러번의 이별을 경험했다. 남의 일 같던 것들이 내 삶으로 성큼 걸어들어오는 기분이었고, 남은 자들의 몫이라고 생각이 들면서도 끝내 무서웠다. 이런 감정으로 수상집을 읽었다. 그래서인지 먼 미래의 이야기보다는 지금의 시간을 말하는 작품들이 더 좋았다. 고백하자면 수상작 ⌜사랑보다 조금 더 짙은 얼굴⌟은 끝까지 다 읽지 못했다. 자석작인 ⌜금빛 베드 러너⌟와 후보작 중에서는 ⌜관종들⌟, ⌜우리가 우리에게 죄지은 자를⌟ 이렇게 총 세 편이 가장 좋았다. 
+
 
 </br></br></br>
 
