@@ -13,6 +13,12 @@
     <loc>http://localhost:1313/cinema/%EB%82%B4-%EC%B9%9C%EA%B5%AC%EC%9D%98-%EC%A7%91%EC%9D%80-%EC%96%B4%EB%94%94%EC%9D%B8%EA%B0%80/</loc>
     <lastmod>2026-02-11T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/book/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/book/%EC%9E%90%EA%B8%B0-%EC%95%9E%EC%9D%98-%EC%83%9D/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/diary/</loc>
     <lastmod>2026-02-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -21,9 +27,6 @@
   </url><url>
     <loc>http://localhost:1313/diary/%EA%B0%80%EB%81%94%EC%9D%80-%EC%8B%9C%EC%99%80%EA%B0%80-%EB%B6%80%EB%9F%BD%EB%8B%A4/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/book/</loc>
-    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/book/%EB%AF%B8%EC%A7%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%A3%A8%EB%B0%94%ED%86%A0/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>

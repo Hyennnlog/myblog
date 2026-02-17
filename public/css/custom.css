@@ -359,6 +359,13 @@ h1, h2, h3 {
 
 }
 
+.rating{
+  font-size: 0.4em;
+  letter-spacing: 0.3em;
+  position: relative;
+  top: -0.3em;   /* 위로 살짝 */
+}
+
 /* 본문 글 제목 아래 여백 조정 */
 h1 {
   margin-bottom: 1rem;
