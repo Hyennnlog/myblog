@@ -5,10 +5,13 @@
     <loc>http://localhost:1313/kimgyeul/</loc>
   </url><url>
     <loc>http://localhost:1313/book/</loc>
-    <lastmod>2026-04-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/book/%EC%82%AC%EA%B1%B4/</loc>
+    <lastmod>2026-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/book/%ED%96%87%EB%B9%9B-%EC%96%B4%EB%A5%B8%EA%B1%B0%EB%A6%AC%EB%8A%94-%EA%B8%B8-%EC%9C%84%EC%9D%98-%EC%BD%94%EB%81%BC%EB%A6%AC/</loc>
     <lastmod>2026-04-13T00:00:00+00:00</lastmod>
