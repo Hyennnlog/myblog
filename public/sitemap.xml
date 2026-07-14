@@ -4,10 +4,16 @@
   <url>
     <loc>http://localhost:1313/kimgyeul/</loc>
   </url><url>
-    <loc>http://localhost:1313/book/</loc>
-    <lastmod>2026-06-21T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/cinema/</loc>
+    <lastmod>2026-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-07-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/cinema/%EB%A7%88%ED%8B%B0%EC%8A%88%ED%94%84%EB%A6%BC/</loc>
+    <lastmod>2026-07-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/book/</loc>
     <lastmod>2026-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/book/%EC%82%AC%EA%B1%B4/</loc>
@@ -39,12 +45,6 @@
   </url><url>
     <loc>http://localhost:1313/diary/%EB%82%98%EC%9D%98-%EC%93%B8%EB%AA%A8%EC%99%80-%EB%B0%A9%ED%99%A9/</loc>
     <lastmod>2026-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/cinema/</loc>
-    <lastmod>2026-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/cinema/%EC%84%BC%ED%8B%B0%EB%A9%98%ED%83%88-%EB%B2%A8%EB%A5%98/</loc>
-    <lastmod>2026-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/monthly-drawing/2026.03/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
