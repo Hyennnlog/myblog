@@ -38,19 +38,21 @@ theme = "hugo-coder"
     weight = 40
 
   [[menu.main]]
-    name = "Drawing-月間。"
-    url = "/monthly-drawing/"
+    name = "Travel°"
+    url = "/travel/"
     weight = 50
 
   [[menu.main]]
-    name = "Notes°"
-    url = "/diary/"
+    name = "Drawing-月間。"
+    url = "/monthly-drawing/"
     weight = 60
 
   [[menu.main]]
-    name = "/et cetera.."
-    url = "/kimgyeul/"
+    name = "Diary°"
+    url = "/diary/"
     weight = 70
+
+
 
 [markup.goldmark.renderer]
   unsafe = true

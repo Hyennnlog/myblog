@@ -1,0 +1,24 @@
+{{ define "content" }} 
+<main class="film-single-wrap"> 
+ 
+  <h1 class="film-single-title">{{ .Title }}</h1> 
+ 
+  {{ with .Content }} 
+    <div class="film-single-intro"> 
+      {{ . }} 
+    </div> 
+  {{ end }} 
+ 
+  <section class="film-single-grid"> 
+    {{ range .Resources.ByType "image" }} 
+      {{ $img := . }} 
+      {{ $display := $img.Resize "1600x" }}
+
+      <figure class="film-single-figure {{ if gt $img.Height $img.Width }}travel-portrait{{ end }}"> 
+        <img src="{{ $display.RelPermalink }}" alt="" loading="lazy" decoding="async"> 
+      </figure> 
+    {{ end }} 
+  </section> 
+ 
+</main> 
+{{ end }}
