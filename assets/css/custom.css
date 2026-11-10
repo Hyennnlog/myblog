@@ -118,98 +118,233 @@ html {
   font-size: 9px; /* 필요 시 17~18px로 올려도 됨 */
 }
 
-/* ===== Cinema list (RogerEbert-style) ===== */
-.cinema-list-wrap{
+
+/* ===== CINEMA LIST ===== */
+
+.cinema-list-wrap {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
 }
 
-.cinema-intro{
-  color:#666;
-  font-size:14px;
-  line-height:1.8;
-  margin: 0 0 18px 0;
+.cinema-intro {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0 0 18px;
 }
 
-.cinema-list{
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
+.cinema-list {
+  display: block;
+  width: 100%;
 }
 
-.cinema-item{
-  border-bottom: 1px solid rgba(0,0,0,0.06);
-  padding-bottom: 14px;
+.cinema-item {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 14px 0;
+  border-bottom: 1px solid #e5e5e5;
 }
 
-.cinema-link{
-  display: flex;
-  gap: 16px;
-  align-items: flex-start;
+.cinema-link {
+  display: block;
   text-decoration: none;
   color: inherit;
 }
 
-.cinema-cover{
-  width: 280px;              /* 가로 폭 */
-  aspect-ratio: 16 / 9;      /* ⭐ 가로형 핵심 */
-  height: auto;
-  object-fit: cover;
-  border-radius: 1px;
-  flex: 0 0 auto;
+.cinema-meta {
+  display: block;
+  width: 100%;
 }
 
-.cinema-meta{
-  min-width: 0; /* 말줄임에 중요 */
-  padding-top: 2px;
+/* 제목과 별점 같은 줄 */
+
+.cinema-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 5px;
 }
 
-.cinema-title{
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 0.2px;
-  margin: 0 0 6px 0;
-}
-
-.cinema-sub{
-  display:flex;
-  gap: 10px;
-  align-items:center;
-  font-size: 15px;
-  color:#777;
-  margin-bottom: 8px;
-}
-
-.cinema-rating{
-  font-size: 15px;
-  color:#444;
-}
-
-.cinema-excerpt{
+.cinema-heading .cinema-title {
+  display: inline-block;
+  width: auto;
   margin: 0;
-  color:#000;
+  padding: 0;
   font-size: 15px;
-  line-height: 1.7;
-
-  /* 너무 길면 정리(2~3줄) */
-  display: -webkit-box;
-  -webkit-line-clamp: unset;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
-/* Mobile: cover on top, text below */
-@media (max-width: 700px){
-  .cinema-link{
-    flex-direction: column;
-    gap: 10px;
+.cinema-heading .cinema-rating {
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  color: #a52a2a;
+  white-space: nowrap;
+}
+
+/* 한줄평과 날짜 */
+
+.cinema-bottom {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cinema-bottom .cinema-excerpt {
+  display: inline;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #666;
+}
+
+.cinema-date {
+  font-size: 11px;
+  color: #999;
+  white-space: nowrap;
+}
+
+/* 모바일 */
+
+@media (max-width: 700px) {
+  .cinema-item {
+    padding: 12px 0;
   }
-  .cinema-cover{
-    width: 100%;
-    height: auto;
-    aspect-ratio: 16 / 9;
+
+  .cinema-heading .cinema-title {
+    font-size: 15px;
   }
+
+  .cinema-bottom .cinema-excerpt {
+    font-size: 13px;
+  }
+}
+
+
+/* =========================
+   CINEMA SIMPLE LIST ONLY
+   ========================= */
+
+.cinema-list-wrap .cinema-simple-list {
+  display: block;
+  width: 100%;
+}
+
+.cinema-list-wrap .cinema-simple-item {
+  display: block;
+  width: 100%;
+  padding: 14px 0;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: left;
+}
+
+.cinema-list-wrap .cinema-simple-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 제목 + 별점 */
+
+.cinema-list-wrap .cinema-simple-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.cinema-list-wrap .cinema-simple-title {
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.cinema-list-wrap .cinema-simple-rating {
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  color: #a52a2a;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+/* 한줄평 + 날짜 */
+
+.cinema-list-wrap .cinema-simple-bottom {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cinema-list-wrap .cinema-simple-excerpt {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  color: #666;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.cinema-list-wrap .cinema-simple-date {
+  display: inline;
+  color: #999;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+/* 모바일 */
+
+@media (max-width: 700px) {
+  .cinema-list-wrap .cinema-simple-item {
+    padding: 12px 0;
+  }
+
+  .cinema-list-wrap .cinema-simple-title {
+    font-size: 15px;
+  }
+
+  .cinema-list-wrap .cinema-simple-excerpt {
+    font-size: 13px;
+  }
+}
+
+/* Cinema: date aligned to the right */
+
+.cinema-list-wrap .cinema-simple-bottom {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.cinema-list-wrap .cinema-simple-excerpt {
+  flex: 1;
+  min-width: 0;
+}
+
+.cinema-list-wrap .cinema-simple-date {
+  flex-shrink: 0;
+  margin-left: auto;
 }
 
 /* 메인 제목(HYENNNLOG.KR) 스타일 변경 */
